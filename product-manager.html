@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>产品管理 - 奢华精品</title>
+    <title>Product Manager - Luxury Collection</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -26,10 +26,10 @@
             <div class="flex justify-between items-center">
                 <div class="text-2xl font-bold text-gray-900">
                     <i class="fas fa-cog mr-2"></i>
-                    产品管理系统
+                    Product Management System
                 </div>
                 <a href="index.html" class="text-gray-600 hover:text-gray-900">
-                    <i class="fas fa-arrow-left mr-2"></i>返回网站
+                    <i class="fas fa-arrow-left mr-2"></i>Back to Website
                 </a>
             </div>
         </nav>
@@ -37,48 +37,48 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
-        <!-- 操作选项 -->
+        <!-- Management Options -->
         <div class="bg-white rounded-2xl p-6 shadow-sm mb-8">
-            <h2 class="text-xl font-semibold text-gray-900 mb-4">管理选项</h2>
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">Management Options</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <button onclick="showAddForm()" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-lg transition-colors">
                     <i class="fas fa-plus text-2xl mb-2"></i>
-                    <div>添加新产品</div>
+                    <div>Add New Product</div>
                 </button>
                 <button onclick="showProductList()" class="bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-lg transition-colors">
                     <i class="fas fa-list text-2xl mb-2"></i>
-                    <div>查看产品列表</div>
+                    <div>View Product List</div>
                 </button>
                 <button onclick="exportJson()" class="bg-purple-500 hover:bg-purple-600 text-white p-4 rounded-lg transition-colors">
                     <i class="fas fa-download text-2xl mb-2"></i>
-                    <div>导出JSON数据</div>
+                    <div>Export JSON Data</div>
                 </button>
             </div>
         </div>
 
-        <!-- 产品表单 -->
+        <!-- Product Form -->
         <div id="productForm" class="bg-white rounded-2xl p-6 shadow-sm mb-8 hidden">
-            <h2 class="text-xl font-semibold text-gray-900 mb-6">添加新产品</h2>
+            <h2 class="text-xl font-semibold text-gray-900 mb-6">Add New Product</h2>
             
             <form id="productDataForm" class="space-y-6">
-                <!-- 基本信息 -->
+                <!-- Basic Information -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">产品标题 *</label>
-                        <input type="text" id="title" required class="w-full p-3 border border-gray-300 rounded-lg">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Product Title *</label>
+                        <input type="text" id="title" required class="w-full p-3 border border-gray-300 rounded-lg" placeholder="e.g., Classic Luxury Handbag">
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">副标题 *</label>
-                        <input type="text" id="subtitle" required class="w-full p-3 border border-gray-300 rounded-lg">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Subtitle *</label>
+                        <input type="text" id="subtitle" required class="w-full p-3 border border-gray-300 rounded-lg" placeholder="e.g., Premium Leather Collection">
                     </div>
                 </div>
 
-                <!-- 品牌和属性 -->
+                <!-- Brand and Attributes -->
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">品牌 *</label>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Brand *</label>
                         <select id="brand" required class="w-full p-3 border border-gray-300 rounded-lg">
-                            <option value="">选择品牌</option>
+                            <option value="">Select Brand</option>
                             <option value="hermes">Hermès</option>
                             <option value="chanel">Chanel</option>
                             <option value="louis-vuitton">Louis Vuitton</option>
@@ -87,9 +87,9 @@
                         </select>
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">尺寸 *</label>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Size *</label>
                         <select id="size" required class="w-full p-3 border border-gray-300 rounded-lg">
-                            <option value="">选择尺寸</option>
+                            <option value="">Select Size</option>
                             <option value="mini">Mini</option>
                             <option value="small">Small</option>
                             <option value="medium">Medium</option>
@@ -97,85 +97,112 @@
                         </select>
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">价格档次 *</label>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Price Range *</label>
                         <select id="price" required class="w-full p-3 border border-gray-300 rounded-lg">
-                            <option value="">选择价格</option>
-                            <option value="medium">中等 ($1000-$5000)</option>
-                            <option value="high">高端 ($5000+)</option>
+                            <option value="">Select Price Range</option>
+                            <option value="medium">Medium ($1000-$5000)</option>
+                            <option value="high">High ($5000+)</option>
                         </select>
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">颜色 *</label>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Color *</label>
                         <select id="color" required class="w-full p-3 border border-gray-300 rounded-lg">
-                            <option value="">选择颜色</option>
-                            <option value="black">黑色</option>
-                            <option value="white">白色</option>
-                            <option value="brown">棕色</option>
-                            <option value="red">红色</option>
+                            <option value="">Select Color</option>
+                            <option value="black">Black</option>
+                            <option value="white">White</option>
+                            <option value="brown">Brown</option>
+                            <option value="red">Red</option>
                         </select>
                     </div>
                 </div>
 
-                <!-- 图片链接 -->
+                <!-- Image URLs -->
                 <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">主图片URL *</label>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Main Image URL *</label>
                     <input type="url" id="mainImage" required placeholder="https://images.unsplash.com/..." class="w-full p-3 border border-gray-300 rounded-lg">
+                    <p class="text-xs text-gray-500 mt-1">Use high-quality images (800x800px recommended)</p>
                 </div>
 
                 <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">相册图片URLs (每行一个，至少4张)</label>
-                    <textarea id="galleryImages" rows="4" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Gallery Image URLs (one per line, minimum 4 recommended)</label>
+                    <textarea id="galleryImages" rows="4" placeholder="https://images.unsplash.com/image1...&#10;https://images.unsplash.com/image2...&#10;https://images.unsplash.com/image3...&#10;https://images.unsplash.com/image4..." class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                    <p class="text-xs text-gray-500 mt-1">Enter each image URL on a new line. If you provide fewer than 4 images, only those images will be shown in the gallery.</p>
                 </div>
 
-                <!-- 产品描述 -->
+                <!-- Product Description -->
                 <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">产品描述</label>
-                    <textarea id="description" rows="3" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Product Description</label>
+                    <textarea id="description" rows="3" placeholder="Describe the product in detail..." class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
                 </div>
 
-                <!-- 产品特色 -->
+                <!-- Product Features -->
                 <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2">产品特色 (每行一个)</label>
-                    <textarea id="features" rows="4" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Product Features (one per line)</label>
+                    <textarea id="features" rows="4" placeholder="Premium genuine leather&#10;Handcrafted excellence&#10;Multi-functional design&#10;Timeless classic style" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                    <p class="text-xs text-gray-500 mt-1">Enter each feature on a new line</p>
                 </div>
 
-                <!-- 其他选项 -->
+                <!-- Product Specifications -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-3">Product Specifications</label>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-medium text-gray-600 mb-1">Material</label>
+                            <input type="text" id="specMaterial" placeholder="e.g., Genuine Leather" class="w-full p-2 border border-gray-300 rounded text-sm">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-600 mb-1">Weight</label>
+                            <input type="text" id="specWeight" placeholder="e.g., 0.8kg" class="w-full p-2 border border-gray-300 rounded text-sm">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-600 mb-1">Origin</label>
+                            <input type="text" id="specOrigin" placeholder="e.g., Italy" class="w-full p-2 border border-gray-300 rounded text-sm">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-600 mb-1">Warranty</label>
+                            <input type="text" id="specWarranty" placeholder="e.g., 2 years" class="w-full p-2 border border-gray-300 rounded text-sm">
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-2">Leave empty to auto-generate based on brand and size selections</p>
+                </div>
+
+                <!-- Additional Options -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
                         <label class="flex items-center">
                             <input type="checkbox" id="featured" class="mr-2">
-                            <span class="text-sm font-medium text-gray-700">热销产品</span>
+                            <span class="text-sm font-medium text-gray-700">Featured Product (Bestseller)</span>
                         </label>
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">评分 (1-5)</label>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Rating (1-5)</label>
                         <input type="number" id="rating" min="1" max="5" value="5" class="w-full p-3 border border-gray-300 rounded-lg">
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">评价数量</label>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Number of Reviews</label>
                         <input type="number" id="reviews" min="0" value="0" class="w-full p-3 border border-gray-300 rounded-lg">
                     </div>
                 </div>
 
-                <!-- 提交按钮 -->
+                <!-- Submit Buttons -->
                 <div class="flex space-x-4">
                     <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-colors">
-                        <i class="fas fa-save mr-2"></i>保存产品
+                        <i class="fas fa-save mr-2"></i>Save Product
                     </button>
                     <button type="button" onclick="hideForm()" class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-colors">
-                        取消
+                        Cancel
                     </button>
                 </div>
             </form>
         </div>
 
-        <!-- JSON输出 -->
+        <!-- JSON Output -->
         <div id="jsonOutput" class="bg-white rounded-2xl p-6 shadow-sm hidden">
-            <h2 class="text-xl font-semibold text-gray-900 mb-6">JSON数据输出</h2>
-            <p class="text-gray-600 mb-4">复制以下JSON数据并替换 products.json 文件的内容：</p>
+            <h2 class="text-xl font-semibold text-gray-900 mb-6">JSON Data Output</h2>
+            <p class="text-gray-600 mb-4">Copy the following JSON data and replace the content of your products.json file:</p>
             <div class="json-output" id="jsonContent"></div>
             <button onclick="copyToClipboard()" class="mt-4 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors">
-                <i class="fas fa-copy mr-2"></i>复制到剪贴板
+                <i class="fas fa-copy mr-2"></i>Copy to Clipboard
             </button>
         </div>
     </main>
@@ -204,10 +231,67 @@
         function showAddForm() {
             document.getElementById('productForm').classList.remove('hidden');
             document.getElementById('jsonOutput').classList.add('hidden');
+            
+            // Add event listeners to auto-fill specifications based on brand/size selection
+            document.getElementById('brand').addEventListener('change', updateSpecifications);
+            document.getElementById('size').addEventListener('change', updateSpecifications);
+        }
+
+        function updateSpecifications() {
+            const brand = document.getElementById('brand').value;
+            const size = document.getElementById('size').value;
+            
+            // Only update if fields are empty
+            if (!document.getElementById('specMaterial').value && brand) {
+                document.getElementById('specMaterial').placeholder = getMaterialByBrand(brand);
+            }
+            if (!document.getElementById('specWeight').value && size) {
+                document.getElementById('specWeight').placeholder = getWeightBySize(size);
+            }
+            if (!document.getElementById('specOrigin').value && brand) {
+                document.getElementById('specOrigin').placeholder = getOriginByBrand(brand);
+            }
         }
 
         function hideForm() {
             document.getElementById('productForm').classList.add('hidden');
+        }
+
+        function showProductList() {
+            document.getElementById('productForm').classList.add('hidden');
+            document.getElementById('jsonOutput').classList.add('hidden');
+            
+            if (products.length === 0) {
+                alert('No products found. Add some products first!');
+                return;
+            }
+            
+            let productListHtml = '<div class="bg-white rounded-2xl p-6 shadow-sm"><h2 class="text-xl font-semibold text-gray-900 mb-6">Current Products</h2>';
+            productListHtml += '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">';
+            
+            products.forEach(product => {
+                productListHtml += `
+                    <div class="border rounded-lg p-4">
+                        <img src="${product.images.thumbnail}" alt="${product.title}" class="w-full h-32 object-cover rounded mb-2">
+                        <h3 class="font-semibold">${product.title}</h3>
+                        <p class="text-sm text-gray-600">${product.subtitle}</p>
+                        <p class="text-xs text-gray-500">Brand: ${product.brandDisplay}</p>
+                        <p class="text-xs text-gray-500">Size: ${product.sizeDisplay}</p>
+                    </div>
+                `;
+            });
+            
+            productListHtml += '</div></div>';
+            
+            // Create or update product list container
+            let listContainer = document.getElementById('productList');
+            if (!listContainer) {
+                listContainer = document.createElement('div');
+                listContainer.id = 'productList';
+                document.querySelector('main').appendChild(listContainer);
+            }
+            
+            listContainer.innerHTML = productListHtml;
         }
 
         function exportJson() {
@@ -218,7 +302,7 @@
                 products: products,
                 filters: {
                     brands: [
-                        { value: "all", label: "全部品牌" },
+                        { value: "all", label: "All Brands" },
                         { value: "hermes", label: "Hermès" },
                         { value: "chanel", label: "Chanel" },
                         { value: "louis-vuitton", label: "Louis Vuitton" },
@@ -226,29 +310,29 @@
                         { value: "prada", label: "Prada" }
                     ],
                     sizes: [
-                        { value: "all", label: "全部尺寸" },
+                        { value: "all", label: "All Sizes" },
                         { value: "mini", label: "Mini" },
                         { value: "small", label: "Small" },
                         { value: "medium", label: "Medium" },
                         { value: "large", label: "Large" }
                     ],
                     prices: [
-                        { value: "all", label: "全部价格" },
+                        { value: "all", label: "All Prices" },
                         { value: "medium", label: "$1000 - $5000" },
                         { value: "high", label: "$5000+" }
                     ],
                     colors: [
-                        { value: "all", label: "全部颜色" },
-                        { value: "black", label: "黑色" },
-                        { value: "white", label: "白色" },
-                        { value: "brown", label: "棕色" },
-                        { value: "red", label: "红色" }
+                        { value: "all", label: "All Colors" },
+                        { value: "black", label: "Black" },
+                        { value: "white", label: "White" },
+                        { value: "brown", label: "Brown" },
+                        { value: "red", label: "Red" }
                     ]
                 },
                 settings: {
                     whatsappNumber: "1234567890",
                     currency: "USD", 
-                    language: "zh-CN"
+                    language: "en-US"
                 }
             };
 
@@ -262,6 +346,13 @@
                 const galleryImages = document.getElementById('galleryImages').value.split('\n').filter(url => url.trim());
                 const features = document.getElementById('features').value.split('\n').filter(feature => feature.trim());
                 
+                // Validate gallery images
+                if (galleryImages.length > 0 && galleryImages.length < 4) {
+                    if (!confirm(`You've only provided ${galleryImages.length} gallery images. For best user experience, we recommend at least 4 images. Continue anyway?`)) {
+                        return;
+                    }
+                }
+                
                 const product = {
                     id: nextId++,
                     title: document.getElementById('title').value,
@@ -273,7 +364,7 @@
                     price: document.getElementById('price').value,
                     color: document.getElementById('color').value,
                     colorDisplay: document.getElementById('color').selectedOptions[0].text,
-                    material: "优质材料",
+                    material: getMaterialByBrand(document.getElementById('brand').value),
                     featured: document.getElementById('featured').checked,
                     rating: parseInt(document.getElementById('rating').value),
                     reviews: parseInt(document.getElementById('reviews').value),
@@ -283,21 +374,21 @@
                         gallery: galleryImages.length > 0 ? galleryImages : [document.getElementById('mainImage').value],
                         thumbnail: document.getElementById('mainImage').value.replace('w=800&h=800', 'w=400&h=400')
                     },
-                    features: features.length > 0 ? features : ["优质材料", "精工制作", "时尚设计", "经久耐用"],
-                    description: document.getElementById('description').value || "精心设计的高品质产品，展现卓越工艺与时尚品味。",
+                    features: features.length > 0 ? features : ["Premium genuine leather", "Handcrafted excellence", "Multi-functional design", "Timeless classic style"],
+                    description: document.getElementById('description').value || "Expertly crafted luxury product showcasing exceptional craftsmanship and timeless elegance.",
                     specifications: {
-                        "材质": "优质材料",
-                        "尺寸": generateSizeDisplay(document.getElementById('size').value),
-                        "重量": "适中",
-                        "产地": "欧洲",
-                        "保修": "1年"
+                        "Material": document.getElementById('specMaterial').value || getMaterialByBrand(document.getElementById('brand').value),
+                        "Dimensions": generateSizeDisplay(document.getElementById('size').value),
+                        "Weight": document.getElementById('specWeight').value || getWeightBySize(document.getElementById('size').value),
+                        "Origin": document.getElementById('specOrigin').value || getOriginByBrand(document.getElementById('brand').value),
+                        "Warranty": document.getElementById('specWarranty').value || "2 years"
                     },
-                    tags: [document.getElementById('featured').checked ? "热销" : "精选", "时尚", "品质"],
+                    tags: [document.getElementById('featured').checked ? "Bestseller" : "Premium", "Luxury", "Quality"],
                     category: "bags"
                 };
 
                 products.push(product);
-                alert('产品添加成功！点击"导出JSON数据"来获取更新后的数据。');
+                alert('Product added successfully! Click "Export JSON Data" to get the updated data.');
                 document.getElementById('productDataForm').reset();
             });
         }
@@ -309,14 +400,47 @@
                 medium: "30×25×12cm",
                 large: "40×30×15cm"
             };
-            return sizeMap[size] || "标准尺寸";
+            return sizeMap[size] || "Standard Size";
         }
 
         function copyToClipboard() {
             const content = document.getElementById('jsonContent').textContent;
             navigator.clipboard.writeText(content).then(() => {
-                alert('JSON数据已复制到剪贴板！现在可以将其粘贴到products.json文件中。');
+                alert('JSON data copied to clipboard! You can now paste it into your products.json file.');
             });
+        }
+
+        // Helper functions for generating product data
+        function getMaterialByBrand(brand) {
+            const materialMap = {
+                hermes: "Genuine Leather",
+                chanel: "Calfskin Leather", 
+                "louis-vuitton": "Canvas Leather",
+                gucci: "Textured Leather",
+                prada: "Nylon Leather"
+            };
+            return materialMap[brand] || "Premium Leather";
+        }
+
+        function getOriginByBrand(brand) {
+            const originMap = {
+                hermes: "France",
+                chanel: "France",
+                "louis-vuitton": "France", 
+                gucci: "Italy",
+                prada: "Italy"
+            };
+            return originMap[brand] || "Europe";
+        }
+
+        function getWeightBySize(size) {
+            const weightMap = {
+                mini: "0.4kg",
+                small: "0.6kg",
+                medium: "0.8kg", 
+                large: "1.2kg"
+            };
+            return weightMap[size] || "0.8kg";
         }
     </script>
 </body>
