@@ -257,7 +257,52 @@
       },
       "tags": ["Vintage", "Collectible", "Handcrafted"],
       "category": "bags"
-    }
+    },
+    {
+        "id": 7,
+        "title": "dasdas",
+        "subtitle": "sadsada",
+        "brand": "chanel",
+        "brandDisplay": "Chanel",
+        "size": "mini",
+        "sizeDisplay": "20×15×8cm",
+        "price": "medium",
+        "color": "white",
+        "colorDisplay": "White",
+        "material": "Calfskin Leather",
+        "featured": false,
+        "rating": 5,
+        "reviews": 10,
+        "status": "available",
+        "images": {
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/52bc725ac7dd8ea3d41ee20358a2c2b4_20250630144343.96a0n2udol.png",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/75d6461fae1aabae30ffbf36f8bf5864_20250630144339.13m1uampoe.png",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/a03eb9578bbb3eafc6dcae8eca11380d_20250630144335.1vyxc146db.png"
+          ],
+          "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/52bc725ac7dd8ea3d41ee20358a2c2b4_20250630144343.96a0n2udol.png"
+        },
+        "features": [
+          "Premium genuine leather",
+          "Handcrafted excellence",
+          "Multi-functional design",
+          "Timeless classic style"
+        ],
+        "description": "sadsad",
+        "specifications": {
+          "Material": "Calfskin Leather",
+          "Dimensions": "20×15×8cm",
+          "Weight": "0.4kg",
+          "Origin": "France",
+          "Warranty": "2 years"
+        },
+        "tags": [
+          "Premium",
+          "Luxury",
+          "Quality"
+        ],
+        "category": "bags"
+      }
   ],
   "filters": {
     "brands": [
