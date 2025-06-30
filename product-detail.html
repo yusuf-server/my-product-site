@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Luxury Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .brand-title {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .gallery-main {
+            transition: all 0.3s ease;
+        }
+        
+        .gallery-thumb {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .gallery-thumb:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .gallery-thumb.active {
+            border: 3px solid #1a1a1a;
+            transform: scale(1.05);
+        }
+        
+        .whatsapp-btn {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .product-info {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="brand-title text-2xl md:text-3xl font-bold text-gray-900">
+                    <i class="fas fa-gem mr-2"></i>
+                    LUXURY COLLECTION
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">
+                        <i class="fas fa-arrow-left mr-2"></i>Back
+                    </a>
+                    <div class="hidden md:flex space-x-6">
+                        <a href="index.html" class="text-gray-600 hover:text-gray-900">Home</a>
+                        <a href="#" class="text-gray-600 hover:text-gray-900">About</a>
+                        <a href="#" class="text-gray-600 hover:text-gray-900">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Product Detail Content -->
+    <main class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            <!-- Product Gallery -->
+            <div class="animate-fade-in">
+                <!-- Main Image -->
+                <div class="bg-white rounded-2xl p-4 shadow-sm mb-4">
+                    <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden">
+                        <img id="mainImage" src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop" 
+                             alt="Product Main Image" class="w-full h-full object-cover gallery-main">
+                    </div>
+                </div>
+                
+                <!-- Thumbnail Gallery -->
+                <div class="grid grid-cols-4 gap-3">
+                    <div class="bg-white rounded-xl p-2 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=200&h=200&fit=crop" 
+                             alt="产品图1" class="w-full aspect-square object-cover rounded-lg gallery-thumb active" 
+                             onclick="changeMainImage(this.src, this)">
+                    </div>
+                    <div class="bg-white rounded-xl p-2 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=200&h=200&fit=crop" 
+                             alt="产品图2" class="w-full aspect-square object-cover rounded-lg gallery-thumb" 
+                             onclick="changeMainImage(this.src, this)">
+                    </div>
+                    <div class="bg-white rounded-xl p-2 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=200&h=200&fit=crop" 
+                             alt="产品图3" class="w-full aspect-square object-cover rounded-lg gallery-thumb" 
+                             onclick="changeMainImage(this.src, this)">
+                    </div>
+                    <div class="bg-white rounded-xl p-2 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=200&h=200&fit=crop" 
+                             alt="产品图4" class="w-full aspect-square object-cover rounded-lg gallery-thumb" 
+                             onclick="changeMainImage(this.src, this)">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Information -->
+            <div class="animate-fade-in" style="animation-delay: 0.2s;">
+                <div class="product-info rounded-2xl p-6 lg:p-8 shadow-sm">
+                    <!-- Product Title -->
+                    <div class="mb-6">
+                        <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-2" id="productTitle">
+                            Classic Luxury Handbag
+                        </h1>
+                        <p class="text-gray-600 text-lg">Premium Leather Collection</p>
+                    </div>
+
+                    <!-- Product Features -->
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-3">Product Features</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                Premium Leather Material
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                Handcrafted Excellence
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                Multifunctional Design
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                Classic Fashion Style
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Product Specifications -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-3">Product Specifications</h3>
+                        <div class="grid grid-cols-2 gap-4 text-sm">
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Brand:</span>
+                                <span class="font-medium">Luxury Collection</span>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Size:</span>
+                                <span class="font-medium">30×25×12cm</span>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Material:</span>
+                                <span class="font-medium">Genuine Leather</span>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Color:</span>
+                                <span class="font-medium">Black</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Price and Contact -->
+                    <div class="border-t pt-6">
+                        <div class="flex items-center justify-between mb-6">
+                            <div>
+                                <p class="text-sm text-gray-500 mb-1">Price</p>
+                                <p class="text-3xl font-bold text-gray-900">？？？</p>
+                                <p class="text-sm text-gray-500">Please contact for pricing details</p>
+                            </div>
+                            <div class="text-right">
+                                <div class="flex items-center text-yellow-500 mb-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="text-gray-600 ml-2 text-sm">(128 reviews)</span>
+                                </div>
+                                <p class="text-sm text-gray-500">Bestseller</p>
+                            </div>
+                        </div>
+                        
+                        <!-- WhatsApp Contact Button -->
+                        <button class="whatsapp-btn w-full py-4 px-6 text-white font-semibold rounded-xl text-lg" 
+                                onclick="contactWhatsApp()">
+                            <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                            Contact via WhatsApp
+                        </button>
+                        
+                        <div class="mt-4 text-center">
+                            <p class="text-sm text-gray-500">
+                                <i class="fas fa-shield-alt mr-1"></i>
+                                Quality Guarantee · Global Shipping · Professional Service
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Product Info -->
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-2xl p-6 text-center shadow-sm animate-fade-in" style="animation-delay: 0.4s;">
+                <i class="fas fa-shipping-fast text-3xl text-gray-600 mb-4"></i>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Global Shipping</h3>
+                <p class="text-gray-600 text-sm">Professional logistics, safe and fast</p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 text-center shadow-sm animate-fade-in" style="animation-delay: 0.5s;">
+                <i class="fas fa-certificate text-3xl text-gray-600 mb-4"></i>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Quality Guarantee</h3>
+                <p class="text-gray-600 text-sm">100% quality assurance</p>
+            </div>
+            <div class="bg-white rounded-2xl p-6 text-center shadow-sm animate-fade-in" style="animation-delay: 0.6s;">
+                <i class="fas fa-headset text-3xl text-gray-600 mb-4"></i>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Professional Service</h3>
+                <p class="text-gray-600 text-sm">24/7 customer support</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white mt-16">
+        <div class="container mx-auto px-4 py-8">
+            <div class="text-center">
+                <div class="brand-title text-2xl font-bold mb-4">
+                    <i class="fas fa-gem mr-2"></i>
+                    LUXURY COLLECTION
+                </div>
+                <p class="text-gray-400 mb-4">Premium Luxury Bags & Accessories</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Gallery functionality
+        function changeMainImage(src, element) {
+            const mainImage = document.getElementById('mainImage');
+            mainImage.src = src.replace('w=200&h=200', 'w=800&h=800');
+            
+            // Update active thumb
+            document.querySelectorAll('.gallery-thumb').forEach(thumb => {
+                thumb.classList.remove('active');
+            });
+            element.classList.add('active');
+        }
+
+        // Global variables
+        let productsData = null;
+        let currentProduct = null;
+
+        // Load product data
+        async function loadProductData() {
+            try {
+                console.log('Loading products.json...');
+                const response = await fetch('products.json');
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                productsData = await response.json();
+                console.log('Product data loaded successfully');
+                return true;
+            } catch (error) {
+                console.error('Failed to load product data:', error);
+                showError(`Unable to load product data: ${error.message}. Please make sure the server is running and try again.`);
+                return false;
+            }
+        }
+
+        // Get and display product information
+        async function getProductInfo() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = parseInt(urlParams.get('id'));
+            
+            console.log('Product ID from URL:', productId);
+            
+            if (!productId) {
+                showError('Invalid product ID. Please select a product from the product list.');
+                return;
+            }
+
+            // Ensure data is loaded
+            if (!productsData) {
+                const loaded = await loadProductData();
+                if (!loaded) return;
+            }
+
+            // Find product
+            currentProduct = productsData.products.find(product => product.id === productId);
+            console.log('Found product:', currentProduct);
+            
+            if (!currentProduct) {
+                showError('Product not found. Please return to the product list and select again.');
+                return;
+            }
+
+            // Update page content
+            updateProductInfo();
+            updateProductGallery();
+            updateProductFeatures();
+            updateProductSpecs();
+            
+            // Update page title
+            document.title = `${currentProduct.title} - Luxury Collection`;
+        }
+
+        // Update product basic information
+        function updateProductInfo() {
+            console.log('Updating product info...');
+            
+            // Update product title
+            const titleElement = document.getElementById('productTitle');
+            if (titleElement) {
+                titleElement.textContent = currentProduct.title;
+            } else {
+                console.error('Product title element not found');
+            }
+            
+            // Update subtitle
+            const subtitle = document.querySelector('.text-gray-600.text-lg');
+            if (subtitle) {
+                subtitle.textContent = currentProduct.subtitle;
+            } else {
+                console.error('Subtitle element not found');
+            }
+
+            // Update rating
+            const ratingContainer = document.querySelector('.text-yellow-500');
+            if (ratingContainer) {
+                const stars = '★'.repeat(currentProduct.rating || 5) + '☆'.repeat(5 - (currentProduct.rating || 5));
+                ratingContainer.innerHTML = `
+                    ${stars}
+                    <span class="text-gray-600 ml-2 text-sm">(${currentProduct.reviews || 128} reviews)</span>
+                `;
+            } else {
+                console.error('Rating container not found');
+            }
+        }
+
+        // Update product gallery
+        function updateProductGallery() {
+            console.log('Updating product gallery...');
+            console.log('Current product:', currentProduct);
+            console.log('Product images:', currentProduct?.images);
+            
+            const mainImage = document.getElementById('mainImage');
+            const thumbnails = document.querySelectorAll('.gallery-thumb');
+            
+            console.log('Main image element:', mainImage);
+            console.log('Found thumbnails:', thumbnails.length);
+            console.log('All img elements:', document.querySelectorAll('img').length);
+            console.log('Gallery thumbs in DOM:', document.querySelectorAll('img.gallery-thumb').length);
+            
+            if (mainImage && currentProduct && currentProduct.images && currentProduct.images.main) {
+                mainImage.src = currentProduct.images.main;
+                mainImage.alt = currentProduct.title;
+                console.log('Main image updated to:', currentProduct.images.main);
+            } else {
+                console.error('Main image element or image data not found');
+                console.log('Main image element exists:', !!mainImage);
+                console.log('Current product exists:', !!currentProduct);
+                console.log('Images exist:', !!currentProduct?.images);
+                console.log('Main image URL exists:', !!currentProduct?.images?.main);
+            }
+
+            // Update thumbnails
+            if (thumbnails.length > 0 && currentProduct && currentProduct.images && currentProduct.images.gallery) {
+                thumbnails.forEach((thumb, index) => {
+                    if (currentProduct.images.gallery[index]) {
+                        thumb.src = currentProduct.images.gallery[index];
+                        thumb.alt = `${currentProduct.title} - Image ${index + 1}`;
+                        // Reset onclick event
+                        thumb.onclick = function() {
+                            changeMainImage(currentProduct.images.gallery[index], this);
+                        };
+                        console.log(`Thumbnail ${index} updated to:`, currentProduct.images.gallery[index]);
+                    }
+                });
+                console.log('All thumbnails updated');
+            } else {
+                console.error('Thumbnails or gallery data not found');
+                console.log('Thumbnails found:', thumbnails.length);
+                console.log('Gallery exists:', !!currentProduct?.images?.gallery);
+                console.log('Gallery length:', currentProduct?.images?.gallery?.length);
+            }
+        }
+
+        // Update product features
+        function updateProductFeatures() {
+            console.log('Updating product features...');
+            
+            // Find features list by class - more specific selector
+            const featuresList = document.querySelector('ul.space-y-2');
+            
+            console.log('Features list element:', featuresList);
+            
+            if (featuresList && currentProduct && currentProduct.features) {
+                featuresList.innerHTML = currentProduct.features.map(feature => `
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                        ${feature}
+                    </li>
+                `).join('');
+                console.log('Features updated successfully');
+            } else {
+                console.error('Features container not found or no features data');
+                console.log('Features list element found:', !!featuresList);
+                console.log('Current product exists:', !!currentProduct);
+                console.log('Available features:', currentProduct?.features);
+            }
+        }
+
+        // Update product specifications
+        function updateProductSpecs() {
+            console.log('Updating product specifications...');
+            
+            // Try multiple selectors for specs container
+            let specsContainer = document.querySelector('.grid.grid-cols-2.gap-4.text-sm');
+            if (!specsContainer) {
+                specsContainer = document.querySelector('.grid.grid-cols-2.gap-4');
+            }
+            
+            console.log('Specs container element:', specsContainer);
+            
+            if (specsContainer && currentProduct && currentProduct.specifications) {
+                specsContainer.innerHTML = Object.entries(currentProduct.specifications).map(([key, value]) => `
+                    <div class="bg-gray-50 rounded-lg p-3">
+                        <span class="text-gray-500">${key}:</span>
+                        <span class="font-medium">${value}</span>
+                    </div>
+                `).join('');
+                console.log('Specifications updated successfully');
+            } else {
+                console.error('Specifications container not found or no specs data');
+                console.log('Specs container found:', !!specsContainer);
+                console.log('Current product exists:', !!currentProduct);
+                console.log('Available specifications:', currentProduct?.specifications);
+            }
+        }
+
+        // WhatsApp contact functionality
+        function contactWhatsApp() {
+            if (!currentProduct) {
+                console.error('No current product for WhatsApp contact');
+                return;
+            }
+            
+            const whatsappNumber = productsData?.settings?.whatsappNumber || "1234567890";
+            const message = `Hello! I'm very interested in this product: ${currentProduct.title}. Could you please provide more details and pricing information?`;
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Show error message
+        function showError(message) {
+            hideLoading(); // Hide loading state first
+            
+            const container = document.querySelector('.container.mx-auto.px-4.py-8');
+            if (container) {
+                container.innerHTML = `
+                    <div class="text-center py-12">
+                        <i class="fas fa-exclamation-triangle text-6xl text-red-400 mb-6"></i>
+                        <h2 class="text-2xl font-semibold text-gray-700 mb-4">Error Occurred</h2>
+                        <p class="text-gray-500 mb-6">${message}</p>
+                        <div class="space-x-4">
+                            <button onclick="location.reload()" class="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors">
+                                Reload
+                            </button>
+                            <a href="index.html" class="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors inline-block">
+                                Back to Home
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        // Show loading state
+        function showLoading() {
+            console.log('Showing loading state...');
+            // Instead of replacing content, just add a loading overlay or message
+            const container = document.querySelector('.grid.grid-cols-1.lg\\:grid-cols-2');
+            if (container) {
+                // Add loading overlay without replacing content
+                container.style.opacity = '0.5';
+                container.style.pointerEvents = 'none';
+                
+                // Add loading indicator
+                let loadingDiv = document.getElementById('loading-indicator');
+                if (!loadingDiv) {
+                    loadingDiv = document.createElement('div');
+                    loadingDiv.id = 'loading-indicator';
+                    loadingDiv.className = 'fixed inset-0 bg-white bg-opacity-75 flex items-center justify-center z-50';
+                    loadingDiv.innerHTML = `
+                        <div class="text-center">
+                            <div class="inline-block w-12 h-12 border-4 border-gray-300 border-t-gray-900 rounded-full animate-spin mb-4"></div>
+                            <p class="text-gray-500">Loading product information...</p>
+                        </div>
+                    `;
+                    document.body.appendChild(loadingDiv);
+                }
+            }
+        }
+
+        // Hide loading state
+        function hideLoading() {
+            console.log('Hiding loading state...');
+            const container = document.querySelector('.grid.grid-cols-1.lg\\:grid-cols-2');
+            if (container) {
+                container.style.opacity = '1';
+                container.style.pointerEvents = 'auto';
+            }
+            
+            const loadingDiv = document.getElementById('loading-indicator');
+            if (loadingDiv) {
+                loadingDiv.remove();
+            }
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', async function() {
+            console.log('DOM Content Loaded - initializing product detail page');
+            showLoading();
+            await getProductInfo();
+            hideLoading();
+        });
+    </script>
+</body>
+</html>

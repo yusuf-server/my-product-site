@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品管理 - 奢华精品</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .json-output {
+            font-family: 'Courier New', monospace;
+            background: #1f2937;
+            color: #f9fafb;
+            border-radius: 8px;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gray-900">
+                    <i class="fas fa-cog mr-2"></i>
+                    产品管理系统
+                </div>
+                <a href="index.html" class="text-gray-600 hover:text-gray-900">
+                    <i class="fas fa-arrow-left mr-2"></i>返回网站
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- 操作选项 -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm mb-8">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">管理选项</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <button onclick="showAddForm()" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-lg transition-colors">
+                    <i class="fas fa-plus text-2xl mb-2"></i>
+                    <div>添加新产品</div>
+                </button>
+                <button onclick="showProductList()" class="bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-lg transition-colors">
+                    <i class="fas fa-list text-2xl mb-2"></i>
+                    <div>查看产品列表</div>
+                </button>
+                <button onclick="exportJson()" class="bg-purple-500 hover:bg-purple-600 text-white p-4 rounded-lg transition-colors">
+                    <i class="fas fa-download text-2xl mb-2"></i>
+                    <div>导出JSON数据</div>
+                </button>
+            </div>
+        </div>
+
+        <!-- 产品表单 -->
+        <div id="productForm" class="bg-white rounded-2xl p-6 shadow-sm mb-8 hidden">
+            <h2 class="text-xl font-semibold text-gray-900 mb-6">添加新产品</h2>
+            
+            <form id="productDataForm" class="space-y-6">
+                <!-- 基本信息 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">产品标题 *</label>
+                        <input type="text" id="title" required class="w-full p-3 border border-gray-300 rounded-lg">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">副标题 *</label>
+                        <input type="text" id="subtitle" required class="w-full p-3 border border-gray-300 rounded-lg">
+                    </div>
+                </div>
+
+                <!-- 品牌和属性 -->
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">品牌 *</label>
+                        <select id="brand" required class="w-full p-3 border border-gray-300 rounded-lg">
+                            <option value="">选择品牌</option>
+                            <option value="hermes">Hermès</option>
+                            <option value="chanel">Chanel</option>
+                            <option value="louis-vuitton">Louis Vuitton</option>
+                            <option value="gucci">Gucci</option>
+                            <option value="prada">Prada</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">尺寸 *</label>
+                        <select id="size" required class="w-full p-3 border border-gray-300 rounded-lg">
+                            <option value="">选择尺寸</option>
+                            <option value="mini">Mini</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">价格档次 *</label>
+                        <select id="price" required class="w-full p-3 border border-gray-300 rounded-lg">
+                            <option value="">选择价格</option>
+                            <option value="medium">中等 ($1000-$5000)</option>
+                            <option value="high">高端 ($5000+)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">颜色 *</label>
+                        <select id="color" required class="w-full p-3 border border-gray-300 rounded-lg">
+                            <option value="">选择颜色</option>
+                            <option value="black">黑色</option>
+                            <option value="white">白色</option>
+                            <option value="brown">棕色</option>
+                            <option value="red">红色</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 图片链接 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">主图片URL *</label>
+                    <input type="url" id="mainImage" required placeholder="https://images.unsplash.com/..." class="w-full p-3 border border-gray-300 rounded-lg">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">相册图片URLs (每行一个，至少4张)</label>
+                    <textarea id="galleryImages" rows="4" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                </div>
+
+                <!-- 产品描述 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">产品描述</label>
+                    <textarea id="description" rows="3" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                </div>
+
+                <!-- 产品特色 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">产品特色 (每行一个)</label>
+                    <textarea id="features" rows="4" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                </div>
+
+                <!-- 其他选项 -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label class="flex items-center">
+                            <input type="checkbox" id="featured" class="mr-2">
+                            <span class="text-sm font-medium text-gray-700">热销产品</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">评分 (1-5)</label>
+                        <input type="number" id="rating" min="1" max="5" value="5" class="w-full p-3 border border-gray-300 rounded-lg">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">评价数量</label>
+                        <input type="number" id="reviews" min="0" value="0" class="w-full p-3 border border-gray-300 rounded-lg">
+                    </div>
+                </div>
+
+                <!-- 提交按钮 -->
+                <div class="flex space-x-4">
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-colors">
+                        <i class="fas fa-save mr-2"></i>保存产品
+                    </button>
+                    <button type="button" onclick="hideForm()" class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-colors">
+                        取消
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- JSON输出 -->
+        <div id="jsonOutput" class="bg-white rounded-2xl p-6 shadow-sm hidden">
+            <h2 class="text-xl font-semibold text-gray-900 mb-6">JSON数据输出</h2>
+            <p class="text-gray-600 mb-4">复制以下JSON数据并替换 products.json 文件的内容：</p>
+            <div class="json-output" id="jsonContent"></div>
+            <button onclick="copyToClipboard()" class="mt-4 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors">
+                <i class="fas fa-copy mr-2"></i>复制到剪贴板
+            </button>
+        </div>
+    </main>
+
+    <script>
+        let products = [];
+        let nextId = 1;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            loadExistingData();
+            setupFormSubmission();
+        });
+
+        async function loadExistingData() {
+            try {
+                const response = await fetch('products.json');
+                const data = await response.json();
+                products = data.products || [];
+                nextId = Math.max(...products.map(p => p.id), 0) + 1;
+            } catch (error) {
+                products = [];
+                nextId = 1;
+            }
+        }
+
+        function showAddForm() {
+            document.getElementById('productForm').classList.remove('hidden');
+            document.getElementById('jsonOutput').classList.add('hidden');
+        }
+
+        function hideForm() {
+            document.getElementById('productForm').classList.add('hidden');
+        }
+
+        function exportJson() {
+            document.getElementById('productForm').classList.add('hidden');
+            document.getElementById('jsonOutput').classList.remove('hidden');
+
+            const jsonData = {
+                products: products,
+                filters: {
+                    brands: [
+                        { value: "all", label: "全部品牌" },
+                        { value: "hermes", label: "Hermès" },
+                        { value: "chanel", label: "Chanel" },
+                        { value: "louis-vuitton", label: "Louis Vuitton" },
+                        { value: "gucci", label: "Gucci" },
+                        { value: "prada", label: "Prada" }
+                    ],
+                    sizes: [
+                        { value: "all", label: "全部尺寸" },
+                        { value: "mini", label: "Mini" },
+                        { value: "small", label: "Small" },
+                        { value: "medium", label: "Medium" },
+                        { value: "large", label: "Large" }
+                    ],
+                    prices: [
+                        { value: "all", label: "全部价格" },
+                        { value: "medium", label: "$1000 - $5000" },
+                        { value: "high", label: "$5000+" }
+                    ],
+                    colors: [
+                        { value: "all", label: "全部颜色" },
+                        { value: "black", label: "黑色" },
+                        { value: "white", label: "白色" },
+                        { value: "brown", label: "棕色" },
+                        { value: "red", label: "红色" }
+                    ]
+                },
+                settings: {
+                    whatsappNumber: "1234567890",
+                    currency: "USD", 
+                    language: "zh-CN"
+                }
+            };
+
+            document.getElementById('jsonContent').textContent = JSON.stringify(jsonData, null, 2);
+        }
+
+        function setupFormSubmission() {
+            document.getElementById('productDataForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const galleryImages = document.getElementById('galleryImages').value.split('\n').filter(url => url.trim());
+                const features = document.getElementById('features').value.split('\n').filter(feature => feature.trim());
+                
+                const product = {
+                    id: nextId++,
+                    title: document.getElementById('title').value,
+                    subtitle: document.getElementById('subtitle').value,
+                    brand: document.getElementById('brand').value,
+                    brandDisplay: document.getElementById('brand').selectedOptions[0].text,
+                    size: document.getElementById('size').value,
+                    sizeDisplay: generateSizeDisplay(document.getElementById('size').value),
+                    price: document.getElementById('price').value,
+                    color: document.getElementById('color').value,
+                    colorDisplay: document.getElementById('color').selectedOptions[0].text,
+                    material: "优质材料",
+                    featured: document.getElementById('featured').checked,
+                    rating: parseInt(document.getElementById('rating').value),
+                    reviews: parseInt(document.getElementById('reviews').value),
+                    status: "available",
+                    images: {
+                        main: document.getElementById('mainImage').value,
+                        gallery: galleryImages.length > 0 ? galleryImages : [document.getElementById('mainImage').value],
+                        thumbnail: document.getElementById('mainImage').value.replace('w=800&h=800', 'w=400&h=400')
+                    },
+                    features: features.length > 0 ? features : ["优质材料", "精工制作", "时尚设计", "经久耐用"],
+                    description: document.getElementById('description').value || "精心设计的高品质产品，展现卓越工艺与时尚品味。",
+                    specifications: {
+                        "材质": "优质材料",
+                        "尺寸": generateSizeDisplay(document.getElementById('size').value),
+                        "重量": "适中",
+                        "产地": "欧洲",
+                        "保修": "1年"
+                    },
+                    tags: [document.getElementById('featured').checked ? "热销" : "精选", "时尚", "品质"],
+                    category: "bags"
+                };
+
+                products.push(product);
+                alert('产品添加成功！点击"导出JSON数据"来获取更新后的数据。');
+                document.getElementById('productDataForm').reset();
+            });
+        }
+
+        function generateSizeDisplay(size) {
+            const sizeMap = {
+                mini: "20×15×8cm",
+                small: "25×20×10cm", 
+                medium: "30×25×12cm",
+                large: "40×30×15cm"
+            };
+            return sizeMap[size] || "标准尺寸";
+        }
+
+        function copyToClipboard() {
+            const content = document.getElementById('jsonContent').textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('JSON数据已复制到剪贴板！现在可以将其粘贴到products.json文件中。');
+            });
+        }
+    </script>
+</body>
+</html>

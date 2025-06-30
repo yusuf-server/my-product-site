@@ -1,0 +1,296 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Classic Luxury Handbag",
+      "subtitle": "Premium Leather Collection",
+      "brand": "hermes",
+      "brandDisplay": "Hermès",
+      "size": "medium",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": true,
+      "rating": 5,
+      "reviews": 128,
+      "status": "available",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&h=800&fit=crop"
+        ],
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=400&fit=crop"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "This classic handbag is crafted from top-grade genuine leather, combining traditional craftsmanship with modern design philosophy. Every detail is meticulously refined to ensure both quality and beauty.",
+      "specifications": {
+        "Material": "Genuine Leather",
+        "Dimensions": "30×25×12cm",
+        "Weight": "0.8kg",
+        "Origin": "Italy",
+        "Warranty": "2 years"
+      },
+      "tags": ["Bestseller", "Classic", "Business"],
+      "category": "bags"
+    },
+    {
+      "id": 2,
+      "title": "Luxury Shoulder Bag",
+      "subtitle": "Designer Collection",
+      "brand": "chanel",
+      "brandDisplay": "Chanel",
+      "size": "small",
+      "sizeDisplay": "25×20×10cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Calfskin Leather",
+      "featured": true,
+      "rating": 5,
+      "reviews": 95,
+      "status": "available",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1564422167509-4f16ecd9e4d9?w=800&h=800&fit=crop"
+        ],
+        "thumbnail": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop"
+      },
+      "features": [
+        "French imported calfskin",
+        "Metal chain decoration",
+        "Adjustable shoulder strap",
+        "Multi-compartment interior"
+      ],
+      "description": "Designer-crafted shoulder bag made from French imported calfskin leather, featuring exquisite metal chain details that combine elegance with functionality.",
+      "specifications": {
+        "Material": "Calfskin Leather",
+        "Dimensions": "25×20×10cm",
+        "Weight": "0.6kg",
+        "Origin": "France",
+        "Warranty": "2 years"
+      },
+      "tags": ["Designer", "Elegant", "Fashion"],
+      "category": "bags"
+    },
+    {
+      "id": 3,
+      "title": "Exquisite Mini Bag",
+      "subtitle": "Limited Edition",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "20×15×8cm",
+      "price": "medium",
+      "color": "brown",
+      "colorDisplay": "Brown",
+      "material": "Canvas Leather",
+      "featured": false,
+      "rating": 4,
+      "reviews": 67,
+      "status": "limited",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&h=800&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop"
+        ],
+        "thumbnail": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&h=400&fit=crop"
+      },
+      "features": [
+        "Limited edition design",
+        "Classic monogram pattern",
+        "Compact and portable",
+        "Exquisite craftsmanship"
+      ],
+      "description": "Limited edition mini bag featuring the classic monogram pattern with exquisite leather craftsmanship. Small and refined, it's an essential piece for fashion enthusiasts.",
+      "specifications": {
+        "Material": "Canvas Leather",
+        "Dimensions": "20×15×8cm",
+        "Weight": "0.4kg",
+        "Origin": "France",
+        "Warranty": "1 year"
+      },
+      "tags": ["Limited Edition", "Mini", "Classic"],
+      "category": "bags"
+    },
+    {
+      "id": 4,
+      "title": "Business Handbag",
+      "subtitle": "Professional Series",
+      "brand": "gucci",
+      "brandDisplay": "Gucci",
+      "size": "large",
+      "sizeDisplay": "40×30×15cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Textured Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 89,
+      "status": "available",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=800&fit=crop"
+        ],
+        "thumbnail": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=400&h=400&fit=crop"
+      },
+      "features": [
+        "Professional business design",
+        "Large capacity storage",
+        "Water-resistant treatment",
+        "Comfortable handles"
+      ],
+      "description": "Designed specifically for business professionals, this large-capacity handbag features water-resistant textured leather that's both professional and practical.",
+      "specifications": {
+        "Material": "Textured Leather",
+        "Dimensions": "40×30×15cm",
+        "Weight": "1.2kg",
+        "Origin": "Italy",
+        "Warranty": "3 years"
+      },
+      "tags": ["Business", "Large Capacity", "Professional"],
+      "category": "bags"
+    },
+    {
+      "id": 5,
+      "title": "Fashion Crossbody Bag",
+      "subtitle": "Street Style",
+      "brand": "prada",
+      "brandDisplay": "Prada",
+      "size": "small",
+      "sizeDisplay": "22×18×8cm",
+      "price": "medium",
+      "color": "white",
+      "colorDisplay": "White",
+      "material": "Nylon Leather",
+      "featured": true,
+      "rating": 4,
+      "reviews": 156,
+      "status": "available",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=800&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop"
+        ],
+        "thumbnail": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop"
+      },
+      "features": [
+        "Street style design",
+        "Lightweight nylon material",
+        "Adjustable shoulder strap",
+        "Multi-pocket design"
+      ],
+      "description": "Fashion crossbody bag combining street style with lightweight nylon material and leather accents, perfect for daily casual use.",
+      "specifications": {
+        "Material": "Nylon Leather",
+        "Dimensions": "22×18×8cm",
+        "Weight": "0.5kg",
+        "Origin": "Italy",
+        "Warranty": "1 year"
+      },
+      "tags": ["Street Style", "Fashion", "Lightweight"],
+      "category": "bags"
+    },
+    {
+      "id": 6,
+      "title": "Vintage Clutch Bag",
+      "subtitle": "Vintage Collection",
+      "brand": "hermes",
+      "brandDisplay": "Hermès",
+      "size": "mini",
+      "sizeDisplay": "25×15×5cm",
+      "price": "high",
+      "color": "red",
+      "colorDisplay": "Red",
+      "material": "Crocodile Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 43,
+      "status": "available",
+      "images": {
+        "main": "https://images.unsplash.com/photo-1564422167509-4f16ecd9e4d9?w=800&h=800&fit=crop",
+        "gallery": [
+          "https://images.unsplash.com/photo-1564422167509-4f16ecd9e4d9?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
+          "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&h=800&fit=crop"
+        ],
+        "thumbnail": "https://images.unsplash.com/photo-1564422167509-4f16ecd9e4d9?w=400&h=400&fit=crop"
+      },
+      "features": [
+        "Vintage classic design",
+        "Rare crocodile leather",
+        "Handcrafted artistry",
+        "Collectible value"
+      ],
+      "description": "Vintage-style clutch bag crafted from rare crocodile leather. Each piece is handcrafted as a work of art with high collectible value.",
+      "specifications": {
+        "Material": "Crocodile Leather",
+        "Dimensions": "25×15×5cm",
+        "Weight": "0.3kg",
+        "Origin": "France",
+        "Warranty": "Lifetime"
+      },
+      "tags": ["Vintage", "Collectible", "Handcrafted"],
+      "category": "bags"
+    }
+  ],
+  "filters": {
+    "brands": [
+      { "value": "all", "label": "All Brands" },
+      { "value": "hermes", "label": "Hermès" },
+      { "value": "chanel", "label": "Chanel" },
+      { "value": "louis-vuitton", "label": "Louis Vuitton" },
+      { "value": "gucci", "label": "Gucci" },
+      { "value": "prada", "label": "Prada" }
+    ],
+    "sizes": [
+      { "value": "all", "label": "All Sizes" },
+      { "value": "mini", "label": "Mini" },
+      { "value": "small", "label": "Small" },
+      { "value": "medium", "label": "Medium" },
+      { "value": "large", "label": "Large" }
+    ],
+    "prices": [
+      { "value": "all", "label": "All Prices" },
+      { "value": "medium", "label": "$1000 - $5000" },
+      { "value": "high", "label": "$5000+" }
+    ],
+    "colors": [
+      { "value": "all", "label": "All Colors" },
+      { "value": "black", "label": "Black" },
+      { "value": "white", "label": "White" },
+      { "value": "brown", "label": "Brown" },
+      { "value": "red", "label": "Red" }
+    ]
+  },
+  "settings": {
+    "whatsappNumber": "1234567890",
+    "currency": "USD",
+    "language": "en-US"
+  }
+} 
