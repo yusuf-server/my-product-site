@@ -145,10 +145,14 @@
                 <!-- Product Specifications -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-3">Product Specifications</label>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div>
                             <label class="block text-xs font-medium text-gray-600 mb-1">Material</label>
                             <input type="text" id="specMaterial" placeholder="e.g., Genuine Leather" class="w-full p-2 border border-gray-300 rounded text-sm">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-gray-600 mb-1">Dimensions</label>
+                            <input type="text" id="specDimensions" placeholder="e.g., 30×25×12cm" class="w-full p-2 border border-gray-300 rounded text-sm">
                         </div>
                         <div>
                             <label class="block text-xs font-medium text-gray-600 mb-1">Weight</label>
@@ -378,7 +382,7 @@
                     description: document.getElementById('description').value || "Expertly crafted luxury product showcasing exceptional craftsmanship and timeless elegance.",
                     specifications: {
                         "Material": document.getElementById('specMaterial').value || getMaterialByBrand(document.getElementById('brand').value),
-                        "Dimensions": generateSizeDisplay(document.getElementById('size').value),
+                        "Dimensions": document.getElementById('specDimensions').value || generateSizeDisplay(document.getElementById('size').value),
                         "Weight": document.getElementById('specWeight').value || getWeightBySize(document.getElementById('size').value),
                         "Origin": document.getElementById('specOrigin').value || getOriginByBrand(document.getElementById('brand').value),
                         "Warranty": document.getElementById('specWarranty').value || "2 years"
