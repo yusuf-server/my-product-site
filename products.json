@@ -302,6 +302,50 @@
           "Quality"
         ],
         "category": "bags"
+      },
+      {
+        "id": 8,
+        "title": "sadasdasd2222",
+        "subtitle": "asdas",
+        "brand": "hermes",
+        "brandDisplay": "Hermès",
+        "size": "mini",
+        "sizeDisplay": "20×15×8cm",
+        "price": "medium",
+        "color": "black",
+        "colorDisplay": "Black",
+        "material": "Genuine Leather",
+        "featured": false,
+        "rating": 5,
+        "reviews": 10,
+        "status": "available",
+        "images": {
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/i1702354802_2894_0.ice80f4qw.jpg",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/d7a4776b53fb598ac71277bd988bd01e_20250630144338.2vf0p7tfl8.png"
+          ],
+          "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/i1702354802_2894_0.ice80f4qw.jpg"
+        },
+        "features": [
+          "Premium genuine leather",
+          "Handcrafted excellence",
+          "Multi-functional design",
+          "Timeless classic style"
+        ],
+        "description": "sads",
+        "specifications": {
+          "Material": "sadsa",
+          "Dimensions": "20×15×8cm",
+          "Weight": "0.2",
+          "Origin": "france",
+          "Warranty": "1"
+        },
+        "tags": [
+          "Premium",
+          "Luxury",
+          "Quality"
+        ],
+        "category": "bags"
       }
   ],
   "filters": {
