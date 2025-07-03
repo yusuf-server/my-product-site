@@ -346,6 +346,58 @@
           "Quality"
         ],
         "category": "bags"
+      },
+      {
+        "id": 9,
+        "title": "LV-M644580",
+        "subtitle": "Premium Collection",
+        "brand": "louis-vuitto",
+        "brandDisplay": "Louis-Vuitto",
+        "size": "medium",
+        "sizeDisplay": "30×25×12cm",
+        "price": "medium",
+        "color": "",
+        "colorDisplay": "",
+        "material": "Genuine Leather",
+        "featured": false,
+        "rating": 5,
+        "reviews": 10,
+        "status": "available",
+        "images": {
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/7d61eaca_20250703142301.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/084938f0_20250703142305.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/a52c3dce_20250703142308.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/3890cfbb_20250703142312.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/ab8a63fe_20250703142316.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/4bb9e611_20250703142319.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/ba7b4532_20250703142322.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/2f348c71_20250703142325.jpg"
+          ],
+          "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg"
+        },
+        "features": [
+          "Premium genuine leather",
+          "Handcrafted excellence",
+          "Multi-functional design",
+          "Timeless classic style"
+        ],
+        "description": "Expertly crafted louis-vuitto handbag showcasing exceptional craftsmanship.",
+        "specifications": {
+          "Material": "Genuine Leather",
+          "Dimensions": "30×25×12cm",
+          "Weight": "0.8kg",
+          "Origin": "Europe",
+          "Warranty": "2 years"
+        },
+        "tags": [
+          "Premium",
+          "Luxury",
+          "Quality"
+        ],
+        "category": "bags"
       }
   ],
   "filters": {
