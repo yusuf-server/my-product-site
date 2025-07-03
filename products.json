@@ -40,7 +40,11 @@
         "Origin": "Italy",
         "Warranty": "2 years"
       },
-      "tags": ["Bestseller", "Classic", "Business"],
+      "tags": [
+        "Bestseller",
+        "Classic",
+        "Business"
+      ],
       "category": "bags"
     },
     {
@@ -83,7 +87,11 @@
         "Origin": "France",
         "Warranty": "2 years"
       },
-      "tags": ["Designer", "Elegant", "Fashion"],
+      "tags": [
+        "Designer",
+        "Elegant",
+        "Fashion"
+      ],
       "category": "bags"
     },
     {
@@ -126,7 +134,11 @@
         "Origin": "France",
         "Warranty": "1 year"
       },
-      "tags": ["Limited Edition", "Mini", "Classic"],
+      "tags": [
+        "Limited Edition",
+        "Mini",
+        "Classic"
+      ],
       "category": "bags"
     },
     {
@@ -169,7 +181,11 @@
         "Origin": "Italy",
         "Warranty": "3 years"
       },
-      "tags": ["Business", "Large Capacity", "Professional"],
+      "tags": [
+        "Business",
+        "Large Capacity",
+        "Professional"
+      ],
       "category": "bags"
     },
     {
@@ -212,7 +228,11 @@
         "Origin": "Italy",
         "Warranty": "1 year"
       },
-      "tags": ["Street Style", "Fashion", "Lightweight"],
+      "tags": [
+        "Street Style",
+        "Fashion",
+        "Lightweight"
+      ],
       "category": "bags"
     },
     {
@@ -255,178 +275,392 @@
         "Origin": "France",
         "Warranty": "Lifetime"
       },
-      "tags": ["Vintage", "Collectible", "Handcrafted"],
+      "tags": [
+        "Vintage",
+        "Collectible",
+        "Handcrafted"
+      ],
       "category": "bags"
     },
     {
-        "id": 7,
-        "title": "dasdas",
-        "subtitle": "sadsada",
-        "brand": "chanel",
-        "brandDisplay": "Chanel",
-        "size": "mini",
-        "sizeDisplay": "20×15×8cm",
-        "price": "medium",
-        "color": "white",
-        "colorDisplay": "White",
-        "material": "Calfskin Leather",
-        "featured": false,
-        "rating": 5,
-        "reviews": 10,
-        "status": "available",
-        "images": {
-          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/52bc725ac7dd8ea3d41ee20358a2c2b4_20250630144343.96a0n2udol.png",
-          "gallery": [
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/75d6461fae1aabae30ffbf36f8bf5864_20250630144339.13m1uampoe.png",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/a03eb9578bbb3eafc6dcae8eca11380d_20250630144335.1vyxc146db.png"
-          ],
-          "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/52bc725ac7dd8ea3d41ee20358a2c2b4_20250630144343.96a0n2udol.png"
-        },
-        "features": [
-          "Premium genuine leather",
-          "Handcrafted excellence",
-          "Multi-functional design",
-          "Timeless classic style"
+      "id": 7,
+      "title": "dasdas",
+      "subtitle": "sadsada",
+      "brand": "chanel",
+      "brandDisplay": "Chanel",
+      "size": "mini",
+      "sizeDisplay": "20×15×8cm",
+      "price": "medium",
+      "color": "white",
+      "colorDisplay": "White",
+      "material": "Calfskin Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/52bc725ac7dd8ea3d41ee20358a2c2b4_20250630144343.96a0n2udol.png",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/75d6461fae1aabae30ffbf36f8bf5864_20250630144339.13m1uampoe.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/a03eb9578bbb3eafc6dcae8eca11380d_20250630144335.1vyxc146db.png"
         ],
-        "description": "sadsad",
-        "specifications": {
-          "Material": "Calfskin Leather",
-          "Dimensions": "20×15×8cm",
-          "Weight": "0.4kg",
-          "Origin": "France",
-          "Warranty": "2 years"
-        },
-        "tags": [
-          "Premium",
-          "Luxury",
-          "Quality"
-        ],
-        "category": "bags"
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/52bc725ac7dd8ea3d41ee20358a2c2b4_20250630144343.96a0n2udol.png"
       },
-      {
-        "id": 8,
-        "title": "sadasdasd2222",
-        "subtitle": "asdas",
-        "brand": "hermes",
-        "brandDisplay": "Hermès",
-        "size": "mini",
-        "sizeDisplay": "20×15×8cm",
-        "price": "medium",
-        "color": "black",
-        "colorDisplay": "Black",
-        "material": "Genuine Leather",
-        "featured": false,
-        "rating": 5,
-        "reviews": 10,
-        "status": "available",
-        "images": {
-          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/i1702354802_2894_0.ice80f4qw.jpg",
-          "gallery": [
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/d7a4776b53fb598ac71277bd988bd01e_20250630144338.2vf0p7tfl8.png"
-          ],
-          "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/i1702354802_2894_0.ice80f4qw.jpg"
-        },
-        "features": [
-          "Premium genuine leather",
-          "Handcrafted excellence",
-          "Multi-functional design",
-          "Timeless classic style"
-        ],
-        "description": "sads",
-        "specifications": {
-          "Material": "sadsa",
-          "Dimensions": "20×15×8cm",
-          "Weight": "0.2",
-          "Origin": "france",
-          "Warranty": "1"
-        },
-        "tags": [
-          "Premium",
-          "Luxury",
-          "Quality"
-        ],
-        "category": "bags"
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "sadsad",
+      "specifications": {
+        "Material": "Calfskin Leather",
+        "Dimensions": "20×15×8cm",
+        "Weight": "0.4kg",
+        "Origin": "France",
+        "Warranty": "2 years"
       },
-      {
-        "id": 9,
-        "title": "LV-M644580",
-        "subtitle": "Premium Collection",
-        "brand": "louis-vuitto",
-        "brandDisplay": "Louis-Vuitto",
-        "size": "medium",
-        "sizeDisplay": "30×25×12cm",
-        "price": "medium",
-        "color": "",
-        "colorDisplay": "",
-        "material": "Genuine Leather",
-        "featured": false,
-        "rating": 5,
-        "reviews": 10,
-        "status": "available",
-        "images": {
-          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg",
-          "gallery": [
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/7d61eaca_20250703142301.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/084938f0_20250703142305.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/a52c3dce_20250703142308.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/3890cfbb_20250703142312.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/ab8a63fe_20250703142316.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/4bb9e611_20250703142319.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/ba7b4532_20250703142322.jpg",
-            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/2f348c71_20250703142325.jpg"
-          ],
-          "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg"
-        },
-        "features": [
-          "Premium genuine leather",
-          "Handcrafted excellence",
-          "Multi-functional design",
-          "Timeless classic style"
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 8,
+      "title": "sadasdasd2222",
+      "subtitle": "asdas",
+      "brand": "hermes",
+      "brandDisplay": "Hermès",
+      "size": "mini",
+      "sizeDisplay": "20×15×8cm",
+      "price": "medium",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/i1702354802_2894_0.ice80f4qw.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/d7a4776b53fb598ac71277bd988bd01e_20250630144338.2vf0p7tfl8.png"
         ],
-        "description": "Expertly crafted louis-vuitto handbag showcasing exceptional craftsmanship.",
-        "specifications": {
-          "Material": "Genuine Leather",
-          "Dimensions": "30×25×12cm",
-          "Weight": "0.8kg",
-          "Origin": "Europe",
-          "Warranty": "2 years"
-        },
-        "tags": [
-          "Premium",
-          "Luxury",
-          "Quality"
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/i1702354802_2894_0.ice80f4qw.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "sads",
+      "specifications": {
+        "Material": "sadsa",
+        "Dimensions": "20×15×8cm",
+        "Weight": "0.2",
+        "Origin": "france",
+        "Warranty": "1"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 9,
+      "title": "LV-M644580",
+      "subtitle": "Premium Collection",
+      "brand": "louis-vuitto",
+      "brandDisplay": "Louis-Vuitto",
+      "size": "medium",
+      "sizeDisplay": "30×25×12cm",
+      "price": "medium",
+      "color": "",
+      "colorDisplay": "",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/7d61eaca_20250703142301.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/084938f0_20250703142305.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/a52c3dce_20250703142308.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/3890cfbb_20250703142312.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/ab8a63fe_20250703142316.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/4bb9e611_20250703142319.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/ba7b4532_20250703142322.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/2f348c71_20250703142325.jpg"
         ],
-        "category": "bags"
-      }
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/LV-M644580/41ec2d9a_20250703142257.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted louis-vuitto handbag showcasing exceptional craftsmanship.",
+      "specifications": {
+        "Material": "Genuine Leather",
+        "Dimensions": "30×25×12cm",
+        "Weight": "0.8kg",
+        "Origin": "Europe",
+        "Warranty": "2 years"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 10,
+      "title": "Louis Vuitton M644580",
+      "subtitle": "M644580",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "20.0 x 15.0 x 9.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/41ec2d9a_20250704013912.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/41ec2d9a_20250704013912.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/7d61eaca_20250704013915.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/084938f0_20250704013919.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/a52c3dce_20250704013922.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/3890cfbb_20250704013926.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/ab8a63fe_20250704013929.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/4bb9e611_20250704013932.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/ba7b4532_20250704013936.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/2f348c71_20250704013939.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M644580/41ec2d9a_20250704013912.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "20.0 x 15.0 x 9.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 10,
+      "title": "Louis Vuitton N40436",
+      "subtitle": "N40436",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "30 x 40 x 20cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/e89e5b76_20250704013942.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/e89e5b76_20250704013942.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/a2c82a15_20250704013946.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/5dc99b4d_20250704013950.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/c0814572_20250704013954.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/10f74dd7_20250704013958.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/bce91762_20250704014002.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/e2d04c7f_20250704014005.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/f0d8052f_20250704014009.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/1eabcdf5_20250704014013.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N40436/e89e5b76_20250704013942.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30 x 40 x 20cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 10,
+      "title": "Louis Vuitton N50048",
+      "subtitle": "N50048",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "21 x 16 x 7cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/7f4ddc9b_20250704014017.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/7f4ddc9b_20250704014017.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/ea07446b_20250704014021.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/c46baa68_20250704014025.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/b6a262f7_20250704014029.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/a7b3fee4_20250704014033.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/1e941444_20250704014036.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/80321e94_20250704014040.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/3a684e93_20250704014044.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/43cdee09_20250704014047.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/50406953_20250704014051.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/223428d5_20250704014054.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/8e6ce6bc_20250704014058.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/5e53a19c_20250704014102.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/bb470639_20250704014105.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/c5f1ecf3_20250704014109.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/582684c2_20250704014113.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/9e00b741_20250704014117.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/2c00aa57_20250704014121.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_N50048/7f4ddc9b_20250704014017.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "21 x 16 x 7cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    }
   ],
   "filters": {
     "brands": [
-      { "value": "all", "label": "All Brands" },
-      { "value": "hermes", "label": "Hermès" },
-      { "value": "chanel", "label": "Chanel" },
-      { "value": "louis-vuitton", "label": "Louis Vuitton" },
-      { "value": "gucci", "label": "Gucci" },
-      { "value": "prada", "label": "Prada" }
+      {
+        "value": "all",
+        "label": "All Brands"
+      },
+      {
+        "value": "hermes",
+        "label": "Hermès"
+      },
+      {
+        "value": "chanel",
+        "label": "Chanel"
+      },
+      {
+        "value": "louis-vuitton",
+        "label": "Louis Vuitton"
+      },
+      {
+        "value": "gucci",
+        "label": "Gucci"
+      },
+      {
+        "value": "prada",
+        "label": "Prada"
+      }
     ],
     "sizes": [
-      { "value": "all", "label": "All Sizes" },
-      { "value": "mini", "label": "Mini" },
-      { "value": "small", "label": "Small" },
-      { "value": "medium", "label": "Medium" },
-      { "value": "large", "label": "Large" }
+      {
+        "value": "all",
+        "label": "All Sizes"
+      },
+      {
+        "value": "mini",
+        "label": "Mini"
+      },
+      {
+        "value": "small",
+        "label": "Small"
+      },
+      {
+        "value": "medium",
+        "label": "Medium"
+      },
+      {
+        "value": "large",
+        "label": "Large"
+      }
     ],
     "prices": [
-      { "value": "all", "label": "All Prices" },
-      { "value": "medium", "label": "$1000 - $5000" },
-      { "value": "high", "label": "$5000+" }
+      {
+        "value": "all",
+        "label": "All Prices"
+      },
+      {
+        "value": "medium",
+        "label": "$1000 - $5000"
+      },
+      {
+        "value": "high",
+        "label": "$5000+"
+      }
     ],
     "colors": [
-      { "value": "all", "label": "All Colors" },
-      { "value": "black", "label": "Black" },
-      { "value": "white", "label": "White" },
-      { "value": "brown", "label": "Brown" },
-      { "value": "red", "label": "Red" }
+      {
+        "value": "all",
+        "label": "All Colors"
+      },
+      {
+        "value": "black",
+        "label": "Black"
+      },
+      {
+        "value": "white",
+        "label": "White"
+      },
+      {
+        "value": "brown",
+        "label": "Brown"
+      },
+      {
+        "value": "red",
+        "label": "Red"
+      }
     ]
   },
   "settings": {
@@ -434,4 +668,4 @@
     "currency": "USD",
     "language": "en-US"
   }
-} 
+}
