@@ -92,48 +92,12 @@
             </button>
         </div>
 
-        <!-- Filters Section -->
+        <!-- Brand Filter Section -->
         <div id="filtersSection" class="mb-6 md:mb-8">
-            <div class="bg-white rounded-2xl p-3 md:p-6 shadow-sm">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
-                    <div>
-                        <label class="block text-xs md:text-sm font-medium text-gray-700 mb-1 md:mb-2">Brand</label>
-                        <select class="w-full p-2 md:p-3 text-xs md:text-sm border border-gray-300 rounded-lg">
-                            <option>全部品牌</option>
-                            <option>Hermès</option>
-                            <option>Chanel</option>
-                            <option>Louis Vuitton</option>
-                            <option>Gucci</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-xs md:text-sm font-medium text-gray-700 mb-1 md:mb-2">Size</label>
-                        <select class="w-full p-2 md:p-3 text-xs md:text-sm border border-gray-300 rounded-lg">
-                            <option>全部尺寸</option>
-                            <option>Mini</option>
-                            <option>Small</option>
-                            <option>Medium</option>
-                            <option>Large</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-xs md:text-sm font-medium text-gray-700 mb-1 md:mb-2">Price</label>
-                        <select class="w-full p-2 md:p-3 text-xs md:text-sm border border-gray-300 rounded-lg">
-                            <option>全部价格</option>
-                            <option>$1000 - $5000</option>
-                            <option>$5000 - $10000</option>
-                            <option>$10000+</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-xs md:text-sm font-medium text-gray-700 mb-1 md:mb-2">Color</label>
-                        <select class="w-full p-2 md:p-3 text-xs md:text-sm border border-gray-300 rounded-lg">
-                            <option>全部颜色</option>
-                            <option>黑色</option>
-                            <option>白色</option>
-                            <option>棕色</option>
-                        </select>
-                    </div>
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter by Brand</h3>
+                <div id="brandTags" class="flex flex-wrap gap-3">
+                    <!-- Brand tags will be generated dynamically -->
                 </div>
             </div>
         </div>
@@ -164,12 +128,7 @@
     <script>
         // 全局变量
         let productsData = null;
-        let currentFilters = {
-            brand: 'all',
-            size: 'all',
-            price: 'all',
-            color: 'all'
-        };
+        let currentBrandFilter = 'all';
 
         // DOM元素
         const bagsTab = document.getElementById('bagsTab');
@@ -182,9 +141,8 @@
         // 页面加载时初始化
         document.addEventListener('DOMContentLoaded', async function() {
             await loadProductData();
-            initializeFilters();
+            initializeBrandTags();
             renderProducts();
-            setupFilters();
         });
 
         // 加载产品数据
@@ -206,53 +164,52 @@
             }
         }
 
-        // 初始化筛选器选项
-        function initializeFilters() {
+        // 初始化品牌标签
+        function initializeBrandTags() {
             if (!productsData) return;
 
-            // 获取所有筛选器的select元素
-            const selects = document.querySelectorAll('#filtersSection select');
-            console.log('Found selects:', selects.length);
+            const brandTagsContainer = document.getElementById('brandTags');
+            if (!brandTagsContainer) return;
 
-            if (selects.length >= 4) {
-                // 更新品牌筛选器
-                selects[0].innerHTML = productsData.filters.brands.map(brand => 
-                    `<option value="${brand.value}">${brand.label}</option>`
-                ).join('');
+            // 生成品牌标签
+            const brandTags = productsData.filters.brands.map(brand => {
+                const isActive = currentBrandFilter === brand.value;
+                return `
+                    <button 
+                        class="brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                            isActive 
+                                ? 'bg-gray-900 text-white shadow-lg' 
+                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:shadow-md'
+                        }" 
+                        data-brand="${brand.value}"
+                        onclick="filterByBrand('${brand.value}')"
+                    >
+                        ${brand.label}
+                    </button>
+                `;
+            }).join('');
 
-                // 更新尺寸筛选器
-                selects[1].innerHTML = productsData.filters.sizes.map(size => 
-                    `<option value="${size.value}">${size.label}</option>`
-                ).join('');
-
-                // 更新价格筛选器
-                selects[2].innerHTML = productsData.filters.prices.map(price => 
-                    `<option value="${price.value}">${price.label}</option>`
-                ).join('');
-
-                // 更新颜色筛选器
-                selects[3].innerHTML = productsData.filters.colors.map(color => 
-                    `<option value="${color.value}">${color.label}</option>`
-                ).join('');
-                
-                console.log('Filters initialized successfully');
-            } else {
-                console.error('Could not find all filter select elements');
-            }
+            brandTagsContainer.innerHTML = brandTags;
+            console.log('Brand tags initialized successfully');
         }
 
-        // 设置筛选器事件监听
-        function setupFilters() {
-            const selects = document.querySelectorAll('#filtersSection select');
-            selects.forEach((select, index) => {
-                select.addEventListener('change', function() {
-                    const filterTypes = ['brand', 'size', 'price', 'color'];
-                    if (filterTypes[index]) {
-                        currentFilters[filterTypes[index]] = this.value;
-                        renderProducts();
-                    }
-                });
+        // 品牌筛选函数
+        function filterByBrand(brandValue) {
+            currentBrandFilter = brandValue;
+            
+            // 更新标签样式
+            const allTags = document.querySelectorAll('.brand-tag');
+            allTags.forEach(tag => {
+                const isActive = tag.dataset.brand === brandValue;
+                tag.className = `brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                    isActive 
+                        ? 'bg-gray-900 text-white shadow-lg' 
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:shadow-md'
+                }`;
             });
+
+            // 重新渲染产品
+            renderProducts();
         }
 
         // 渲染产品
@@ -266,7 +223,7 @@
                     <div class="col-span-full text-center py-12">
                         <i class="fas fa-search text-4xl text-gray-400 mb-4"></i>
                         <h3 class="text-lg font-semibold text-gray-700 mb-2">No Products Found</h3>
-                        <p class="text-gray-500">Please try adjusting your filter criteria</p>
+                        <p class="text-gray-500">Please try selecting a different brand</p>
                     </div>
                 `;
                 return;
@@ -307,10 +264,7 @@
         // 筛选产品
         function filterProducts(products) {
             return products.filter(product => {
-                return (currentFilters.brand === 'all' || product.brand === currentFilters.brand) &&
-                       (currentFilters.size === 'all' || product.size === currentFilters.size) &&
-                       (currentFilters.price === 'all' || product.price === currentFilters.price) &&
-                       (currentFilters.color === 'all' || product.color === currentFilters.color);
+                return currentBrandFilter === 'all' || product.brand === currentBrandFilter;
             });
         }
 

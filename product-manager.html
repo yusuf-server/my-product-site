@@ -145,26 +145,11 @@
                 <!-- Product Specifications -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-3">Product Specifications</label>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="grid grid-cols-1 gap-4">
                         <div>
-                            <label class="block text-xs font-medium text-gray-600 mb-1">Material</label>
-                            <input type="text" id="specMaterial" placeholder="e.g., Genuine Leather" class="w-full p-2 border border-gray-300 rounded text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-medium text-gray-600 mb-1">Dimensions</label>
-                            <input type="text" id="specDimensions" placeholder="e.g., 30×25×12cm" class="w-full p-2 border border-gray-300 rounded text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-medium text-gray-600 mb-1">Weight</label>
-                            <input type="text" id="specWeight" placeholder="e.g., 0.8kg" class="w-full p-2 border border-gray-300 rounded text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-medium text-gray-600 mb-1">Origin</label>
-                            <input type="text" id="specOrigin" placeholder="e.g., Italy" class="w-full p-2 border border-gray-300 rounded text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-medium text-gray-600 mb-1">Warranty</label>
-                            <input type="text" id="specWarranty" placeholder="e.g., 2 years" class="w-full p-2 border border-gray-300 rounded text-sm">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Dimensions</label>
+                            <input type="text" id="specDimensions" placeholder="e.g., 30×25×12cm" class="w-full p-3 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">Product dimensions in format: Length×Width×Height</p>
                         </div>
                     </div>
                     <p class="text-xs text-gray-500 mt-2">Leave empty to auto-generate based on brand and size selections</p>
@@ -242,18 +227,11 @@
         }
 
         function updateSpecifications() {
-            const brand = document.getElementById('brand').value;
             const size = document.getElementById('size').value;
             
-            // Only update if fields are empty
-            if (!document.getElementById('specMaterial').value && brand) {
-                document.getElementById('specMaterial').placeholder = getMaterialByBrand(brand);
-            }
-            if (!document.getElementById('specWeight').value && size) {
-                document.getElementById('specWeight').placeholder = getWeightBySize(size);
-            }
-            if (!document.getElementById('specOrigin').value && brand) {
-                document.getElementById('specOrigin').placeholder = getOriginByBrand(brand);
+            // 只更新尺寸占位符
+            if (!document.getElementById('specDimensions').value && size) {
+                document.getElementById('specDimensions').placeholder = generateSizeDisplay(size);
             }
         }
 
@@ -381,11 +359,7 @@
                     features: features.length > 0 ? features : ["Premium genuine leather", "Handcrafted excellence", "Multi-functional design", "Timeless classic style"],
                     description: document.getElementById('description').value || "Expertly crafted luxury product showcasing exceptional craftsmanship and timeless elegance.",
                     specifications: {
-                        "Material": document.getElementById('specMaterial').value || getMaterialByBrand(document.getElementById('brand').value),
-                        "Dimensions": document.getElementById('specDimensions').value || generateSizeDisplay(document.getElementById('size').value),
-                        "Weight": document.getElementById('specWeight').value || getWeightBySize(document.getElementById('size').value),
-                        "Origin": document.getElementById('specOrigin').value || getOriginByBrand(document.getElementById('brand').value),
-                        "Warranty": document.getElementById('specWarranty').value || "2 years"
+                        "Dimensions": document.getElementById('specDimensions').value || generateSizeDisplay(document.getElementById('size').value)
                     },
                     tags: [document.getElementById('featured').checked ? "Bestseller" : "Premium", "Luxury", "Quality"],
                     category: "bags"

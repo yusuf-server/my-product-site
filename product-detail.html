@@ -553,12 +553,14 @@
             console.log('Specs container element:', specsContainer);
             
             if (specsContainer && currentProduct && currentProduct.specifications) {
-                specsContainer.innerHTML = Object.entries(currentProduct.specifications).map(([key, value]) => `
-                    <div class="bg-gray-50 rounded-lg p-3">
-                        <span class="text-gray-500">${key}:</span>
-                        <span class="font-medium">${value}</span>
+                // 只显示尺寸信息
+                const dimensions = currentProduct.specifications.Dimensions || currentProduct.sizeDisplay || '30×25×12cm';
+                specsContainer.innerHTML = `
+                    <div class="bg-gray-50 rounded-lg p-4 col-span-2 text-center">
+                        <span class="text-gray-500 text-sm">Dimensions:</span>
+                        <span class="font-medium text-lg ml-2">${dimensions}</span>
                     </div>
-                `).join('');
+                `;
                 console.log('Specifications updated successfully');
             } else {
                 console.error('Specifications container not found or no specs data');
