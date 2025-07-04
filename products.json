@@ -2980,6 +2980,54 @@
         "Quality"
       ],
       "category": "bags"
+    },
+    {
+      "id": 62,
+      "title": "Hermès crocodile pattern",
+      "subtitle": "crocodile pattern",
+      "brand": "hermes",
+      "brandDisplay": "Hermès",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3a42e26f_20250704213811.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3a42e26f_20250704213811.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3b769f40_20250704213815.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/2d2822ff_20250704213819.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/b2a5d4e1_20250704213823.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/8e3651fc_20250704213827.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/0c26389a_20250704213830.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/9318ad42_20250704213834.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/d7c809db_20250704213838.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/9d79155b_20250704213841.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3a42e26f_20250704213811.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Hermès handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
     }
   ],
   "filters": {
