@@ -199,6 +199,14 @@
                         <p class="text-gray-600 text-lg">Premium Leather Collection</p>
                     </div>
 
+                    <!-- Color Options (if available) -->
+                    <div class="mb-6" id="colorOptionsSection" style="display: none;">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-3">Available Colors</h3>
+                        <div class="flex flex-wrap gap-3" id="colorOptions">
+                            <!-- Color options will be populated by JavaScript -->
+                        </div>
+                    </div>
+
                     <!-- Product Features -->
                     <div class="mb-6">
                         <h3 class="text-lg font-semibold text-gray-900 mb-3">Product Features</h3>
@@ -533,6 +541,7 @@
 
             // Update page content
             updateProductInfo();
+            updateColorOptions();
             updateProductGallery();
             updateProductFeatures();
             updateProductSpecs();
@@ -572,6 +581,79 @@
             } else {
                 console.error('Rating container not found');
             }
+        }
+
+        // Update color options
+        function updateColorOptions() {
+            console.log('Updating color options...');
+            
+            const colorOptionsSection = document.getElementById('colorOptionsSection');
+            const colorOptionsContainer = document.getElementById('colorOptions');
+            
+            if (!colorOptionsSection || !colorOptionsContainer) {
+                console.error('Color options containers not found');
+                return;
+            }
+            
+            // Check if product has multiple colors
+            if (currentProduct && currentProduct.colorOptions && Object.keys(currentProduct.colorOptions).length > 1) {
+                console.log('Product has multiple colors:', Object.keys(currentProduct.colorOptions));
+                
+                // Show color options section
+                colorOptionsSection.style.display = 'block';
+                
+                // Clear existing options
+                colorOptionsContainer.innerHTML = '';
+                
+                // Generate color buttons
+                Object.entries(currentProduct.colorOptions).forEach(([colorKey, colorData]) => {
+                    const isActive = colorKey === currentProduct.color;
+                    
+                    const colorButton = document.createElement('button');
+                    colorButton.className = `color-option px-4 py-2 rounded-lg border-2 transition-all duration-200 ${
+                        isActive 
+                            ? 'border-blue-500 bg-blue-50 text-blue-700' 
+                            : 'border-gray-300 bg-white text-gray-700 hover:border-gray-400'
+                    }`;
+                    colorButton.textContent = colorData.name;
+                    colorButton.onclick = () => switchColor(colorKey);
+                    
+                    colorOptionsContainer.appendChild(colorButton);
+                });
+                
+                console.log('Color options generated successfully');
+            } else {
+                // Hide color options section for single color products
+                colorOptionsSection.style.display = 'none';
+                console.log('Product has single color or no color options');
+            }
+        }
+
+        // Switch product color
+        function switchColor(colorKey) {
+            console.log('Switching to color:', colorKey);
+            
+            if (!currentProduct || !currentProduct.colorOptions || !currentProduct.colorOptions[colorKey]) {
+                console.error('Invalid color key or color data not found');
+                return;
+            }
+            
+            const colorData = currentProduct.colorOptions[colorKey];
+            
+            // Update current product color
+            currentProduct.color = colorKey;
+            currentProduct.colorDisplay = colorData.name;
+            
+            // Update images
+            currentProduct.images.main = colorData.main;
+            currentProduct.images.gallery = colorData.gallery;
+            currentProduct.images.thumbnail = colorData.main;
+            
+            // Update UI
+            updateColorOptions(); // Update active color button
+            updateProductGallery(); // Update gallery with new color images
+            
+            console.log('Color switched successfully to:', colorData.name);
         }
 
         // Update product gallery
