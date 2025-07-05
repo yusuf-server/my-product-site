@@ -687,7 +687,7 @@
                     thumbnailDiv.className = 'thumbnail-item bg-white rounded-xl p-1 shadow-sm hover:shadow-md transition-all duration-200 flex-shrink-0';
                     
                     const thumbnailImg = document.createElement('img');
-                    thumbnailImg.src = imageUrl.replace('w=800&h=800', 'w=200&h=200');
+                    thumbnailImg.src = imageUrl; // 直接使用原图URL
                     thumbnailImg.alt = `${currentProduct.title} - Image ${index + 1}`;
                     thumbnailImg.className = `w-full h-full object-cover rounded-lg gallery-thumb cursor-pointer transition-all duration-200 ${index === 0 ? 'active' : ''}`;
                     thumbnailImg.onclick = function() {
