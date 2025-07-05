@@ -152,6 +152,2882 @@
         "Quality"
       ],
       "category": "bags"
+    },
+    {
+      "id": 4,
+      "title": "Louis Vuitton LV Soft Trunk",
+      "subtitle": "LV Soft Trunk",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "5×13×8cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/5d681d87_20250704113931.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/5d681d87_20250704113931.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/e95f4b48_20250704113936.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/561f826e_20250704113939.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/b3708b0a_20250704113943.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/c2e7652a_20250704113947.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/8ce361d1_20250704113951.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/caea5936_20250704113954.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/b8895164_20250704113958.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/a340b245_20250704114001.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_LV Soft Trunk/5d681d87_20250704113931.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "5×13×8cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 5,
+      "title": "Louis Vuitton M11197",
+      "subtitle": "M11197",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "30.0 x 33.0 x 16.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/9b85eea7_20250704114005.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/9b85eea7_20250704114005.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/986a6a0d_20250704114008.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/396658a0_20250704114012.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/56118cd3_20250704114015.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/d21b04bc_20250704114019.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/bbb5136b_20250704114022.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/65061719_20250704114026.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/b19675d0_20250704114029.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/f79715e9_20250704114033.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M11197/9b85eea7_20250704114005.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30.0 x 33.0 x 16.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 6,
+      "title": "Louis Vuitton M21353",
+      "subtitle": "M21353",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "26 x 20 x 12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/d6b40ece_20250704114037.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/d6b40ece_20250704114037.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/fc4e6bf3_20250704114040.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/e54d065a_20250704114044.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/ded34441_20250704114047.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/0db64476_20250704114051.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/a5e02ea8_20250704114055.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/6358f57d_20250704114058.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/eb509e56_20250704114102.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/317dffff_20250704114106.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/c72deea5_20250704114110.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/5beb4469_20250704114113.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/28bd9310_20250704114117.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/a5805a56_20250704114121.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/80e924e8_20250704114124.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/e178cc5b_20250704114128.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/b7e63c50_20250704114131.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/f6f86b16_20250704114135.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/ad5daf70_20250704114139.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21353/d6b40ece_20250704114037.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "26 x 20 x 12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 7,
+      "title": "Louis Vuitton M21554",
+      "subtitle": "M21554",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23 x 17 x 9.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/4f95d473_20250704114143.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/4f95d473_20250704114143.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/bda9a7cc_20250704114146.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/797485a6_20250704114149.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/8d2c87ab_20250704114153.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/4ac17685_20250704114157.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/0ffcee8d_20250704114200.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/f3466dc1_20250704114204.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/42c48b45_20250704114207.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/2cf47a7a_20250704114210.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21554/4f95d473_20250704114143.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23 x 17 x 9.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 8,
+      "title": "Louis Vuitton M21555",
+      "subtitle": "M21555",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23 x 17 x 9.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/bb3c5f1e_20250704114214.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/bb3c5f1e_20250704114214.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/e552a74b_20250704114218.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/e7fb4940_20250704114221.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/feada2ec_20250704114225.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/80a0a9b5_20250704114228.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/790e8df0_20250704114232.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/0bb93d29_20250704114235.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/9d83625b_20250704114239.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/2a0af699_20250704114242.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21555/bb3c5f1e_20250704114214.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23 x 17 x 9.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 9,
+      "title": "Louis Vuitton M21605",
+      "subtitle": "M21605",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23 x 17 x 9.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/6562b47f_20250704114246.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/6562b47f_20250704114246.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/d235d804_20250704114249.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/2c2e0b38_20250704114253.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/86ad8cd8_20250704114256.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/7f360af5_20250704114259.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/44c3166f_20250704114302.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/98f1f9bb_20250704114306.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/1cf3911d_20250704114310.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/d84185aa_20250704114314.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21605/6562b47f_20250704114246.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23 x 17 x 9.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 10,
+      "title": "Louis Vuitton M21606",
+      "subtitle": "M21606",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23 x 17 x 9.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/cce35be8_20250704114317.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/cce35be8_20250704114317.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/58c93537_20250704114321.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/52dc2a97_20250704114324.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/aa655548_20250704114328.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/1d97b02b_20250704114331.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/00df2621_20250704114335.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/a5420968_20250704114339.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/1c217315_20250704114342.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/8c2ae687_20250704114345.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21606/cce35be8_20250704114317.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23 x 17 x 9.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 11,
+      "title": "Louis Vuitton M21863",
+      "subtitle": "M21863",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "50×29×23cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/fd7e8707_20250704114349.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/fd7e8707_20250704114349.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/a87a7753_20250704114353.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/954dbf39_20250704114356.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/ed645e4b_20250704114400.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/7b83fc9b_20250704114404.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/0c7d2473_20250704114408.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/fa182f25_20250704114412.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/c92f0382_20250704114415.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/9c1c9cf1_20250704114419.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M21863/fd7e8707_20250704114349.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "50×29×23cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 12,
+      "title": "Louis Vuitton M22303",
+      "subtitle": "M22303",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23.5 x 14 x 6cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/282e9248_20250704114423.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/282e9248_20250704114423.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/678d78ea_20250704114427.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/8575a020_20250704114430.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/754d7883_20250704114434.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/a1cea9aa_20250704114438.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/6d282f73_20250704114441.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/0cd0e2ff_20250704114445.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/b4dd7fc8_20250704114449.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/50386025_20250704114452.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22303/282e9248_20250704114423.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23.5 x 14 x 6cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 13,
+      "title": "Louis Vuitton M22304",
+      "subtitle": "M22304",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23.5 x 14 x 6cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/abd7fea7_20250704114456.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/abd7fea7_20250704114456.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/492e40d8_20250704114500.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/c0043ddd_20250704114504.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/63ec8d3d_20250704114507.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/82261831_20250704114511.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/86c5e576_20250704114515.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/21cd2a7e_20250704114519.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/d75f8ae9_20250704114522.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/c6b54217_20250704114526.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22304/abd7fea7_20250704114456.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23.5 x 14 x 6cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 14,
+      "title": "Louis Vuitton M22585",
+      "subtitle": "M22585",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23.5 x 14 x 6cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/3e59c199_20250704114530.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/3e59c199_20250704114530.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/abd18f61_20250704114533.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/bd73a26f_20250704114537.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/6261c62a_20250704114541.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/015591ce_20250704114545.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/950fa1e9_20250704114551.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/f07b85cb_20250704114555.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/a59be859_20250704114559.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/8198a867_20250704114602.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M22585/3e59c199_20250704114530.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23.5 x 14 x 6cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 15,
+      "title": "Louis Vuitton M30941",
+      "subtitle": "M30941",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "50×29×23cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/acd07e44_20250704114606.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/acd07e44_20250704114606.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/e1fad528_20250704114610.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/e68d539e_20250704114614.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/f8425559_20250704114618.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/d7ec1819_20250704114621.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/346a5232_20250704114625.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/0b835a35_20250704114629.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/8d156263_20250704114633.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/13a7ae01_20250704114636.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M30941/acd07e44_20250704114606.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "50×29×23cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 16,
+      "title": "Louis Vuitton M40343",
+      "subtitle": "M40343",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/c4cb028f_20250704114640.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/c4cb028f_20250704114640.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/afb87274_20250704114644.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/3d8e058a_20250704114647.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/38511458_20250704114651.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/550fe4df_20250704114654.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/824350b4_20250704114658.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/8428cc9e_20250704114702.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/235bc4ba_20250704114705.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/a978b444_20250704114709.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M40343/c4cb028f_20250704114640.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 17,
+      "title": "Louis Vuitton M43125",
+      "subtitle": "M43125",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/582cbedb_20250704114712.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/582cbedb_20250704114712.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/c3fed45f_20250704114716.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/49579692_20250704114719.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/2dd26c76_20250704114723.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/924ffe06_20250704114726.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/37406980_20250704114729.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/31f60e63_20250704114733.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/a7a8300c_20250704114736.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/c99c33c2_20250704114740.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M43125/582cbedb_20250704114712.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 18,
+      "title": "Louis Vuitton M44141",
+      "subtitle": "M44141",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "20.0 x 16.0 x 7.5 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/cb84aa38_20250704114743.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/cb84aa38_20250704114743.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/3594b9eb_20250704114746.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/d975a785_20250704114750.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/1285a45d_20250704114753.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/6299ed6a_20250704114757.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/46c3a362_20250704114800.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/98e830c2_20250704114803.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/7dc78979_20250704114807.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/22ac6639_20250704114810.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44141/cb84aa38_20250704114743.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "20.0 x 16.0 x 7.5 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 19,
+      "title": "Louis Vuitton M44321",
+      "subtitle": "M44321",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "20.0 x 16.0 x 7.5 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/ce67c743_20250704114813.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/ce67c743_20250704114813.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/7eac7648_20250704114816.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/b67d57a3_20250704114820.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/8601df3c_20250704114823.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/0f9d8f46_20250704114826.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/385770e8_20250704114830.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/59c5f7ee_20250704114833.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/8fe761f8_20250704114837.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/a142d533_20250704114840.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44321/ce67c743_20250704114813.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "20.0 x 16.0 x 7.5 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 20,
+      "title": "Louis Vuitton M44322",
+      "subtitle": "M44322",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/7b527926_20250704114844.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/7b527926_20250704114844.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/8bd96244_20250704114847.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/18431d89_20250704114850.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/a4a2e90d_20250704114854.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/467ea0e4_20250704114857.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/27b52712_20250704114901.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/fc8d32cc_20250704114904.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/642e95c0_20250704114907.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/e983477e_20250704114911.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44322/7b527926_20250704114844.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 21,
+      "title": "Louis Vuitton M44391",
+      "subtitle": "M44391",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/67367e37_20250704114914.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/67367e37_20250704114914.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/0243d1fd_20250704114918.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/bc158abd_20250704114921.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/44ca237c_20250704114925.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/05740630_20250704114928.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/0696fe4a_20250704114932.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/5133b4f4_20250704114935.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/dca0f141_20250704114939.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/68114480_20250704114942.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44391/67367e37_20250704114914.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 22,
+      "title": "Louis Vuitton M44654",
+      "subtitle": "M44654",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "20.0 x 16.0 x 7.5 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/c64a8b12_20250704114946.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/c64a8b12_20250704114946.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/b9d8bef4_20250704114949.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/e5b2eb9d_20250704114953.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/f1929a72_20250704114956.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/89d712b8_20250704115002.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/0479da53_20250704115006.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/bbe06db5_20250704115009.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/1c42d7a3_20250704115013.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/8fe92e4b_20250704115017.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44654/c64a8b12_20250704114946.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "20.0 x 16.0 x 7.5 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 23,
+      "title": "Louis Vuitton M44727",
+      "subtitle": "M44727",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "32.0 x 40.0 x 20.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/42c0424a_20250704115021.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/42c0424a_20250704115021.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/cd94aa54_20250704115024.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/cb4f97c9_20250704115028.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/694b4b16_20250704115032.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/b1d67f19_20250704115036.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/a037472f_20250704115040.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/19b10fd4_20250704115044.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/b2d86ee7_20250704115048.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/0ca0a919_20250704115053.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44727/42c0424a_20250704115021.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "32.0 x 40.0 x 20.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 24,
+      "title": "Louis Vuitton M44797",
+      "subtitle": "M44797",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/75575d94_20250704115057.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/75575d94_20250704115057.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/e602dd8f_20250704115102.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/88cbd87d_20250704115106.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/9b1decef_20250704115109.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/d72e6f4f_20250704115112.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/0b5c1fae_20250704115116.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/94312ae1_20250704115119.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/56296777_20250704115122.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/dad72327_20250704115126.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44797/75575d94_20250704115057.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 25,
+      "title": "Louis Vuitton M44808",
+      "subtitle": "M44808",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "20.0 x 16.0 x 7.5 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/f6db366f_20250704115130.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/f6db366f_20250704115130.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/38795259_20250704115133.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/6dfce342_20250704115136.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/53a874f3_20250704115140.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/4bc35d6e_20250704115143.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/527a1f41_20250704115146.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/f5852f44_20250704115150.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/ea57d3f3_20250704115153.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/ccd55f97_20250704115157.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44808/f6db366f_20250704115130.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "20.0 x 16.0 x 7.5 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 26,
+      "title": "Louis Vuitton M44919",
+      "subtitle": "M44919",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/6c41160b_20250704115200.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/6c41160b_20250704115200.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/e8ac1c05_20250704115203.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/8899067c_20250704115207.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/6b6ae7c0_20250704115210.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/0e65555e_20250704115214.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/cd4083ee_20250704115218.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/4109982a_20250704115221.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/837be752_20250704115224.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/ef394871_20250704115228.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M44919/6c41160b_20250704115200.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 27,
+      "title": "Louis Vuitton M45119",
+      "subtitle": "M45119",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "41.0 x 34.0 x 19.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/782b41da_20250704115231.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/782b41da_20250704115231.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/3555ca46_20250704115235.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/f2e85426_20250704115239.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/9f08f07a_20250704115242.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/6a7f96fb_20250704115246.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/93bc549b_20250704115249.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/842c16a7_20250704115252.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/2789b5ec_20250704115256.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/80665627_20250704115259.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45119/782b41da_20250704115231.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "41.0 x 34.0 x 19.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 28,
+      "title": "Louis Vuitton M45120",
+      "subtitle": "M45120",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "41.0 x 34.0 x 19.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/1d079a35_20250704115303.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/1d079a35_20250704115303.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/e1085d7f_20250704115306.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/cdf0bcd1_20250704115310.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/ad7af588_20250704115313.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/58b2ed37_20250704115317.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/e816b81a_20250704115320.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/f959ce67_20250704115324.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/97805b82_20250704115327.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/98d10272_20250704115331.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45120/1d079a35_20250704115303.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "41.0 x 34.0 x 19.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 29,
+      "title": "Louis Vuitton M45121",
+      "subtitle": "M45121",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "41.0 x 34.0 x 19.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/4421be45_20250704115335.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/4421be45_20250704115335.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/701eabea_20250704115338.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/60447d9b_20250704115342.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/95d0bf95_20250704115346.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/c08829f5_20250704115350.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/4daa6bc8_20250704115354.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/5ae21f18_20250704115358.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/8f1d1dce_20250704115402.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/9b68ca89_20250704115406.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45121/4421be45_20250704115335.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "41.0 x 34.0 x 19.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 30,
+      "title": "Louis Vuitton M45124",
+      "subtitle": "M45124",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "26.0 x 26.0 x 17.5 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/6874df94_20250704115410.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/6874df94_20250704115410.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/1ce49bfd_20250704115414.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/eca1c15f_20250704115417.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/083bb7f9_20250704115421.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/dee732ff_20250704115424.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/da48a3ce_20250704115428.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/c7bfbf60_20250704115431.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/0cf61107_20250704115435.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/9f92f658_20250704115439.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45124/6874df94_20250704115410.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "26.0 x 26.0 x 17.5 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 31,
+      "title": "Louis Vuitton M45127",
+      "subtitle": "M45127",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "31.0 x 28.5 x 17.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/2bc4ecdd_20250704115442.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/2bc4ecdd_20250704115442.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/c21d1df4_20250704115446.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/4b40fc1f_20250704115449.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/0994f920_20250704115452.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/c9393d83_20250704115456.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/540203e5_20250704115459.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/2fb5383f_20250704115503.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/1940383f_20250704115507.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/996577ed_20250704115510.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45127/2bc4ecdd_20250704115442.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "31.0 x 28.5 x 17.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 32,
+      "title": "Louis Vuitton M45128",
+      "subtitle": "M45128",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/5a1efa57_20250704115514.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/5a1efa57_20250704115514.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/577d0d50_20250704115517.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/a91b99c6_20250704115521.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/3408d05d_20250704115524.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/9b0d1a83_20250704115527.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/785b4594_20250704115531.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/98e3fa83_20250704115535.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/c96e9bfb_20250704115538.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/28c42398_20250704115542.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45128/5a1efa57_20250704115514.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 33,
+      "title": "Louis Vuitton M45146",
+      "subtitle": "M45146",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "26.0 x 26.0 x 17.5 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/a95e6ad0_20250704115545.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/a95e6ad0_20250704115545.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/165860be_20250704115549.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/beccc9f3_20250704115553.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/b93284fb_20250704115556.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/4ee43306_20250704115600.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/379b21b1_20250704115603.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/8b2be017_20250704115607.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/7b7dd47d_20250704115611.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/699607ce_20250704115614.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45146/a95e6ad0_20250704115545.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "26.0 x 26.0 x 17.5 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 34,
+      "title": "Louis Vuitton M45270",
+      "subtitle": "M45270",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/4f93e38a_20250704115618.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/4f93e38a_20250704115618.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/5044af1d_20250704115621.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/fab0000e_20250704115625.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/45e21c6e_20250704115628.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/608d82a7_20250704115632.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/2bf832cb_20250704115636.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/e62824e5_20250704115639.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/fff61b4a_20250704115643.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/faa5c12e_20250704115646.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45270/4f93e38a_20250704115618.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 35,
+      "title": "Louis Vuitton M45274",
+      "subtitle": "M45274",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "31.0 x 28.5 x 17.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/8a8b207f_20250704115650.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/8a8b207f_20250704115650.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/be89745e_20250704115654.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/85893e5d_20250704115657.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/52a19fde_20250704115700.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/43a01587_20250704115704.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/0ce9c8b4_20250704115708.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/77449801_20250704115711.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/58f83dad_20250704115715.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/94fd3b80_20250704115718.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45274/8a8b207f_20250704115650.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "31.0 x 28.5 x 17.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 36,
+      "title": "Louis Vuitton M45335",
+      "subtitle": "M45335",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "31×41.5×15.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/9bb75c9a_20250704115722.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/9bb75c9a_20250704115722.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/1cfbcadc_20250704115725.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/0ceb6136_20250704115729.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/2cd5bf40_20250704115732.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/5059a5dc_20250704115736.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/e1defb09_20250704115740.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/362bf7e1_20250704115743.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/2960e448_20250704115747.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/de1fea4c_20250704115750.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45335/9bb75c9a_20250704115722.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "31×41.5×15.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 37,
+      "title": "Louis Vuitton M45728",
+      "subtitle": "M45728",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "32 x 40 x 20cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/b8fd1d4b_20250704115754.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/b8fd1d4b_20250704115754.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/74e7f0a9_20250704115757.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/9bf52dd1_20250704115801.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/95dbb06f_20250704115805.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/8f645dc5_20250704115808.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/f4718f41_20250704115812.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/3b7126c5_20250704115816.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/c16664ae_20250704115820.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/37ffcdaa_20250704115823.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45728/b8fd1d4b_20250704115754.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "32 x 40 x 20cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 38,
+      "title": "Louis Vuitton M45777",
+      "subtitle": "M45777",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "25 x 14.5 x 4.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/a1cd48c8_20250704115828.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/a1cd48c8_20250704115828.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/2ca07401_20250704115831.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/34b89170_20250704115835.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/2f86a031_20250704115904.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/87192efa_20250704115915.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/4c4a6fac_20250704115919.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/ce859144_20250704115923.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/b50ed5f0_20250704115927.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M45777/a1cd48c8_20250704115828.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25 x 14.5 x 4.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 39,
+      "title": "Louis Vuitton M46102",
+      "subtitle": "M46102",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/9dd6a208_20250704115930.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/9dd6a208_20250704115930.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/6b247476_20250704115934.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/f3b8e272_20250704115938.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/4b8c1a6c_20250704115941.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/2a5328ef_20250704115945.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/cac27ce7_20250704115949.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/3bc27a5d_20250704115953.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/c072cc32_20250704115956.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/3f11d5eb_20250704120000.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46102/9dd6a208_20250704115930.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 40,
+      "title": "Louis Vuitton M46103",
+      "subtitle": "M46103",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "31 x 28 x 14cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/c463e6e2_20250704120005.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/c463e6e2_20250704120005.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/3ead9915_20250704120009.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/e54c730b_20250704120013.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/fd225eb1_20250704120017.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/1a0f893a_20250704120020.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/9e36917b_20250704120024.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/3134db21_20250704120028.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/66202ba5_20250704120031.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/f0cec43e_20250704120035.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46103/c463e6e2_20250704120005.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "31 x 28 x 14cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 41,
+      "title": "Louis Vuitton M46105",
+      "subtitle": "M46105",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "33 x 41 x 18cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/07a8748a_20250704120039.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/07a8748a_20250704120039.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/0c332d0b_20250704120043.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/c6fc59c7_20250704120046.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/0a02ecd5_20250704120050.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/df2f836b_20250704120054.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/d183abe9_20250704120057.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/dd95dd02_20250704120101.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/4d23d15f_20250704120105.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/d95cd463_20250704120111.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46105/07a8748a_20250704120039.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "33 x 41 x 18cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 42,
+      "title": "Louis Vuitton M46109",
+      "subtitle": "M46109",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "33 x 41 x 18cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/ca3eca04_20250704120115.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/ca3eca04_20250704120115.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/5e14efaf_20250704120119.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/f35c0dd9_20250704120122.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/e410a2e3_20250704120126.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/0cd6153e_20250704120130.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/b18ad906_20250704120133.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/9a0bc9f5_20250704120137.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/c99acb82_20250704120141.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/6791d421_20250704120145.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46109/ca3eca04_20250704120115.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "33 x 41 x 18cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 43,
+      "title": "Louis Vuitton M46168",
+      "subtitle": "M46168",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "25 x 19 x 11.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/bb62a3be_20250704120149.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/bb62a3be_20250704120149.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/0d0a848c_20250704120153.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/036d765d_20250704120156.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/6860984d_20250704120200.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/b6321d61_20250704120203.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/56538cf8_20250704120207.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/703bdb26_20250704120211.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/9974afe7_20250704120214.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/fefb758a_20250704120218.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/b6795a8e_20250704120222.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/047cb033_20250704120226.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/12e533ca_20250704120229.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/c922ed3a_20250704120233.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/1157059e_20250704120237.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/acaeeaef_20250704120240.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/0199655a_20250704120244.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/1c8d2c22_20250704120247.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/b502632f_20250704120251.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/68edeed0_20250704120255.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/0e522ca4_20250704120259.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/1f250f70_20250704120303.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/49a2acc6_20250704120306.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/eb1c96b7_20250704120310.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/f1119a5d_20250704120314.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/a98e8014_20250704120318.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/6598b614_20250704120321.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/d7d9c5ee_20250704120325.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46168/bb62a3be_20250704120149.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25 x 19 x 11.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 44,
+      "title": "Louis Vuitton M46286",
+      "subtitle": "M46286",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "34×26×13cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/a5567aa3_20250704120329.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/a5567aa3_20250704120329.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/99e0db1c_20250704120332.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/a5580bb8_20250704120335.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/6f1439e7_20250704120339.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/9fe85121_20250704120342.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/bcb3df75_20250704120346.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/e8fd83f8_20250704120349.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/7014f42c_20250704120353.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/9866d913_20250704120356.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46286/a5567aa3_20250704120329.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "34×26×13cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 45,
+      "title": "Louis Vuitton M46373",
+      "subtitle": "M46373",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "25×19×11cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/cd7ee3f8_20250704120400.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/cd7ee3f8_20250704120400.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/5a39542b_20250704120404.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/ce500b2a_20250704120407.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/618e43a8_20250704120411.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/a078508e_20250704120414.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/1375544c_20250704120418.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/37ab4f61_20250704120421.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/f81d8b21_20250704120425.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/7a60f0af_20250704120429.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46373/cd7ee3f8_20250704120400.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25×19×11cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 46,
+      "title": "Louis Vuitton M46386",
+      "subtitle": "M46386",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "25×16×8cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/9b778669_20250704120433.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/9b778669_20250704120433.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/60e605fc_20250704120436.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/6b437550_20250704120440.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/d9985093_20250704120443.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/79e5376e_20250704120447.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/23ca6853_20250704120450.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/68c1eb68_20250704120454.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/06064b84_20250704120458.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/982841cd_20250704120501.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46386/9b778669_20250704120433.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25×16×8cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 47,
+      "title": "Louis Vuitton M46388",
+      "subtitle": "M46388",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "25×16×8cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/0d0de600_20250704120505.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/0d0de600_20250704120505.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/a345c8eb_20250704120509.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/f796f009_20250704120512.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/8e962a08_20250704120516.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/721b4724_20250704120520.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/5952e383_20250704120523.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/dfea97e5_20250704120527.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/0b463e3f_20250704120530.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/232d4f59_20250704120534.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46388/0d0de600_20250704120505.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25×16×8cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 48,
+      "title": "Louis Vuitton M46583",
+      "subtitle": "M46583",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "25×16×8cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/cde39313_20250704120538.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/cde39313_20250704120538.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/beb544a0_20250704120541.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/1e9bc92b_20250704120545.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/ee4893dc_20250704120549.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/01034e64_20250704120552.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/3a6d873c_20250704120556.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/25199566_20250704120559.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/b2eca3bc_20250704120603.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/2e6032ca_20250704120607.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46583/cde39313_20250704120538.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25×16×8cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 49,
+      "title": "Louis Vuitton M46602",
+      "subtitle": "M46602",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "25×18.5×7cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/ea11cdd1_20250704120610.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/ea11cdd1_20250704120610.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/900ae2f2_20250704120614.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/903e01ec_20250704120617.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/d41a0f8d_20250704120621.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/0f86a0fe_20250704120624.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/c3171332_20250704120628.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/5f71a7ab_20250704120631.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/3ef44eae_20250704120635.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/d49eee64_20250704120639.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46602/ea11cdd1_20250704120610.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25×18.5×7cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 50,
+      "title": "Louis Vuitton M46987",
+      "subtitle": "M46987",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/318a788b_20250704120642.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/318a788b_20250704120642.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/a397a595_20250704120646.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/86a69a51_20250704120649.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/924a38e6_20250704120653.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/e0a4c129_20250704120657.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/110e633e_20250704120700.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/e023d8dd_20250704120704.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/16e908d7_20250704120707.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/b9fa1aac_20250704120711.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/0bb41ea9_20250704120714.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/307bc5ba_20250704120718.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/6d36cc6f_20250704120721.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/1e9eccb9_20250704120725.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/66abf307_20250704120729.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/ffa46ade_20250704120732.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/923464a2_20250704120736.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/f1096422_20250704120740.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/436eba61_20250704120744.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M46987/318a788b_20250704120642.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 51,
+      "title": "Louis Vuitton M55947",
+      "subtitle": "M55947",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23.0 x 15.0 x 8.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/91e228f5_20250704120747.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/91e228f5_20250704120747.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/4504b2b1_20250704120751.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/e99b7dcf_20250704120754.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/cfff9917_20250704120757.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/9ec35260_20250704120801.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/be63b236_20250704120805.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/d7eaa84d_20250704120808.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/9c403586_20250704120812.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/e193a316_20250704120815.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55947/91e228f5_20250704120747.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23.0 x 15.0 x 8.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 52,
+      "title": "Louis Vuitton M55948",
+      "subtitle": "M55948",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23.0 x 15.0 x 8.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/ab1d18b0_20250704120819.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/ab1d18b0_20250704120819.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/b2aa5c21_20250704120823.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/6850975b_20250704120827.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/dc463b47_20250704120830.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/7c8c1778_20250704120834.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/66ae2219_20250704120837.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/58f57fbe_20250704120841.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/2ee5ab2b_20250704120845.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/4024d8cb_20250704120848.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55948/ab1d18b0_20250704120819.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23.0 x 15.0 x 8.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 53,
+      "title": "Louis Vuitton M55949",
+      "subtitle": "M55949",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23.0 x 15.0 x 8.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/c357e04f_20250704120852.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/c357e04f_20250704120852.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/afca428d_20250704120856.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/7dbfbff5_20250704120859.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/72f84754_20250704120903.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/1cc17dc9_20250704120906.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/82fdb6f4_20250704120910.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/20dacdaa_20250704120913.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/21a13625_20250704120916.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/13f46a81_20250704120920.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55949/c357e04f_20250704120852.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23.0 x 15.0 x 8.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 54,
+      "title": "Louis Vuitton M55950",
+      "subtitle": "M55950",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23.0 x 15.0 x 8.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/66858164_20250704120924.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/66858164_20250704120924.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/43c001a3_20250704120927.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/f008c006_20250704120931.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/5b7a688b_20250704120934.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/ca3276c9_20250704120937.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/f8dc1149_20250704120941.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/7c904bab_20250704120945.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/48683dde_20250704120948.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/a843bd51_20250704120952.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M55950/66858164_20250704120924.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23.0 x 15.0 x 8.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 55,
+      "title": "Louis Vuitton M57726",
+      "subtitle": "M57726",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "24×18×5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/6e1e9a19_20250704120955.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/6e1e9a19_20250704120955.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/3a866b9f_20250704120958.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/4900fa38_20250704121002.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/41ef7a88_20250704121006.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/4ec8f4f1_20250704121009.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/d79257ed_20250704121013.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/9a88d19b_20250704121016.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/caec251f_20250704121020.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/b2e947ae_20250704121023.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57726/6e1e9a19_20250704120955.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "24×18×5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 56,
+      "title": "Louis Vuitton M57783",
+      "subtitle": "M57783",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "medium",
+      "sizeDisplay": "34 x 24 x 12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/17fda959_20250704121027.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/17fda959_20250704121027.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/c355b97c_20250704121031.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/62875f73_20250704121034.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/26c234e4_20250704121038.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/3325d0cb_20250704121041.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/092b9be1_20250704121046.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/4578e4e0_20250704121050.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/1c1bdce5_20250704121053.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/7cc6c955_20250704121057.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/fe0c122a_20250704121101.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/7f2f474b_20250704121104.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/381e6dc3_20250704121108.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/98b80394_20250704121111.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/21b7c305_20250704121115.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/2a2cc10d_20250704121119.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/8395d444_20250704121123.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/dc08d64e_20250704121127.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/9611e00a_20250704121130.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57783/17fda959_20250704121027.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "34 x 24 x 12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 57,
+      "title": "Louis Vuitton M57835",
+      "subtitle": "M57835",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "19 x 9 x 9cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/38c78b9c_20250704121134.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/38c78b9c_20250704121134.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/9eac8ea6_20250704121138.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/bb36cd23_20250704121141.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/832fb854_20250704121145.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/f58abe57_20250704121148.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/046f3161_20250704121151.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/3dbb11f6_20250704121155.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/f7bc7438_20250704121158.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/d1c31d3d_20250704121202.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M57835/38c78b9c_20250704121134.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "19 x 9 x 9cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 58,
+      "title": "Louis Vuitton M59416",
+      "subtitle": "M59416",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "23 x 17 x 9.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/498703d7_20250704121206.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/498703d7_20250704121206.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/c811f704_20250704121209.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/0b1a7633_20250704121213.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/8aea83c9_20250704121217.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/6fef1fae_20250704121220.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/a61c1683_20250704121224.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/f6fcf578_20250704121227.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/27a0d55c_20250704121231.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/58ba26cb_20250704121234.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M59416/498703d7_20250704121206.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "23 x 17 x 9.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 59,
+      "title": "Louis Vuitton M68746",
+      "subtitle": "M68746",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "mini",
+      "sizeDisplay": "18.5 x 12.0 x 5.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/40154541_20250704121238.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/40154541_20250704121238.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/8b631d5f_20250704121243.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/9a79fd6b_20250704121247.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/ffba8518_20250704121250.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/a2431553_20250704121254.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/175278a0_20250704121257.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/0a0c3690_20250704121301.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/e96eb766_20250704121304.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/c2615fd0_20250704121308.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M68746/40154541_20250704121238.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "18.5 x 12.0 x 5.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 60,
+      "title": "Louis Vuitton M82248",
+      "subtitle": "M82248",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "small",
+      "sizeDisplay": "13×21×8cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/9d5f7a15_20250704121311.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/9d5f7a15_20250704121311.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/dfc00df5_20250704121315.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/7d15ba7a_20250704121319.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/8c5a77b0_20250704121322.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/67f64529_20250704121325.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/06f5f110_20250704121329.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/b0048a77_20250704121332.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/21428533_20250704121336.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/98f04f87_20250704121340.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M82248/9d5f7a15_20250704121311.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "13×21×8cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 61,
+      "title": "Louis Vuitton M94171",
+      "subtitle": "M94171",
+      "brand": "louis-vuitton",
+      "brandDisplay": "Louis Vuitton",
+      "size": "large",
+      "sizeDisplay": "46.0 x 32.0 x 22.0 cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/cc72af16_20250704121346.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/cc72af16_20250704121346.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/a682f7ee_20250704121352.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/41ec8881_20250704121355.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/70ac7dae_20250704121359.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/83dff224_20250704121403.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/3c9b89a6_20250704121407.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/bbeddc72_20250704121411.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/ea95cdb6_20250704121415.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/fd41d772_20250704121419.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Louis Vuitton_M94171/cc72af16_20250704121346.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Louis Vuitton handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "46.0 x 32.0 x 22.0 cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 62,
+      "title": "Hermès crocodile pattern",
+      "subtitle": "crocodile pattern",
+      "brand": "hermes",
+      "brandDisplay": "Hermès",
+      "size": "small",
+      "sizeDisplay": "30×25×12cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3a42e26f_20250704213811.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3a42e26f_20250704213811.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3b769f40_20250704213815.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/2d2822ff_20250704213819.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/b2a5d4e1_20250704213823.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/8e3651fc_20250704213827.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/0c26389a_20250704213830.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/9318ad42_20250704213834.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/d7c809db_20250704213838.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/9d79155b_20250704213841.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_crocodile pattern/3a42e26f_20250704213811.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted Hermès handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "30×25×12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
     }
   ],
   "filters": {
