@@ -3252,54 +3252,6 @@
       "category": "bags"
     },
     {
-      "id": 66,
-      "title": "Hermès 8400#Blue",
-      "subtitle": "8400#Blue",
-      "brand": "hermes",
-      "brandDisplay": "Hermès",
-      "size": "small",
-      "sizeDisplay": "28×18×4cm",
-      "price": "high",
-      "color": "black",
-      "colorDisplay": "Black",
-      "material": "Genuine Leather",
-      "featured": false,
-      "rating": 5,
-      "reviews": 10,
-      "status": "available",
-      "images": {
-        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/8a9da655742a.jpg",
-        "gallery": [
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/8a9da655742a.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/326a623f8dcb.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/7c298dbbd4fa.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/91c513003e91.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/84ebc3e91db8.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/06c3ffc02f77.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/7a8ebc27c2c1.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/ea571751cfdc.jpg",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/053a98fd70ed.jpg"
-        ],
-        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/Hermès_8400#Blue/8a9da655742a.jpg"
-      },
-      "features": [
-        "Premium genuine leather",
-        "Handcrafted excellence",
-        "Multi-functional design",
-        "Timeless classic style"
-      ],
-      "description": "Expertly crafted Hermès handbag showcasing exceptional craftsmanship and timeless elegance.",
-      "specifications": {
-        "Dimensions": "28×18×4cm"
-      },
-      "tags": [
-        "Premium",
-        "Luxury",
-        "Quality"
-      ],
-      "category": "bags"
-    },
-    {
       "id": 67,
       "title": "Hermès GREEN",
       "subtitle": "GREEN",
