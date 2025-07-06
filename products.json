@@ -3505,6 +3505,1269 @@
         "Quality"
       ],
       "category": "bags"
+    },
+    {
+      "id": 71,
+      "title": "DIOR 0065",
+      "subtitle": "0065",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "22 x 12.5 x 12cm",
+      "price": "high",
+      "color": "green",
+      "colorDisplay": "Green",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/2cc17c06fc45.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/2cc17c06fc45.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/4578f673531a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/56bea1659ec4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/5fcfdf069af1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/fdb058ccb26e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/ca22350296d1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/e301dadfca23.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/5b726b7c54d7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/c751f339ce82.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/2cc17c06fc45.jpg"
+      },
+      "colorOptions": {
+        "green": {
+          "name": "Green",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/2cc17c06fc45.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/4578f673531a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/56bea1659ec4.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/5fcfdf069af1.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/fdb058ccb26e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/ca22350296d1.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/e301dadfca23.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/5b726b7c54d7.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/c751f339ce82.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__green/2cc17c06fc45.jpg"
+        },
+        "grey": {
+          "name": "Grey",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/77349b2677d1.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/3c64b71ff0ee.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/6583f800cba8.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/e082b5d1abfa.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/5ed2d354a03d.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/6dca6dfb4db6.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/eb55e3cf0462.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/c408cebf9367.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/030e305f7e64.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__grey/77349b2677d1.jpg"
+        },
+        "pink": {
+          "name": "Pink",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/766ab390e17b.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/a4bed30ad990.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/10b025cc202e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/6bb3a19562b1.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/311d4af6ad19.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/c039e1a6d36a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/2bba5a03a9fb.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/6424c175e8bf.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/faf9870b17de.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__pink/766ab390e17b.jpg"
+        },
+        "beige": {
+          "name": "Beige",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/4f2cf6a050ad.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/211f3b05ef47.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/2ed4740246c3.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/6fa43d7d5ada.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/3a536b654d4c.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/69ac152ff42a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/6fa3c9e4d64e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/2eed0377dab7.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/3b5462b3d2ec.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__beige/4f2cf6a050ad.jpg"
+        },
+        "yellow": {
+          "name": "Yellow",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/fa8a53a62323.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/4118251d3551.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/3f1150e249eb.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/a3a01a6d7d05.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/3d53dc2f4452.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/7720939a07f7.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/7ee1c22de2ad.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/a810c5f632c1.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/53864c934504.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__yellow/fa8a53a62323.jpg"
+        },
+        "black": {
+          "name": "Black",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/a90fe8b6f524.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/705fe15d3731.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/027016263bac.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/f3de5e62cec6.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/52ebaae2603c.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/ceccf9eeb1c1.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/ec33b4aca652.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/da1ecc7cb59d.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/14d1800a42b0.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_0065__black/a90fe8b6f524.jpg"
+        }
+      },
+      "availableColors": [
+        {
+          "value": "green",
+          "label": "Green"
+        },
+        {
+          "value": "grey",
+          "label": "Grey"
+        },
+        {
+          "value": "pink",
+          "label": "Pink"
+        },
+        {
+          "value": "beige",
+          "label": "Beige"
+        },
+        {
+          "value": "yellow",
+          "label": "Yellow"
+        },
+        {
+          "value": "black",
+          "label": "Black"
+        }
+      ],
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style",
+        "Multiple color options"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance. Available in 6 beautiful colors.",
+      "specifications": {
+        "Dimensions": "22 x 12.5 x 12cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality",
+        "Multi-Color"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 72,
+      "title": "DIOR 1298",
+      "subtitle": "1298",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "25×15×14cm",
+      "price": "high",
+      "color": "grey",
+      "colorDisplay": "Grey",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/5d93bb279b0b.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/5d93bb279b0b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/9a72cfc5c9d4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/c5e312784b19.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/e73890c42082.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/3b4a25edaebe.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/21c60cf59193.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/a463500a76bd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/ea19c79b27e6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/4ed6c457e69d.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/5d93bb279b0b.jpg"
+      },
+      "colorOptions": {
+        "grey": {
+          "name": "Grey",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/5d93bb279b0b.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/9a72cfc5c9d4.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/c5e312784b19.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/e73890c42082.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/3b4a25edaebe.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/21c60cf59193.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/a463500a76bd.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/ea19c79b27e6.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/4ed6c457e69d.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__grey/5d93bb279b0b.jpg"
+        },
+        "pink": {
+          "name": "Pink",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/46a4117adfcf.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/c08cbb98b520.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/67a1e1758e16.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/92d49b10b835.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/261f6c269840.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/5c535dc3ec2d.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/3d154680cc3e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/c7efd37d7303.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/7109e445afe3.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_1298__pink/46a4117adfcf.jpg"
+        }
+      },
+      "availableColors": [
+        {
+          "value": "grey",
+          "label": "Grey"
+        },
+        {
+          "value": "pink",
+          "label": "Pink"
+        }
+      ],
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style",
+        "Multiple color options"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance. Available in 2 beautiful colors.",
+      "specifications": {
+        "Dimensions": "25×15×14cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality",
+        "Multi-Color"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 73,
+      "title": "DIOR 3351",
+      "subtitle": "3351",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "25.5 x 20 x 6.5CMcm",
+      "price": "high",
+      "color": "blue",
+      "colorDisplay": "Blue",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/d5d2cd508711.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/d5d2cd508711.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/d80560459b54.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/131bf976249b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/f93e61648974.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/e478d9aea06a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/57610a892a9e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/3a47bbb77f02.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/009a357d269b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/0b350bb399e3.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/d5d2cd508711.jpg"
+      },
+      "colorOptions": {
+        "blue": {
+          "name": "Blue",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/d5d2cd508711.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/d80560459b54.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/131bf976249b.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/f93e61648974.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/e478d9aea06a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/57610a892a9e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/3a47bbb77f02.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/009a357d269b.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/0b350bb399e3.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__blue/d5d2cd508711.jpg"
+        },
+        "grey": {
+          "name": "Grey",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/5708e843474a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/66069c52d818.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/d6c735f7c073.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/0cde2f799b7a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/d74dab05148d.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/46f92f0773fb.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/ff6d0b32801d.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/ead42b0579a8.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/6937e80d2b29.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_3351__grey/5708e843474a.jpg"
+        }
+      },
+      "availableColors": [
+        {
+          "value": "blue",
+          "label": "Blue"
+        },
+        {
+          "value": "grey",
+          "label": "Grey"
+        }
+      ],
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style",
+        "Multiple color options"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance. Available in 2 beautiful colors.",
+      "specifications": {
+        "Dimensions": "25.5 x 20 x 6.5CMcm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality",
+        "Multi-Color"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 74,
+      "title": "DIOR 8001-large",
+      "subtitle": "8001-large",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "large",
+      "sizeDisplay": "42×35×18.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/cde04068f6f1.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/cde04068f6f1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/52bc8e924a49.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/3b6f24c07da8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/cd522724573e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/027504ed3aac.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/51dcc5a483c7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/663a5dc48522.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/fb9ab20b8684.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/d71e8b4678fb.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-large/cde04068f6f1.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "42×35×18.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 75,
+      "title": "DIOR 8001-small",
+      "subtitle": "8001-small",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "36-28 CMcm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /a38c034a73c1.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /a38c034a73c1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /21fd007f1887.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /169c08ce93ad.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /9db0e34c9328.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /8c8313448727.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /8b8c08bfab4e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /be733bf8c4f5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /af2a56a9fb3f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /432d184255c6.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8001-small /a38c034a73c1.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "36-28 CMcm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 76,
+      "title": "DIOR 8002 Dior Petites Fleurs",
+      "subtitle": "8002 Dior Petites Fleurs",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "26CMcm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/a286fa1e80af.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/a286fa1e80af.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/3726dc32144f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/6ad3a8182692.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/5191dcb02764.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/c38950b188f5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/d5ee0b394a60.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/c671c7bf95fa.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/affe14b60e43.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/fb036848df2c.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs/a286fa1e80af.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "26CMcm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 77,
+      "title": "DIOR 8002 Dior Petites Fleurs",
+      "subtitle": "8002 Dior Petites Fleurs",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "large",
+      "sizeDisplay": "41CMcm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /a286fa1e80af.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /a286fa1e80af.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /3726dc32144f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /6ad3a8182692.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /5191dcb02764.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /c38950b188f5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /d5ee0b394a60.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /c671c7bf95fa.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /affe14b60e43.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /fb036848df2c.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_8002 Dior Petites Fleurs /a286fa1e80af.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "41CMcm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 78,
+      "title": "DIOR 9260",
+      "subtitle": "9260",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "22.5×12.5×6.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /88daf9b8f07e.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /88daf9b8f07e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /807ff039e8b1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /7ff413e2e1b5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /be7671ec87f1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /5df78f6689ac.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /5f069cd345be.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /25a9fa8886c9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /7b921d6d369d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /94a841a0c2ff.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_9260  /88daf9b8f07e.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "22.5×12.5×6.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 79,
+      "title": "DIOR Dior Book Tote",
+      "subtitle": "Dior Book Tote",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "large",
+      "sizeDisplay": "41.5×32cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /4770af74b065.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /4770af74b065.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /f774eea8fee8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /0055fce822f8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /20eb2fa2d37a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /4487d8c5e099.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /38e9bd89a092.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /78b2f1b32e61.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /6e884ce62477.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /6bfe8c155e3f.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior Book Tote /4770af74b065.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "41.5×32cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 80,
+      "title": "DIOR Dior Montaigne",
+      "subtitle": "Dior Montaigne",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "25×16.5×8cm",
+      "price": "high",
+      "color": "belt",
+      "colorDisplay": "Belt",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/cc1bbe340b5d.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/cc1bbe340b5d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/4106f96fcc3e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/a297e8dbdd86.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/115d6be24854.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/48815464c17c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/920b9018202a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/0bbdcfe7d71e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/39ed84db5311.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/e97d16e0d5b9.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/cc1bbe340b5d.jpg"
+      },
+      "colorOptions": {
+        "belt": {
+          "name": "Belt",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/cc1bbe340b5d.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/4106f96fcc3e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/a297e8dbdd86.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/115d6be24854.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/48815464c17c.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/920b9018202a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/0bbdcfe7d71e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/39ed84db5311.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/e97d16e0d5b9.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__belt/cc1bbe340b5d.jpg"
+        },
+        "chain": {
+          "name": "Chain",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/77893da5b301.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/4106f96fcc3e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/af1c46bf858e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/8d893103a737.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/6845efed1678.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/28a38d4e33ad.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/7391704569d6.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/8d9a41ad6cc4.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/fa3dabf8dba9.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior_Montaigne__chain/77893da5b301.jpg"
+        }
+      },
+      "availableColors": [
+        {
+          "value": "belt",
+          "label": "Belt"
+        },
+        {
+          "value": "chain",
+          "label": "Chain"
+        }
+      ],
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style",
+        "Multiple color options"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance. Available in 2 beautiful colors.",
+      "specifications": {
+        "Dimensions": "25×16.5×8cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality",
+        "Multi-Color"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 81,
+      "title": "DIOR Dior saddle-large",
+      "subtitle": "Dior saddle-large",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "25.5×20×6.5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /2c5745a16b62.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /2c5745a16b62.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /08375183e8d7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /77b8f508d0ca.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /34613b125fda.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /18914cc5c78a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /86a6f562d1c7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /b8701cddfa07.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /cc789fec48f8.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-large /2c5745a16b62.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "25.5×20×6.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 82,
+      "title": "DIOR Dior saddle-small",
+      "subtitle": "Dior saddle-small",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "mini",
+      "sizeDisplay": "19.5×18×5cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /da6d85639933.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /da6d85639933.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /fa5ddcfb4861.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /8f962adfbd1d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /bcf7a913a701.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /a255858f50b5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /e5bf0b032129.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /10eeede9318f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /ec28b0bbcbf8.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior saddle-small  /da6d85639933.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "19.5×18×5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 83,
+      "title": "DIOR Dior30 Montaigne Avenue",
+      "subtitle": "Dior30 Montaigne Avenue",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "22.5×12.5×6.5cm",
+      "price": "high",
+      "color": "brown",
+      "colorDisplay": "Brown",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/9d37cc4656ba.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/9d37cc4656ba.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/5c0369b28957.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/3e5dfd976a60.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/75aaabd5cc32.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/d75b7181de9a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/83dbba8aad9e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/776fca41c464.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/7fbc8b4c516d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/7919eb33e850.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/9d37cc4656ba.jpg"
+      },
+      "colorOptions": {
+        "brown": {
+          "name": "Brown",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/9d37cc4656ba.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/5c0369b28957.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/3e5dfd976a60.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/75aaabd5cc32.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/d75b7181de9a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/83dbba8aad9e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/776fca41c464.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/7fbc8b4c516d.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/7919eb33e850.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__brown/9d37cc4656ba.jpg"
+        },
+        "grey": {
+          "name": "Grey",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/d4cad93c2e4e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/5830434889fa.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/1f205863d012.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/5b6ec20853cd.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/7c3a02dc57ee.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/1a1acaaef50a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/f1d29000d606.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/dbd4bdc90dbb.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/5f53629a94c7.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__grey/d4cad93c2e4e.jpg"
+        },
+        "pink": {
+          "name": "Pink",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/54618ce68d1b.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/45f9ff4373fb.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/dcd9848078d1.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/a9d890cb544a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/6891190202a9.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/9c31ea0f8b42.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/7bb9c5c5d8b2.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/be2d8bcef102.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/ffa4ff4be081.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__pink/54618ce68d1b.jpg"
+        },
+        "white": {
+          "name": "White",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/aae6cfc2f7b6.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/dd24017cd7b5.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/e4dca388d151.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/46ac541f5788.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/88afcbc2646e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/2a9ff7e25c0b.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/56e2b5f24ed6.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/0d34a61bd32e.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/5389f53e4e6b.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__white/aae6cfc2f7b6.jpg"
+        },
+        "black": {
+          "name": "Black",
+          "gallery": [
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/b1ba1d2d63fe.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/bb2850bedf04.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/2f68906e2d89.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/3a7d19a9d81a.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/42d097fcb6cc.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/27cc21abc1d3.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/e96a7c04a8cc.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/9734e2e507d0.jpg",
+            "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/995f88d0ba51.jpg"
+          ],
+          "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_Dior30_Montaigne_Avenue__black/b1ba1d2d63fe.jpg"
+        }
+      },
+      "availableColors": [
+        {
+          "value": "brown",
+          "label": "Brown"
+        },
+        {
+          "value": "grey",
+          "label": "Grey"
+        },
+        {
+          "value": "pink",
+          "label": "Pink"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "black",
+          "label": "Black"
+        }
+      ],
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style",
+        "Multiple color options"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance. Available in 5 beautiful colors.",
+      "specifications": {
+        "Dimensions": "22.5×12.5×6.5cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality",
+        "Multi-Color"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 84,
+      "title": "DIOR M1286-large",
+      "subtitle": "M1286-large",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "large",
+      "sizeDisplay": "41.5-35cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/491f65a6da2f.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/491f65a6da2f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/266b54f31e48.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/5e206e8d7755.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/4f6e28d8e7ae.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/943e3d218016.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/107bcad00cc2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/b2d1eaa420f0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/a702524ebf60.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/f7d0fc31d988.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-large/491f65a6da2f.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "41.5-35cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 85,
+      "title": "DIOR M1286-small",
+      "subtitle": "M1286-small",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "36.5-28cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/731f7dce80d9.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/731f7dce80d9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/7e7439c6b181.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/0e63d3202b5a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/43ceab364140.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/60a9a8de31fb.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/549b9cf51f8d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/32b6f12fae63.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/8968f9eceb60.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/832e036fc74d.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1286-small/731f7dce80d9.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "36.5-28cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 86,
+      "title": "DIOR M1296-large",
+      "subtitle": "M1296-large",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "large",
+      "sizeDisplay": "42×18×35cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/eae9d2af3ca0.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/eae9d2af3ca0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/e5e08de548c2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/e666b616bd74.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/2b90e167b514.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/d35a5c51aa89.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/f1ca4c9734c3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/4e03dd4333ee.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/3a1ec3f22062.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/8798e0ccbf14.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-large/eae9d2af3ca0.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "42×18×35cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 87,
+      "title": "DIOR M1296-small",
+      "subtitle": "M1296-small",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "36×18×28cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/640f671d52a3.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/640f671d52a3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/89800a281887.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/83856e3e4e9b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/cd00ab32aa99.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/4ca7451eacab.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/9a9b435bb4c7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/daaccef05b2e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/21fe7b6432a4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/9806089cde87.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_M1296-small/640f671d52a3.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "36×18×28cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 88,
+      "title": "DIOR 𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large",
+      "subtitle": "𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "small",
+      "sizeDisplay": "24×6×18cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /a6146834eed7.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /a6146834eed7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /775c36b68dda.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /f8d08bd508e5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /deb47d86790a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /e3cf684b6af0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /218985a96f4d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /3309b6de42dd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /269058e6873f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /8ffe452c8341.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-large /a6146834eed7.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "24×6×18cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
+    },
+    {
+      "id": 89,
+      "title": "DIOR 𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small",
+      "subtitle": "𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small",
+      "brand": "hermes",
+      "brandDisplay": "DIOR",
+      "size": "mini",
+      "sizeDisplay": "17×5×15cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /1d02f4a7efdf.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /1d02f4a7efdf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /272f515873d9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /b5d505d71f75.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /1e64de1f081b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /2eab3ae2c32e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /423e966d442d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /498a3a06cc2c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /e18d5d8b25d6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /bcce60ddc25b.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/products/DIOR_𝗖𝗗 𝗦𝗮𝗱𝗱𝗹𝗲-small /1d02f4a7efdf.jpg"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Multi-functional design",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted DIOR handbag showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "17×5×15cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "bags"
     }
   ],
   "filters": {
