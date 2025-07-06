@@ -162,7 +162,7 @@
                 <!-- Main Image -->
                 <div class="bg-white rounded-2xl shadow-sm mb-4 relative overflow-hidden">
                     <div class="aspect-square bg-gray-100 overflow-hidden">
-                        <img id="mainImage" src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop" 
+                        <img id="mainImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjgwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzlDQTNBRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkxvYWRpbmcuLi48L3RleHQ+Cjwvc3ZnPgo=" 
                              alt="Product Main Image" class="w-full h-full object-cover gallery-main">
                     </div>
                     <div id="slideIndicator" class="slide-indicator">
@@ -345,7 +345,8 @@
 
         function changeMainImage(src, element) {
             const mainImage = document.getElementById('mainImage');
-            mainImage.src = src.replace('w=200&h=200', 'w=800&h=800');
+            // 直接使用原图URL，不进行替换
+            mainImage.src = src;
             
             // Update active thumb
             document.querySelectorAll('.gallery-thumb').forEach(thumb => {
@@ -394,7 +395,7 @@
                         // 添加淡入淡出效果
                         mainImage.style.opacity = '0.5';
                         setTimeout(() => {
-                            mainImage.src = nextImage.replace('w=200&h=200', 'w=800&h=800');
+                            mainImage.src = nextImage; // 直接使用原图URL
                             mainImage.style.opacity = '1';
                         }, 200);
                         
@@ -629,16 +630,18 @@
             }
         }
 
-        // Switch product color
+        // Switch product color - 修复版本
         function switchColor(colorKey) {
             console.log('Switching to color:', colorKey);
             
             if (!currentProduct || !currentProduct.colorOptions || !currentProduct.colorOptions[colorKey]) {
                 console.error('Invalid color key or color data not found');
+                console.log('Available colors:', Object.keys(currentProduct?.colorOptions || {}));
                 return;
             }
             
             const colorData = currentProduct.colorOptions[colorKey];
+            console.log('Color data:', colorData);
             
             // Update current product color
             currentProduct.color = colorKey;
@@ -648,6 +651,8 @@
             currentProduct.images.main = colorData.main;
             currentProduct.images.gallery = colorData.gallery;
             currentProduct.images.thumbnail = colorData.main;
+            
+            console.log('Updated images:', currentProduct.images);
             
             // Update UI
             updateColorOptions(); // Update active color button
