@@ -233,7 +233,7 @@
                     <!-- Product Specifications -->
                     <div class="mb-8">
                         <h3 class="text-lg font-semibold text-gray-900 mb-3">Product Specifications</h3>
-                        <div class="grid grid-cols-2 gap-4 text-sm">
+                        <div class="grid grid-cols-2 gap-4 text-sm" id="specificationsGrid">
                             <div class="bg-gray-50 rounded-lg p-3">
                                 <span class="text-gray-500">Brand:</span>
                                 <span class="font-medium">Luxury Collection</span>
@@ -249,6 +249,16 @@
                             <div class="bg-gray-50 rounded-lg p-3">
                                 <span class="text-gray-500">Color:</span>
                                 <span class="font-medium">Black</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Description (if available) -->
+                    <div class="mb-8" id="productDescriptionSection" style="display: none;">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <div class="text-gray-700 leading-relaxed" id="productDescriptionContent">
+                                <!-- Description content will be populated by JavaScript -->
                             </div>
                         </div>
                     </div>
@@ -758,29 +768,155 @@
         function updateProductSpecs() {
             console.log('Updating product specifications...');
             
-            // Try multiple selectors for specs container
-            let specsContainer = document.querySelector('.grid.grid-cols-2.gap-4.text-sm');
-            if (!specsContainer) {
-                specsContainer = document.querySelector('.grid.grid-cols-2.gap-4');
-            }
+            const specsContainer = document.getElementById('specificationsGrid');
             
             console.log('Specs container element:', specsContainer);
             
-            if (specsContainer && currentProduct && currentProduct.specifications) {
-                // 只显示尺寸信息
-                const dimensions = currentProduct.specifications.Dimensions || currentProduct.sizeDisplay || '30×25×12cm';
-                specsContainer.innerHTML = `
-                    <div class="bg-gray-50 rounded-lg p-4 col-span-2 text-center">
-                        <span class="text-gray-500 text-sm">Dimensions:</span>
-                        <span class="font-medium text-lg ml-2">${dimensions}</span>
+            if (specsContainer && currentProduct) {
+                let specsHTML = '';
+                
+                // 基础规格信息
+                specsHTML += `
+                    <div class="bg-gray-50 rounded-lg p-3">
+                        <span class="text-gray-500">Brand:</span>
+                        <span class="font-medium">${currentProduct.brandDisplay || currentProduct.brand || 'Luxury Collection'}</span>
                     </div>
                 `;
+                
+                // 根据产品类别显示不同规格
+                if (currentProduct.category === 'bags') {
+                    // 包包类别：只显示尺寸
+                    if (currentProduct.specifications?.Dimensions || currentProduct.sizeDisplay) {
+                        const dimensions = currentProduct.specifications.Dimensions || currentProduct.sizeDisplay;
+                        specsHTML += `
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Size:</span>
+                                <span class="font-medium">${dimensions}</span>
+                            </div>
+                        `;
+                    }
+                } else if (currentProduct.category === 'jewelry') {
+                    // 饰品类别：根据上传文件的数据来决定显示的规格
+                    if (currentProduct.specifications) {
+                        Object.entries(currentProduct.specifications).forEach(([key, value]) => {
+                            if (value) {
+                                specsHTML += `
+                                    <div class="bg-gray-50 rounded-lg p-3">
+                                        <span class="text-gray-500">${key}:</span>
+                                        <span class="font-medium">${value}</span>
+                                    </div>
+                                `;
+                            }
+                        });
+                    }
+                    
+                    // 如果没有specifications，显示基本的尺寸信息
+                    if (!currentProduct.specifications || Object.keys(currentProduct.specifications).length === 0) {
+                        if (currentProduct.sizeDisplay) {
+                            specsHTML += `
+                                <div class="bg-gray-50 rounded-lg p-3">
+                                    <span class="text-gray-500">Size:</span>
+                                    <span class="font-medium">${currentProduct.sizeDisplay}</span>
+                                </div>
+                            `;
+                        }
+                        
+                        // 材质信息
+                        specsHTML += `
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Material:</span>
+                                <span class="font-medium">${currentProduct.material || 'Premium Quality'}</span>
+                            </div>
+                        `;
+                        
+                        // 颜色信息
+                        specsHTML += `
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Color:</span>
+                                <span class="font-medium">${currentProduct.colorDisplay || currentProduct.color || 'Multiple Colors'}</span>
+                            </div>
+                        `;
+                    }
+                } else {
+                    // 其他类别：显示所有可用规格
+                    if (currentProduct.specifications?.Dimensions || currentProduct.sizeDisplay) {
+                        const dimensions = currentProduct.specifications.Dimensions || currentProduct.sizeDisplay;
+                        specsHTML += `
+                            <div class="bg-gray-50 rounded-lg p-3">
+                                <span class="text-gray-500">Size:</span>
+                                <span class="font-medium">${dimensions}</span>
+                            </div>
+                        `;
+                    }
+                    
+                    // 材质信息
+                    specsHTML += `
+                        <div class="bg-gray-50 rounded-lg p-3">
+                            <span class="text-gray-500">Material:</span>
+                            <span class="font-medium">${currentProduct.material || 'Premium Quality'}</span>
+                        </div>
+                    `;
+                    
+                    // 颜色信息
+                    specsHTML += `
+                        <div class="bg-gray-50 rounded-lg p-3">
+                            <span class="text-gray-500">Color:</span>
+                            <span class="font-medium">${currentProduct.colorDisplay || currentProduct.color || 'Multiple Colors'}</span>
+                        </div>
+                    `;
+                    
+                    // 动态添加其他规格信息
+                    if (currentProduct.specifications) {
+                        Object.entries(currentProduct.specifications).forEach(([key, value]) => {
+                            if (key !== 'Dimensions' && value) {
+                                specsHTML += `
+                                    <div class="bg-gray-50 rounded-lg p-3">
+                                        <span class="text-gray-500">${key}:</span>
+                                        <span class="font-medium">${value}</span>
+                                    </div>
+                                `;
+                            }
+                        });
+                    }
+                }
+                
+                specsContainer.innerHTML = specsHTML;
                 console.log('Specifications updated successfully');
             } else {
-                console.error('Specifications container not found or no specs data');
-                console.log('Specs container found:', !!specsContainer);
-                console.log('Current product exists:', !!currentProduct);
-                console.log('Available specifications:', currentProduct?.specifications);
+                console.error('Specifications container not found or no product data');
+            }
+            
+            // 更新产品详情介绍
+            updateProductDescription();
+        }
+
+        // Update product description (new function)
+        function updateProductDescription() {
+            console.log('Updating product description...');
+            
+            const descriptionSection = document.getElementById('productDescriptionSection');
+            const descriptionContent = document.getElementById('productDescriptionContent');
+            
+            if (descriptionSection && descriptionContent && currentProduct) {
+                // 检查是否有详细描述
+                if (currentProduct.detailedDescription && currentProduct.detailedDescription.trim()) {
+                    // 显示描述区域
+                    descriptionSection.style.display = 'block';
+                    
+                    // 格式化描述内容（支持换行）
+                    const formattedDescription = currentProduct.detailedDescription
+                        .replace(/\n/g, '<br>')
+                        .replace(/\r/g, '');
+                    
+                    descriptionContent.innerHTML = formattedDescription;
+                    console.log('Product description updated successfully');
+                } else {
+                    // 隐藏描述区域
+                    descriptionSection.style.display = 'none';
+                    console.log('No detailed description available, section hidden');
+                }
+            } else {
+                console.error('Description elements not found');
             }
         }
 

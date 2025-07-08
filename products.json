@@ -14932,6 +14932,231 @@
         "Multi-Color"
       ],
       "category": "bags"
+    },
+    {
+      "id": 251,
+      "title": "Van Cleef & Arpels Vintage Alhambra Necklace",
+      "subtitle": "Vintage Alhambra",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "standard",
+      "sizeDisplay": "42cm chain",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "18K Gold Plated",
+      "featured": true,
+      "rating": 5,
+      "reviews": 15,
+      "status": "available",
+      "images": {
+        "main": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Necklace",
+        "gallery": [
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Necklace",
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Detail+1",
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Detail+2"
+        ],
+        "thumbnail": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Necklace"
+      },
+      "features": [
+        "18K gold plated",
+        "Signature clover motif",
+        "Handcrafted excellence",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels Vintage Alhambra necklace featuring the iconic four-leaf clover motif.",
+      "specifications": {
+        "Chain Length": "42cm",
+        "Material": "18K Gold Plated",
+        "Motif Size": "15mm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Necklace"
+      ],
+      "category": "jewelry"
+    },
+    {
+      "id": 252,
+      "title": "Chanel Camellia Earrings",
+      "subtitle": "Camellia Collection",
+      "brand": "chanel",
+      "brandDisplay": "Chanel Jewelry",
+      "size": "standard",
+      "sizeDisplay": "2cm diameter",
+      "price": "high",
+      "color": "white",
+      "colorDisplay": "White Pearl",
+      "material": "Pearl & Gold",
+      "featured": false,
+      "rating": 5,
+      "reviews": 12,
+      "status": "available",
+      "images": {
+        "main": "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Earrings",
+        "gallery": [
+          "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Earrings",
+          "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Detail+1",
+          "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Detail+2"
+        ],
+        "thumbnail": "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Earrings"
+      },
+      "features": [
+        "Signature camellia design",
+        "Premium pearl finish",
+        "Gold-tone hardware",
+        "Comfortable wear"
+      ],
+      "description": "Elegant Chanel camellia earrings featuring the iconic flower motif with lustrous pearl finish.",
+      "specifications": {
+        "Diameter": "2cm",
+        "Material": "Pearl & Gold-tone metal",
+        "Closure": "Post back"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Earrings"
+      ],
+      "category": "jewelry"
+    },
+    {
+      "id": 253,
+      "title": "Dior Tribales Earrings",
+      "subtitle": "Tribales Collection",
+      "brand": "dior",
+      "brandDisplay": "Dior Jewelry",
+      "size": "standard",
+      "sizeDisplay": "3cm drop",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Gold Plated",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Earrings",
+        "gallery": [
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Earrings",
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Detail+1",
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Detail+2"
+        ],
+        "thumbnail": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Earrings"
+      },
+      "features": [
+        "Signature Dior design",
+        "Gold-plated finish",
+        "Comfortable fit",
+        "Elegant drop style"
+      ],
+      "description": "Sophisticated Dior Tribales earrings showcasing the brand's signature elegance and craftsmanship.",
+      "specifications": {
+        "Drop Length": "3cm",
+        "Material": "Gold Plated Metal",
+        "Closure": "Post back"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Earrings"
+      ],
+      "category": "jewelry"
+    },
+    {
+      "id": 254,
+      "title": "Louis Vuitton Monogram Bracelet",
+      "subtitle": "Monogram Collection",
+      "brand": "louis-vuitton",
+      "brandDisplay": "LV Jewelry",
+      "size": "adjustable",
+      "sizeDisplay": "16-18cm",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Gold Plated",
+      "featured": false,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Bracelet",
+        "gallery": [
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Bracelet",
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Detail+1",
+          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Detail+2"
+        ],
+        "thumbnail": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Bracelet"
+      },
+      "features": [
+        "Iconic monogram pattern",
+        "Adjustable size",
+        "Premium gold plating",
+        "Signature LV charm"
+      ],
+      "description": "Luxurious Louis Vuitton monogram bracelet featuring the iconic LV pattern and signature charm.",
+      "specifications": {
+        "Size": "16-18cm adjustable",
+        "Material": "Gold Plated Metal",
+        "Closure": "Adjustable chain"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Bracelet"
+      ],
+      "category": "jewelry"
+    },
+    {
+      "id": 255,
+      "title": "Tiffany & Co. Return to Tiffany Ring",
+      "subtitle": "Return to Tiffany",
+      "brand": "tiffany",
+      "brandDisplay": "Tiffany",
+      "size": "adjustable",
+      "sizeDisplay": "Size 6-8",
+      "price": "high",
+      "color": "silver",
+      "colorDisplay": "Silver",
+      "material": "Sterling Silver",
+      "featured": true,
+      "rating": 5,
+      "reviews": 20,
+      "status": "available",
+      "images": {
+        "main": "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Ring",
+        "gallery": [
+          "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Ring",
+          "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Detail+1",
+          "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Detail+2"
+        ],
+        "thumbnail": "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Ring"
+      },
+      "features": [
+        "Iconic Tiffany design",
+        "Sterling silver construction",
+        "Adjustable sizing",
+        "Signature blue box included"
+      ],
+      "description": "Classic Tiffany & Co. Return to Tiffany ring in sterling silver with signature heart charm.",
+      "specifications": {
+        "Size Range": "6-8 (adjustable)",
+        "Material": "Sterling Silver",
+        "Width": "3mm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Ring"
+      ],
+      "category": "jewelry"
     }
   ],
   "filters": {

@@ -239,13 +239,34 @@
             </div>
         </div>
 
-        <!-- Coming Soon Section -->
+        <!-- Jewelry Filter Section -->
+        <div id="jewelryFiltersSection" class="mb-6 md:mb-8 hidden">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter by Jewelry Brand</h3>
+                <div id="jewelryBrandTags" class="flex flex-wrap gap-3">
+                    <!-- Jewelry brand tags will be generated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Jewelry Products Section -->
+        <div id="jewelryProductsSection" class="hidden">
+            <div id="jewelryProductGrid" class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
+                <!-- Jewelry products will be loaded dynamically via JavaScript -->
+                <div class="col-span-full text-center py-8">
+                    <div class="inline-block w-8 h-8 border-4 border-gray-300 border-t-gray-900 rounded-full animate-spin"></div>
+                    <p class="mt-2 text-gray-500">Loading jewelry...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coming Soon Section (fallback) -->
         <div id="comingSoonSection" class="hidden">
             <div class="bg-white rounded-2xl p-6 md:p-12 text-center shadow-sm">
                 <div class="animate-float">
                     <i class="fas fa-ring text-4xl md:text-6xl text-gray-400 mb-4 md:mb-6"></i>
                     <h2 class="text-xl md:text-3xl font-semibold text-gray-700 mb-2 md:mb-4">COMING SOON</h2>
-                    <p class="text-gray-500 text-sm md:text-lg">Exquisite Jewelry Collection Coming Soon</p>
+                    <p class="text-gray-500 text-sm md:text-lg">More Jewelry Collections Coming Soon</p>
                 </div>
             </div>
         </div>
@@ -255,19 +276,25 @@
         // 全局变量
         let productsData = null;
         let currentBrandFilter = 'all';
+        let currentJewelryBrandFilter = 'all';
+        let currentTab = 'bags'; // 'bags' or 'jewelry'
 
         // DOM元素
         const bagsTab = document.getElementById('bagsTab');
         const jewelryTab = document.getElementById('jewelryTab');
         const filtersSection = document.getElementById('filtersSection');
         const productsSection = document.getElementById('productsSection');
+        const jewelryFiltersSection = document.getElementById('jewelryFiltersSection');
+        const jewelryProductsSection = document.getElementById('jewelryProductsSection');
         const comingSoonSection = document.getElementById('comingSoonSection');
         const productGrid = document.getElementById('productGrid');
+        const jewelryProductGrid = document.getElementById('jewelryProductGrid');
 
         // 页面加载时初始化
         document.addEventListener('DOMContentLoaded', async function() {
             await loadProductData();
             initializeBrandTags();
+            initializeJewelryBrandTags();
             renderProducts();
         });
 
@@ -319,6 +346,43 @@
             console.log('Brand tags initialized successfully');
         }
 
+        // 初始化饰品品牌标签
+        function initializeJewelryBrandTags() {
+            const jewelryBrandTagsContainer = document.getElementById('jewelryBrandTags');
+            if (!jewelryBrandTagsContainer) return;
+
+            // 饰品品牌列表
+            const jewelryBrands = [
+                { value: 'all', label: 'All Jewelry Brands' },
+                { value: 'van-cleef-arpels', label: 'Van Cleef & Arpels' },
+                { value: 'chanel', label: 'Chanel Jewelry' },
+                { value: 'dior', label: 'Dior Jewelry' },
+                { value: 'louis-vuitton', label: 'LV Jewelry' },
+                { value: 'tiffany', label: 'Tiffany' }
+            ];
+
+            // 生成饰品品牌标签
+            const jewelryBrandTags = jewelryBrands.map(brand => {
+                const isActive = currentJewelryBrandFilter === brand.value;
+                return `
+                    <button 
+                        class="jewelry-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                            isActive 
+                                ? 'bg-purple-600 text-white shadow-lg' 
+                                : 'bg-purple-50 text-purple-700 hover:bg-purple-100 hover:shadow-md'
+                        }" 
+                        data-brand="${brand.value}"
+                        onclick="filterJewelryByBrand('${brand.value}')"
+                    >
+                        ${brand.label}
+                    </button>
+                `;
+            }).join('');
+
+            jewelryBrandTagsContainer.innerHTML = jewelryBrandTags;
+            console.log('Jewelry brand tags initialized successfully');
+        }
+
         // 品牌筛选函数
         function filterByBrand(brandValue) {
             currentBrandFilter = brandValue;
@@ -336,6 +400,25 @@
 
             // 重新渲染产品
             renderProducts();
+        }
+
+        // 饰品品牌筛选函数
+        function filterJewelryByBrand(brandValue) {
+            currentJewelryBrandFilter = brandValue;
+            
+            // 更新饰品品牌标签样式
+            const allJewelryTags = document.querySelectorAll('.jewelry-brand-tag');
+            allJewelryTags.forEach(tag => {
+                const isActive = tag.dataset.brand === brandValue;
+                tag.className = `jewelry-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                    isActive 
+                        ? 'bg-purple-600 text-white shadow-lg' 
+                        : 'bg-purple-50 text-purple-700 hover:bg-purple-100 hover:shadow-md'
+                }`;
+            });
+
+            // 重新渲染饰品产品
+            renderJewelryProducts();
         }
 
         // 渲染产品
@@ -394,21 +477,98 @@
             });
         }
 
+        // 渲染饰品产品
+        function renderJewelryProducts() {
+            if (!productsData) return;
+
+            const jewelryProducts = productsData.products.filter(product => 
+                product.category === 'jewelry'
+            );
+
+            const filteredJewelryProducts = filterJewelryProducts(jewelryProducts);
+            
+            if (filteredJewelryProducts.length === 0) {
+                jewelryProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <i class="fas fa-ring text-4xl text-gray-400 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">No Jewelry Found</h3>
+                        <p class="text-gray-500">Please try selecting a different brand or check back later</p>
+                    </div>
+                `;
+                return;
+            }
+
+            jewelryProductGrid.innerHTML = filteredJewelryProducts.map(product => `
+                <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id})">
+                    <div class="aspect-square bg-gray-100 relative overflow-hidden">
+                        <img src="${product.images.thumbnail}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
+                        ${product.featured ? '<div class="absolute top-2 left-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-xs font-semibold">Bestseller</div>' : ''}
+                        ${product.status === 'limited' ? '<div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">Limited</div>' : ''}
+                    </div>
+                    <div class="p-2 md:p-4">
+                        <h3 class="font-semibold text-gray-900 mb-1 text-sm md:text-base">${product.title}</h3>
+                        <p class="text-gray-500 text-xs md:text-sm mb-2">${product.subtitle}</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
+                            <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
+                                    onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                <i class="fab fa-whatsapp mr-1"></i>Contact
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            // 添加淡入动画
+            setTimeout(() => {
+                document.querySelectorAll('.animate-fade-in').forEach((card, index) => {
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, index * 100);
+                });
+            }, 50);
+        }
+
+        // 筛选饰品产品
+        function filterJewelryProducts(products) {
+            return products.filter(product => {
+                return currentJewelryBrandFilter === 'all' || product.brand === currentJewelryBrandFilter;
+            });
+        }
+
         // Tab切换功能
         bagsTab.addEventListener('click', () => {
+            currentTab = 'bags';
             bagsTab.classList.add('active');
             jewelryTab.classList.remove('active');
+            
+            // 显示包包相关内容
             filtersSection.classList.remove('hidden');
             productsSection.classList.remove('hidden');
+            
+            // 隐藏饰品相关内容
+            jewelryFiltersSection.classList.add('hidden');
+            jewelryProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
         });
 
         jewelryTab.addEventListener('click', () => {
+            currentTab = 'jewelry';
             jewelryTab.classList.add('active');
             bagsTab.classList.remove('active');
+            
+            // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
             productsSection.classList.add('hidden');
-            comingSoonSection.classList.remove('hidden');
+            
+            // 显示饰品相关内容
+            jewelryFiltersSection.classList.remove('hidden');
+            jewelryProductsSection.classList.remove('hidden');
+            comingSoonSection.classList.add('hidden');
+            
+            // 渲染饰品产品
+            renderJewelryProducts();
         });
 
         // 跳转到产品详情页
