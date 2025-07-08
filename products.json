@@ -15157,6 +15157,50 @@
         "Ring"
       ],
       "category": "jewelry"
+    },
+    {
+      "id": 256,
+      "title": "Van Cleef & Arpels Frivole ring, single flower, small model",
+      "subtitle": "Frivole ring, single flower, small model",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/f6baa4b577a0.webp",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/f6baa4b577a0.webp",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/3c8b2576ace4.webp",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/03784213e2b8.webp"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/f6baa4b577a0.webp"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {
+        "Size": "SIZE_49, SIZE_47, SIZE_46, SIZE_48, SIZE_52, SIZE_55, SIZE_54, SIZE_53, SIZE_44, SIZE_43, SIZE_42, SIZE_45, SIZE_51, SIZE_50"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "detailedDescription": "Frivole ring. solitaire. petite model. 18K yellow gold. round diamonds; diamond quality DEF. IF to VVS.\nMODEL\nVCARP2V000\nGEM\ngemDiamonds: 43 gems. 0.81 carats"
     }
   ],
   "filters": {
