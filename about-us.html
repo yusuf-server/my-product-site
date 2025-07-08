@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Luxury Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+        
+        .brand-title {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .content-text {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .section-gradient {
+            background: linear-gradient(45deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-out;
+        }
+        
+        .animate-slide-in-left {
+            animation: slideInLeft 0.8s ease-out;
+        }
+        
+        .animate-slide-in-right {
+            animation: slideInRight 0.8s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .image-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .image-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .section-spacing {
+            padding: 4rem 0;
+        }
+        
+        @media (max-width: 768px) {
+            .section-spacing {
+                padding: 2rem 0;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 content-text">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="brand-title text-2xl font-bold text-gray-800">
+                    <i class="fas fa-gem mr-2"></i>
+                    LUXURY COLLECTION
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">Home</a>
+                    <a href="about-us.html" class="text-gray-900 font-medium">About Us</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobileMenuBtn" class="text-gray-600 hover:text-gray-900">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-2">
+                    <a href="index.html" class="text-gray-600 hover:text-gray-900 py-2 px-4 rounded transition-colors">Home</a>
+                    <a href="about-us.html" class="text-gray-900 font-medium py-2 px-4 rounded">About Us</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 py-2 px-4 rounded transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white section-spacing">
+        <div class="container mx-auto px-4">
+            <div class="text-center animate-fade-in">
+                <h1 class="brand-title text-4xl md:text-6xl font-bold mb-6">About Us</h1>
+                <p class="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto leading-relaxed">
+                    In the realm of fashion, luxury is an experience and a statement of elegance
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        
+        <!-- Introduction Section -->
+        <section class="section-spacing">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="animate-slide-in-left">
+                    <h2 class="brand-title text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        Luxury Redefined
+                    </h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        We proudly offer exquisite replicas of iconic luxury brands, including Louis Vuitton, Gucci, Hermès, Chanel, Prada, and Yves Saint Laurent. Our products—bags, jewelry, belts, and accessories—are crafted with precision and authenticity.
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                            <i class="fas fa-crown text-purple-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-800">Premium Quality</h3>
+                            <p class="text-gray-600">Exceptional craftsmanship in every piece</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate-slide-in-right">
+                    <img src="about-us/Pasted Graphic.jpg" alt="Luxury Collection" 
+                         class="w-full h-auto rounded-2xl shadow-2xl image-hover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Craftsmanship Section -->
+        <section class="section-gradient rounded-3xl p-8 md:p-12 section-spacing">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1 animate-slide-in-left">
+                    <img src="about-us/Pasted Graphic 1.png" alt="Authentic Craftsmanship" 
+                         class="w-full h-auto rounded-2xl shadow-2xl image-hover">
+                </div>
+                <div class="order-1 lg:order-2 animate-slide-in-right">
+                    <h2 class="brand-title text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        Authentic Craftsmanship
+                    </h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                        Our journey begins in the original factories where these iconic brands create their masterpieces. By partnering with these manufacturers, we ensure our replicas are crafted with the same dedication to quality and detail. This unique access allows us to offer products indistinguishable from the originals.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Original Factories</h4>
+                                <p class="text-gray-600 text-sm">Direct partnership with authentic manufacturers</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Quality Assurance</h4>
+                                <p class="text-gray-600 text-sm">Indistinguishable from originals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Italian Quality Section -->
+        <section class="section-spacing">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="animate-slide-in-left">
+                    <h2 class="brand-title text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        Italian Excellence
+                    </h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        Our bags feature the finest Italian leather, sourced from the same suppliers as the luxury brands. This ensures each piece exudes the same elegance and durability. Our jewelry, crafted from high-grade materials, mirrors the sophistication of prestigious ateliers, offering luxury without compromise.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm">
+                            <div class="w-12 h-12 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-leaf text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Premium Italian Leather</h4>
+                                <p class="text-gray-600 text-sm">Same suppliers as luxury brands</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm">
+                            <div class="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-gem text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">High-Grade Materials</h4>
+                                <p class="text-gray-600 text-sm">Sophisticated craftsmanship</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate-slide-in-right">
+                    <img src="about-us/Pasted Graphic 2.png" alt="Italian Quality" 
+                         class="w-full h-auto rounded-2xl shadow-2xl image-hover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Masterful Craftsmanship Section -->
+        <section class="bg-white rounded-3xl p-8 md:p-12 shadow-lg section-spacing">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1 animate-slide-in-left">
+                    <img src="about-us/Pasted Graphic 3.png" alt="Masterful Craftsmanship" 
+                         class="w-full h-auto rounded-2xl shadow-2xl image-hover">
+                </div>
+                <div class="order-1 lg:order-2 animate-slide-in-right">
+                    <h2 class="brand-title text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        Masterful Craftsmanship
+                    </h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                        Our artisans, masters of their craft, replicate intricate designs and iconic logos with meticulous attention to detail. Every stitch and embellishment is executed with precision, ensuring our products reflect the originals in every way.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center p-4 bg-purple-50 rounded-xl">
+                            <div class="brand-title text-3xl font-bold text-purple-600 mb-2">10+</div>
+                            <p class="text-gray-600 text-sm">Years Experience</p>
+                        </div>
+                        <div class="text-center p-4 bg-purple-50 rounded-xl">
+                            <div class="brand-title text-3xl font-bold text-purple-600 mb-2">100%</div>
+                            <p class="text-gray-600 text-sm">Quality Guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="hero-gradient rounded-3xl p-8 md:p-12 text-white text-center section-spacing">
+            <div class="max-w-3xl mx-auto animate-fade-in">
+                <h2 class="brand-title text-3xl md:text-4xl font-bold mb-6">
+                    Luxury Within Reach
+                </h2>
+                <p class="text-xl text-purple-100 leading-relaxed mb-8">
+                    We aim to make luxury accessible to those who appreciate high-end fashion. Our products offer the prestige and elegance of luxury brands at a fraction of the cost.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="index.html" class="bg-white text-purple-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-shopping-bag mr-2"></i>
+                        Explore Collection
+                    </a>
+                    <a href="#contact" class="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white mt-16" id="contact">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="brand-title text-2xl font-bold mb-4">
+                        <i class="fas fa-gem mr-2"></i>
+                        LUXURY COLLECTION
+                    </div>
+                    <p class="text-gray-400 mb-4">Premium luxury bags & accessories with exceptional craftsmanship and authentic quality.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about-us.html" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <i class="fab fa-whatsapp text-green-400"></i>
+                            <span class="text-gray-400">WhatsApp Support</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-shipping-fast text-blue-400"></i>
+                            <span class="text-gray-400">Global Shipping</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-shield-alt text-purple-400"></i>
+                            <span class="text-gray-400">Quality Guarantee</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Luxury Collection. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.animate-fade-in, .animate-slide-in-left, .animate-slide-in-right').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            observer.observe(el);
+        });
+
+        // 移动端菜单切换
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html> 
