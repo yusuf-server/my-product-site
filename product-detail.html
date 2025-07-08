@@ -499,22 +499,36 @@
         }
 
         // Global variables
-        let productsData = null;
+        let bagsData = null;
+        let jewelryData = null;
+        let settingsData = null;
         let currentProduct = null;
 
         // Load product data
         async function loadProductData() {
             try {
-                console.log('Loading products.json...');
-                const response = await fetch('products.json');
-                console.log('Response status:', response.status);
+                console.log('Loading product data...');
                 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                // 并行加载所有数据文件
+                const [bagsResponse, jewelryResponse, settingsResponse] = await Promise.all([
+                    fetch('bags.json'),
+                    fetch('jewelry.json'),
+                    fetch('settings.json')
+                ]);
+                
+                if (!bagsResponse.ok || !jewelryResponse.ok || !settingsResponse.ok) {
+                    throw new Error('Failed to load one or more data files');
                 }
                 
-                productsData = await response.json();
+                bagsData = await bagsResponse.json();
+                jewelryData = await jewelryResponse.json();
+                settingsData = await settingsResponse.json();
+                
                 console.log('Product data loaded successfully');
+                console.log('- Bags:', bagsData.products.length);
+                console.log('- Jewelry:', jewelryData.products.length);
+                console.log('- Settings loaded');
+                
                 return true;
             } catch (error) {
                 console.error('Failed to load product data:', error);
@@ -536,13 +550,28 @@
             }
 
             // Ensure data is loaded
-            if (!productsData) {
+            if (!bagsData || !jewelryData || !settingsData) {
                 const loaded = await loadProductData();
                 if (!loaded) return;
             }
 
-            // Find product
-            currentProduct = productsData.products.find(product => product.id === productId);
+            // Optimize product search based on ID range
+            // Bags: ID 1-250, Jewelry: ID 251+
+            const searchStartTime = performance.now();
+            
+            if (productId <= 250) {
+                // Search bags first for IDs 1-250
+                currentProduct = bagsData.products.find(product => product.id === productId) ||
+                                jewelryData.products.find(product => product.id === productId);
+            } else {
+                // Search jewelry first for IDs 251+
+                currentProduct = jewelryData.products.find(product => product.id === productId) ||
+                                bagsData.products.find(product => product.id === productId);
+            }
+            
+            const searchEndTime = performance.now();
+            console.log(`Product search completed in ${(searchEndTime - searchStartTime).toFixed(2)}ms`);
+            
             console.log('Found product:', currentProduct);
             
             if (!currentProduct) {

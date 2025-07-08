@@ -274,14 +274,33 @@
 
     <script>
         // 全局变量
-        let productsData = null;
+        let bagsData = null;
+        let jewelryData = null;
+        let settingsData = null;
         let currentBrandFilter = 'all';
         let currentJewelryBrandFilter = 'all';
         let currentTab = 'bags'; // 'bags' or 'jewelry'
         
-        // 性能优化：缓存筛选后的产品数据
-        let cachedBagsProducts = null;
-        let cachedJewelryProducts = null;
+        // 生成本地占位符图片
+        function generatePlaceholderImage(text, bgColor = '#f3f4f6', textColor = '#9ca3af') {
+            const canvas = document.createElement('canvas');
+            canvas.width = 400;
+            canvas.height = 400;
+            const ctx = canvas.getContext('2d');
+            
+            // 背景
+            ctx.fillStyle = bgColor;
+            ctx.fillRect(0, 0, 400, 400);
+            
+            // 文字
+            ctx.fillStyle = textColor;
+            ctx.font = '24px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(text, 200, 200);
+            
+            return canvas.toDataURL();
+        }
 
         // DOM元素
         const bagsTab = document.getElementById('bagsTab');
@@ -296,50 +315,89 @@
 
         // 页面加载时初始化
         document.addEventListener('DOMContentLoaded', async function() {
-            await loadProductData();
+            await loadInitialData();
             initializeBrandTags();
             initializeJewelryBrandTags();
             renderProducts();
+            
+            // 在后台预加载饰品数据，不阻塞页面
+            setTimeout(async () => {
+                try {
+                    await loadJewelryData();
+                    console.log('Jewelry data preloaded in background');
+                } catch (error) {
+                    console.log('Background jewelry preload failed:', error);
+                }
+            }, 1000); // 1秒后开始预加载
         });
 
-        // 加载产品数据
-        async function loadProductData() {
+        // 加载初始数据（包包和设置）
+        async function loadInitialData() {
             try {
-                console.log('Attempting to load products.json...');
-                const response = await fetch('products.json');
-                console.log('Response status:', response.status);
+                console.log('Loading initial data...');
                 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                // 并行加载包包数据和设置数据
+                const [bagsResponse, settingsResponse] = await Promise.all([
+                    fetch('bags.json'),
+                    fetch('settings.json')
+                ]);
+                
+                if (!bagsResponse.ok) {
+                    throw new Error(`Failed to load bags data: ${bagsResponse.status}`);
+                }
+                if (!settingsResponse.ok) {
+                    throw new Error(`Failed to load settings data: ${settingsResponse.status}`);
                 }
                 
-                productsData = await response.json();
-                console.log('Products loaded successfully:', productsData.products.length, 'products');
+                bagsData = await bagsResponse.json();
+                settingsData = await settingsResponse.json();
                 
-                // 性能优化：预先分类产品数据
-                cachedBagsProducts = productsData.products.filter(product => 
-                    product.category === 'bags' || !product.category
-                );
-                cachedJewelryProducts = productsData.products.filter(product => 
-                    product.category === 'jewelry'
-                );
+                console.log('Initial data loaded successfully:');
+                console.log('- Bags:', bagsData.products.length, 'products');
+                console.log('- Settings loaded');
                 
-                console.log('Cached products:', cachedBagsProducts.length, 'bags,', cachedJewelryProducts.length, 'jewelry');
             } catch (error) {
-                console.error('Failed to load product data:', error);
-                showError(`Unable to load product data: ${error.message}. Please make sure the server is running and try again.`);
+                console.error('Failed to load initial data:', error);
+                showError(`Unable to load data: ${error.message}. Please make sure the server is running and try again.`);
+            }
+        }
+        
+        // 加载饰品数据（按需加载）
+        async function loadJewelryData() {
+            if (jewelryData) {
+                return; // 已经加载过了
+            }
+            
+            try {
+                console.log('Loading jewelry data...');
+                const startTime = performance.now();
+                
+                const response = await fetch('jewelry.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to load jewelry data: ${response.status}`);
+                }
+                
+                jewelryData = await response.json();
+                const endTime = performance.now();
+                
+                console.log(`Jewelry data loaded successfully: ${jewelryData.products.length} products in ${(endTime - startTime).toFixed(2)}ms`);
+                
+            } catch (error) {
+                console.error('Failed to load jewelry data:', error);
+                throw error;
             }
         }
 
         // 初始化品牌标签
         function initializeBrandTags() {
-            if (!productsData) return;
+            if (!bagsData) return;
 
             const brandTagsContainer = document.getElementById('brandTags');
             if (!brandTagsContainer) return;
 
             // 生成品牌标签
-            const brandTags = productsData.filters.brands.map(brand => {
+            const brandTags = bagsData.filters.brands.map(brand => {
                 const isActive = currentBrandFilter === brand.value;
                 return `
                     <button 
@@ -365,15 +423,20 @@
             const jewelryBrandTagsContainer = document.getElementById('jewelryBrandTags');
             if (!jewelryBrandTagsContainer) return;
 
-            // 饰品品牌列表
-            const jewelryBrands = [
+            // 使用默认的饰品品牌列表（在没有加载饰品数据时）
+            const defaultJewelryBrands = [
                 { value: 'all', label: 'All Jewelry Brands' },
                 { value: 'van-cleef-arpels', label: 'Van Cleef & Arpels' },
                 { value: 'chanel', label: 'Chanel Jewelry' },
                 { value: 'dior', label: 'Dior Jewelry' },
                 { value: 'louis-vuitton', label: 'LV Jewelry' },
-                { value: 'tiffany', label: 'Tiffany' }
+                { value: 'tiffany', label: 'Tiffany' },
+                { value: 'cartier', label: 'Cartier' },
+                { value: 'bulgari', label: 'Bulgari' }
             ];
+
+            // 如果已加载饰品数据，使用饰品数据中的品牌列表，否则使用默认列表
+            const jewelryBrands = jewelryData ? jewelryData.filters.brands : defaultJewelryBrands;
 
             // 生成饰品品牌标签
             const jewelryBrandTags = jewelryBrands.map(brand => {
@@ -437,9 +500,12 @@
 
         // 渲染产品
         function renderProducts() {
-            if (!cachedBagsProducts) return;
+            if (!bagsData || !bagsData.products) {
+                console.log('Bags data not loaded yet');
+                return;
+            }
 
-            const filteredProducts = filterProducts(cachedBagsProducts);
+            const filteredProducts = filterProducts(bagsData.products);
             
             if (filteredProducts.length === 0) {
                 productGrid.innerHTML = `
@@ -473,15 +539,11 @@
                 </div>
             `).join('');
 
-            // 添加淡入动画
-            setTimeout(() => {
-                document.querySelectorAll('.animate-fade-in').forEach((card, index) => {
-                    setTimeout(() => {
-                        card.style.opacity = '1';
-                        card.style.transform = 'translateY(0)';
-                    }, index * 100);
-                });
-            }, 50);
+            // 立即显示饰品产品，无延迟
+            document.querySelectorAll('.animate-fade-in').forEach((card) => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            });;
         }
 
         // 筛选产品
@@ -492,10 +554,38 @@
         }
 
         // 渲染饰品产品
-        function renderJewelryProducts() {
-            if (!cachedJewelryProducts) return;
+        async function renderJewelryProducts() {
+            if (!jewelryData) {
+                // 显示加载状态
+                jewelryProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">Loading Jewelry...</h3>
+                        <p class="text-gray-500">Please wait while we load the jewelry collection</p>
+                    </div>
+                `;
+                
+                try {
+                    const loadStartTime = performance.now();
+                    await loadJewelryData();
+                    const loadEndTime = performance.now();
+                    console.log(`Jewelry data loaded in ${(loadEndTime - loadStartTime).toFixed(2)}ms`);
+                    
+                    // 重新初始化饰品品牌标签
+                    initializeJewelryBrandTags();
+                } catch (error) {
+                    jewelryProductGrid.innerHTML = `
+                        <div class="col-span-full text-center py-12">
+                            <i class="fas fa-exclamation-triangle text-4xl text-red-400 mb-4"></i>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-2">Failed to Load Jewelry</h3>
+                            <p class="text-gray-500">Please try again later</p>
+                        </div>
+                    `;
+                    return;
+                }
+            }
 
-            const filteredJewelryProducts = filterJewelryProducts(cachedJewelryProducts);
+            const filteredJewelryProducts = filterJewelryProducts(jewelryData.products);
             
             if (filteredJewelryProducts.length === 0) {
                 jewelryProductGrid.innerHTML = `
@@ -508,36 +598,39 @@
                 return;
             }
 
-            jewelryProductGrid.innerHTML = filteredJewelryProducts.map(product => `
-                <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id})">
-                    <div class="aspect-square bg-gray-100 relative overflow-hidden">
-                        <img src="${product.images.thumbnail}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
-                        ${product.featured ? '<div class="absolute top-2 left-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-xs font-semibold">Bestseller</div>' : ''}
-                        ${product.status === 'limited' ? '<div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">Limited</div>' : ''}
-                    </div>
-                    <div class="p-2 md:p-4">
-                        <h3 class="font-semibold text-gray-900 mb-1 text-sm md:text-base">${product.title}</h3>
-                        <p class="text-gray-500 text-xs md:text-sm mb-2">${product.subtitle}</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
-                            <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
-                                    onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
-                                <i class="fab fa-whatsapp mr-1"></i>Contact
-                            </button>
+            jewelryProductGrid.innerHTML = filteredJewelryProducts.map(product => {
+                // 使用本地占位符替代远程placeholder
+                const imageUrl = product.images.thumbnail.includes('placeholder') 
+                    ? generatePlaceholderImage(product.brandDisplay, '#f8f9fa', '#6b7280')
+                    : product.images.thumbnail;
+                
+                return `
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id})">
+                        <div class="aspect-square bg-gray-100 relative overflow-hidden">
+                            <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
+                            ${product.featured ? '<div class="absolute top-2 left-2 bg-purple-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
+                            ${product.status === 'limited' ? '<div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">Limited</div>' : ''}
+                        </div>
+                        <div class="p-2 md:p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1 text-sm md:text-base">${product.title}</h3>
+                            <p class="text-gray-500 text-xs md:text-sm mb-2">${product.subtitle}</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
+                                <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
+                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                    <i class="fab fa-whatsapp mr-1"></i>Contact
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
 
-            // 添加淡入动画
-            setTimeout(() => {
-                document.querySelectorAll('.animate-fade-in').forEach((card, index) => {
-                    setTimeout(() => {
-                        card.style.opacity = '1';
-                        card.style.transform = 'translateY(0)';
-                    }, index * 100);
-                });
-            }, 50);
+            // 立即显示饰品产品，无延迟
+            document.querySelectorAll('.animate-fade-in').forEach((card) => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            });
         }
 
         // 筛选饰品产品
@@ -577,25 +670,8 @@
             jewelryProductsSection.classList.remove('hidden');
             comingSoonSection.classList.add('hidden');
             
-            // 显示加载状态
-            if (cachedJewelryProducts) {
-                // 如果数据已缓存，直接渲染
-                renderJewelryProducts();
-            } else {
-                // 显示加载指示器
-                jewelryProductGrid.innerHTML = `
-                    <div class="col-span-full text-center py-12">
-                        <div class="inline-block w-8 h-8 border-4 border-purple-200 border-t-purple-600 rounded-full animate-spin mb-4"></div>
-                        <h3 class="text-lg font-semibold text-gray-700 mb-2">Loading Jewelry...</h3>
-                        <p class="text-gray-500">Please wait while we load the jewelry collection</p>
-                    </div>
-                `;
-                
-                // 等待数据加载完成后渲染
-                setTimeout(() => {
-                    renderJewelryProducts();
-                }, 100);
-            }
+            // 渲染饰品产品（异步加载）
+            renderJewelryProducts();
         });
 
         // 跳转到产品详情页
@@ -605,7 +681,7 @@
 
         // WhatsApp联系功能
         function contactWhatsApp(productTitle = '') {
-            const whatsappNumber = productsData?.settings?.whatsappNumber || "1234567890";
+            const whatsappNumber = settingsData?.whatsappNumber || "1234567890";
             const message = productTitle ? 
                 `Hello! I'm very interested in this product: ${productTitle}. Could you please provide more details and pricing information?` :
                 `Hello! I would like to learn more about your products.`;
@@ -654,7 +730,7 @@
                 item.addEventListener('click', function() {
                     const brandName = this.querySelector('img').alt;
                     const message = `Hello! I'm interested in ${brandName} products. Could you please show me your ${brandName} collection and provide pricing information?`;
-                    const whatsappNumber = productsData?.settings?.whatsappNumber || "1234567890";
+                    const whatsappNumber = settingsData?.whatsappNumber || "1234567890";
                     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
                     window.open(whatsappUrl, '_blank');
                 });
