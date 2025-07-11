@@ -1,234 +1,8 @@
 {
   "products": [
     {
-      "id": 251,
-      "title": "Van Cleef & Arpels Vintage Alhambra Necklace",
-      "subtitle": "Vintage Alhambra",
-      "brand": "van-cleef-arpels",
-      "brandDisplay": "Van Cleef & Arpels",
-      "size": "standard",
-      "sizeDisplay": "42cm chain",
-      "price": "high",
-      "color": "gold",
-      "colorDisplay": "Gold",
-      "material": "18K Gold Plated",
-      "featured": true,
-      "rating": 5,
-      "reviews": 15,
-      "status": "available",
-      "images": {
-        "main": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Necklace",
-        "gallery": [
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Necklace",
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Detail+1",
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Detail+2"
-        ],
-        "thumbnail": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=VCA+Necklace"
-      },
-      "features": [
-        "18K gold plated",
-        "Signature clover motif",
-        "Handcrafted excellence",
-        "Timeless elegance"
-      ],
-      "description": "Exquisite Van Cleef & Arpels Vintage Alhambra necklace featuring the iconic four-leaf clover motif.",
-      "specifications": {
-        "Chain Length": "42cm",
-        "Material": "18K Gold Plated",
-        "Motif Size": "15mm"
-      },
-      "tags": [
-        "Premium",
-        "Luxury",
-        "Jewelry",
-        "Necklace"
-      ],
-      "category": "jewelry"
-    },
-    {
-      "id": 252,
-      "title": "Chanel Camellia Earrings",
-      "subtitle": "Camellia Collection",
-      "brand": "chanel",
-      "brandDisplay": "Chanel Jewelry",
-      "size": "standard",
-      "sizeDisplay": "2cm diameter",
-      "price": "high",
-      "color": "white",
-      "colorDisplay": "White Pearl",
-      "material": "Pearl & Gold",
-      "featured": false,
-      "rating": 5,
-      "reviews": 12,
-      "status": "available",
-      "images": {
-        "main": "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Earrings",
-        "gallery": [
-          "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Earrings",
-          "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Detail+1",
-          "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Detail+2"
-        ],
-        "thumbnail": "https://via.placeholder.com/400x400/F8F8FF/000000?text=Chanel+Earrings"
-      },
-      "features": [
-        "Signature camellia design",
-        "Premium pearl finish",
-        "Gold-tone hardware",
-        "Comfortable wear"
-      ],
-      "description": "Elegant Chanel camellia earrings featuring the iconic flower motif with lustrous pearl finish.",
-      "specifications": {
-        "Diameter": "2cm",
-        "Material": "Pearl & Gold-tone metal",
-        "Closure": "Post back"
-      },
-      "tags": [
-        "Premium",
-        "Luxury",
-        "Jewelry",
-        "Earrings"
-      ],
-      "category": "jewelry"
-    },
-    {
-      "id": 253,
-      "title": "Dior Tribales Earrings",
-      "subtitle": "Tribales Collection",
-      "brand": "dior",
-      "brandDisplay": "Dior Jewelry",
-      "size": "standard",
-      "sizeDisplay": "3cm drop",
-      "price": "high",
-      "color": "gold",
-      "colorDisplay": "Gold",
-      "material": "Gold Plated",
-      "featured": false,
-      "rating": 5,
-      "reviews": 8,
-      "status": "available",
-      "images": {
-        "main": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Earrings",
-        "gallery": [
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Earrings",
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Detail+1",
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Detail+2"
-        ],
-        "thumbnail": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=Dior+Earrings"
-      },
-      "features": [
-        "Signature Dior design",
-        "Gold-plated finish",
-        "Comfortable fit",
-        "Elegant drop style"
-      ],
-      "description": "Sophisticated Dior Tribales earrings showcasing the brand's signature elegance and craftsmanship.",
-      "specifications": {
-        "Drop Length": "3cm",
-        "Material": "Gold Plated Metal",
-        "Closure": "Post back"
-      },
-      "tags": [
-        "Premium",
-        "Luxury",
-        "Jewelry",
-        "Earrings"
-      ],
-      "category": "jewelry"
-    },
-    {
-      "id": 254,
-      "title": "Louis Vuitton Monogram Bracelet",
-      "subtitle": "Monogram Collection",
-      "brand": "louis-vuitton",
-      "brandDisplay": "LV Jewelry",
-      "size": "adjustable",
-      "sizeDisplay": "16-18cm",
-      "price": "high",
-      "color": "gold",
-      "colorDisplay": "Gold",
-      "material": "Gold Plated",
-      "featured": false,
-      "rating": 5,
-      "reviews": 10,
-      "status": "available",
-      "images": {
-        "main": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Bracelet",
-        "gallery": [
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Bracelet",
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Detail+1",
-          "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Detail+2"
-        ],
-        "thumbnail": "https://via.placeholder.com/400x400/FFD700/FFFFFF?text=LV+Bracelet"
-      },
-      "features": [
-        "Iconic monogram pattern",
-        "Adjustable size",
-        "Premium gold plating",
-        "Signature LV charm"
-      ],
-      "description": "Luxurious Louis Vuitton monogram bracelet featuring the iconic LV pattern and signature charm.",
-      "specifications": {
-        "Size": "16-18cm adjustable",
-        "Material": "Gold Plated Metal",
-        "Closure": "Adjustable chain"
-      },
-      "tags": [
-        "Premium",
-        "Luxury",
-        "Jewelry",
-        "Bracelet"
-      ],
-      "category": "jewelry"
-    },
-    {
-      "id": 255,
-      "title": "Tiffany & Co. Return to Tiffany Ring",
-      "subtitle": "Return to Tiffany",
-      "brand": "tiffany",
-      "brandDisplay": "Tiffany",
-      "size": "adjustable",
-      "sizeDisplay": "Size 6-8",
-      "price": "high",
-      "color": "silver",
-      "colorDisplay": "Silver",
-      "material": "Sterling Silver",
-      "featured": true,
-      "rating": 5,
-      "reviews": 20,
-      "status": "available",
-      "images": {
-        "main": "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Ring",
-        "gallery": [
-          "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Ring",
-          "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Detail+1",
-          "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Detail+2"
-        ],
-        "thumbnail": "https://via.placeholder.com/400x400/C0C0C0/000000?text=Tiffany+Ring"
-      },
-      "features": [
-        "Iconic Tiffany design",
-        "Sterling silver construction",
-        "Adjustable sizing",
-        "Signature blue box included"
-      ],
-      "description": "Classic Tiffany & Co. Return to Tiffany ring in sterling silver with signature heart charm.",
-      "specifications": {
-        "Size Range": "6-8 (adjustable)",
-        "Material": "Sterling Silver",
-        "Width": "3mm"
-      },
-      "tags": [
-        "Premium",
-        "Luxury",
-        "Jewelry",
-        "Ring"
-      ],
-      "category": "jewelry"
-    },
-    {
-      "id": 256,
-      "title": "Van Cleef & Arpels Frivole ring, single flower, small model",
-      "subtitle": "Frivole ring, single flower, small model",
+      "title": "Van Cleef & Arpels Alhambra necklace",
+      "subtitle": "Alhambra necklace",
       "brand": "van-cleef-arpels",
       "brandDisplay": "Van Cleef & Arpels",
       "size": "medium",
@@ -242,13 +16,61 @@
       "reviews": 8,
       "status": "available",
       "images": {
-        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/f6baa4b577a0.webp",
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/e76dcbccd982.png",
         "gallery": [
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/f6baa4b577a0.webp",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/3c8b2576ace4.webp",
-          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/03784213e2b8.webp"
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/e76dcbccd982.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/ed8e3a050147.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/0b9a5a243233.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/961938185bfc.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/188cbac25fac.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/490cadaedb54.png"
         ],
-        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole ring, single flower, small model/f6baa4b577a0.webp"
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/e76dcbccd982.png"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {},
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 1
+    },
+    {
+      "title": "Van Cleef & Arpels Perlee clovers new arrival rings",
+      "subtitle": "Perlee clovers new arrival rings",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/1b5d3a1be897.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/1b5d3a1be897.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/5ae379daf5ef.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/84f4ac67ea07.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/a01042af9504.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/8fbb4a61a4f0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/5529f1632e10.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/ee86353724c9.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/1b5d3a1be897.jpg"
       },
       "features": [
         "Premium craftsmanship",
@@ -258,7 +80,8 @@
       ],
       "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
       "specifications": {
-        "Size": "SIZE_49, SIZE_47, SIZE_46, SIZE_48, SIZE_52, SIZE_55, SIZE_54, SIZE_53, SIZE_44, SIZE_43, SIZE_42, SIZE_45, SIZE_51, SIZE_50"
+        "Color": "Silver, Gold",
+        "Size": "6, 8, 7, 5"
       },
       "tags": [
         "Premium",
@@ -267,7 +90,475 @@
         "Elegant"
       ],
       "category": "jewelry",
-      "detailedDescription": "Frivole ring. solitaire. petite model. 18K yellow gold. round diamonds; diamond quality DEF. IF to VVS.\nMODEL\nVCARP2V000\nGEM\ngemDiamonds: 43 gems. 0.81 carats"
+      "id": 2
+    },
+    {
+      "title": "Van Cleef & Arpels VAN new arrival earing",
+      "subtitle": "VAN new arrival earing",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/fea8ae4b0296.png",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/fea8ae4b0296.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/e1a19ea19df0.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/1e6fe07da3e7.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/ba2a31f566d9.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/f4df8db79322.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/1b46c8f28d81.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/1a5646a93e6a.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/c0fcd3fd93f6.png"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/fea8ae4b0296.png"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {},
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 3
+    },
+    {
+      "title": "Van Cleef & Arpels Van Classic Arrival bracelet",
+      "subtitle": "Van Classic Arrival bracelet",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/2feb47e0d90e.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/2feb47e0d90e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/df60769483a7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/6d664170a406.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/d2795b4ba9bf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/b68eaf951b7b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/b217d30b6149.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/5c52841096ec.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/1cf18890c490.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/64aea171f0e3.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/2feb47e0d90e.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {
+        "Color": "Black, White"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 4
+    },
+    {
+      "title": "Van Cleef & Arpels Vintage Alhambra long necklace size_ 120 cm",
+      "subtitle": "Vintage Alhambra long necklace size_ 120 cm",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/388cd54aaac8.png",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/388cd54aaac8.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/792315a6b835.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/8c02f9dd263a.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/372e68cfaa88.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/5149a5ba0d3b.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/196e03aea757.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/e4b335ebbf7b.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/c6293b6a4fcc.png"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/388cd54aaac8.png"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {
+        "Color": "Silver, Gold"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 5
+    },
+    {
+      "title": "Van Cleef & Arpels Vintage new arrival bracelet",
+      "subtitle": "Vintage new arrival bracelet",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/11f23940d5b7.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/11f23940d5b7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/ca0e870e260c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/43577a88f34b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/b72f4ba915bd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/e6115fd45f06.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/7f7e3daae0b1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/abe7bebd55cf.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/11f23940d5b7.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {},
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 6
+    },
+    {
+      "title": "Van Cleef & Arpels Alhambra necklace",
+      "subtitle": "Alhambra necklace",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/e76dcbccd982.png",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/e76dcbccd982.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/ed8e3a050147.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/0b9a5a243233.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/961938185bfc.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/188cbac25fac.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/490cadaedb54.png"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Alhambra_necklace/e76dcbccd982.png"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {},
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 7
+    },
+    {
+      "title": "Van Cleef & Arpels Perlee clovers new arrival rings",
+      "subtitle": "Perlee clovers new arrival rings",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/1b5d3a1be897.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/1b5d3a1be897.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/5ae379daf5ef.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/84f4ac67ea07.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/a01042af9504.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/8fbb4a61a4f0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/5529f1632e10.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/ee86353724c9.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Perlee_clovers_new_arrival_rings/1b5d3a1be897.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {
+        "Color": "Silver, Gold",
+        "Size": "6, 8, 7, 5"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 8
+    },
+    {
+      "title": "Van Cleef & Arpels VAN new arrival earing",
+      "subtitle": "VAN new arrival earing",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/fea8ae4b0296.png",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/fea8ae4b0296.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/e1a19ea19df0.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/1e6fe07da3e7.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/ba2a31f566d9.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/f4df8db79322.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/1b46c8f28d81.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/1a5646a93e6a.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/c0fcd3fd93f6.png"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_VAN_new_arrival_earing/fea8ae4b0296.png"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {},
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 9
+    },
+    {
+      "title": "Van Cleef & Arpels Van Classic Arrival bracelet",
+      "subtitle": "Van Classic Arrival bracelet",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/2feb47e0d90e.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/2feb47e0d90e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/df60769483a7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/6d664170a406.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/d2795b4ba9bf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/b68eaf951b7b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/b217d30b6149.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/5c52841096ec.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/1cf18890c490.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/64aea171f0e3.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Van_Classic_Arrival_bracelet/2feb47e0d90e.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {
+        "Color": "Black, White"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 10
+    },
+    {
+      "title": "Van Cleef & Arpels Vintage Alhambra long necklace size_ 120 cm",
+      "subtitle": "Vintage Alhambra long necklace size_ 120 cm",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/388cd54aaac8.png",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/388cd54aaac8.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/792315a6b835.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/8c02f9dd263a.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/372e68cfaa88.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/5149a5ba0d3b.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/196e03aea757.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/e4b335ebbf7b.png",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/c6293b6a4fcc.png"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_long_necklace_size__120_cm/388cd54aaac8.png"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {
+        "Color": "Silver, Gold"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 11
+    },
+    {
+      "title": "Van Cleef & Arpels Vintage new arrival bracelet",
+      "subtitle": "Vintage new arrival bracelet",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/11f23940d5b7.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/11f23940d5b7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/ca0e870e260c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/43577a88f34b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/b72f4ba915bd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/e6115fd45f06.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/7f7e3daae0b1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/abe7bebd55cf.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_new_arrival_bracelet/11f23940d5b7.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {},
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "id": 12
     }
   ],
   "filters": {
@@ -306,5 +597,5 @@
       }
     ]
   },
-  "lastUpdated": "2025-07-09T00:07:01.617567"
+  "lastUpdated": "2025-07-11T11:19:38.458077"
 }
