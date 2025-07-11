@@ -285,6 +285,95 @@
       "category": "jewelry",
       "id": 256,
       "source": "jewelry"
+    },
+    {
+      "title": "Van Cleef & Arpels Frivole ring, single flower, small model",
+      "subtitle": "Frivole ring, single flower, small model",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole_ring__single_flower__small_model/f6baa4b577a0.webp",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole_ring__single_flower__small_model/f6baa4b577a0.webp",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole_ring__single_flower__small_model/3c8b2576ace4.webp",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole_ring__single_flower__small_model/03784213e2b8.webp"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Frivole_ring__single_flower__small_model/f6baa4b577a0.webp"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {
+        "Size": "SIZE_49, SIZE_47, SIZE_46, SIZE_48, SIZE_52, SIZE_55, SIZE_54, SIZE_53, SIZE_44, SIZE_43, SIZE_42, SIZE_45, SIZE_51, SIZE_50"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "detailedDescription": "Frivole ring. solitaire. petite model. 18K yellow gold. round diamonds; diamond quality DEF. IF to VVS.\nMODEL\nVCARP2V000\nGEM\ngemDiamonds: 43 gems. 0.81 carats",
+      "id": 257
+    },
+    {
+      "title": "Van Cleef & Arpels Vintage Alhambra pendant",
+      "subtitle": "Vintage Alhambra pendant",
+      "brand": "van-cleef-arpels",
+      "brandDisplay": "Van Cleef & Arpels",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "gold",
+      "colorDisplay": "Gold",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/75ee840ed1f4.webp",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/75ee840ed1f4.webp",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/8b189738f34e.webp",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/9033ce6ff2b2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/cb90434798e5.webp",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/735a7ce5ce98.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/ed28ef2d7cca.webp"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/jewelry/Van Cleef & Arpels_Vintage_Alhambra_pendant/75ee840ed1f4.webp"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Exquisite design",
+        "High-quality materials",
+        "Timeless elegance"
+      ],
+      "description": "Exquisite Van Cleef & Arpels jewelry piece featuring exceptional craftsmanship and timeless design.",
+      "specifications": {},
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Jewelry",
+        "Elegant"
+      ],
+      "category": "jewelry",
+      "detailedDescription": "Faithful to the very first Alhambra? jewel created in 1968. the Vintage Alhambra creations by Van Cleef & Arpels are distinguished by their unique. timeless elegance. Inspired by the clover leaf. these icons of luck are adorned with a border of golden beads.\n\nPRODUCT DETAILS\nVintage Alhambra pendant. yellow gold. white mother-of-pearl.\n\nSTONE��Mother-of-pearl: 1 stone\n\nCLASP��Hallmark clasp. small model in yellow gold\n\nSIZE��Chain length: 42 cm\n\nFinal price will be reflected on your order page before you are asked to confirm and place your order. For further details. please refer to our Conditions of Sale.\nPlease note that each Van Cleef & Arpels creation is handmade. As a result. carat weight and stone quantities may differ slightly from one creation to the next.",
+      "id": 258
     }
   ],
   "filters": {
@@ -323,5 +412,5 @@
       }
     ]
   },
-  "lastUpdated": "2025-07-12T00:47:55.267986"
+  "lastUpdated": "2025-07-12T00:49:31.022267"
 }
