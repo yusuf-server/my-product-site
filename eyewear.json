@@ -2,14 +2,31 @@
   "products": [],
   "filters": {
     "brands": [
-      {"value": "all", "label": "All Brands", "count": 0}
+      {"value": "all", "label": "All Brands", "count": 0},
+      {"value": "chanel-eyewear", "label": "CHANEL Eyewear", "count": 0},
+      {"value": "miu-miu-eyewear", "label": "MIU MIU Eyewear", "count": 0},
+      {"value": "versace-eyewear", "label": "VERSACE Eyewear", "count": 0},
+      {"value": "gucci-eyewear", "label": "GUCCI Eyewear", "count": 0},
+      {"value": "louis-vuitton-eyewear", "label": "LOUIS VUITTON Eyewear", "count": 0},
+      {"value": "prada-eyewear", "label": "PRADA Eyewear", "count": 0},
+      {"value": "dior-eyewear", "label": "DIOR Eyewear", "count": 0},
+      {"value": "hermes-eyewear", "label": "HERMES Eyewear", "count": 0},
+      {"value": "bottega-veneta-eyewear", "label": "BOTTEGA VENETA Eyewear", "count": 0},
+      {"value": "saint-laurent-eyewear", "label": "SAINT LAURENT Eyewear", "count": 0},
+      {"value": "balenciaga-eyewear", "label": "BALENCIAGA Eyewear", "count": 0}
     ],
     "prices": [
       {"value": "all", "label": "All Prices", "count": 0},
       {"value": "high", "label": "High-end", "count": 0}
     ],
     "colors": [
-      {"value": "all", "label": "All Colors", "count": 0}
+      {"value": "all", "label": "All Colors", "count": 0},
+      {"value": "black", "label": "Black", "count": 0},
+      {"value": "tortoise", "label": "Tortoise", "count": 0},
+      {"value": "gold", "label": "Gold", "count": 0},
+      {"value": "red-green", "label": "Red-Green Stripe", "count": 0},
+      {"value": "brown", "label": "Brown", "count": 0},
+      {"value": "silver", "label": "Silver", "count": 0}
     ]
   },
   "settings": {

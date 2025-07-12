@@ -2,14 +2,28 @@
   "products": [],
   "filters": {
     "brands": [
-      {"value": "all", "label": "All Brands", "count": 0}
+      {"value": "all", "label": "All Brands", "count": 0},
+      {"value": "chanel-cap", "label": "Chanel Cap", "count": 0},
+      {"value": "lv-cap", "label": "LV Cap", "count": 0},
+      {"value": "dior-cap", "label": "Dior Cap", "count": 0},
+      {"value": "gucci-cap", "label": "Gucci Cap", "count": 0},
+      {"value": "fendi-cap", "label": "Fendi Cap", "count": 0},
+      {"value": "prada-cap", "label": "Prada Cap", "count": 0},
+      {"value": "hermes-cap", "label": "Hermes Cap", "count": 0},
+      {"value": "saint-laurent-cap", "label": "Saint Laurent Cap", "count": 0},
+      {"value": "balenciaga-cap", "label": "Balenciaga Cap", "count": 0}
     ],
     "prices": [
       {"value": "all", "label": "All Prices", "count": 0},
       {"value": "high", "label": "High-end", "count": 0}
     ],
     "colors": [
-      {"value": "all", "label": "All Colors", "count": 0}
+      {"value": "all", "label": "All Colors", "count": 0},
+      {"value": "black", "label": "Black", "count": 0},
+      {"value": "brown", "label": "Brown", "count": 0},
+      {"value": "red", "label": "Red", "count": 0},
+      {"value": "white", "label": "White", "count": 0},
+      {"value": "navy", "label": "Navy", "count": 0}
     ]
   },
   "settings": {
