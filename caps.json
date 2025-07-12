@@ -1,15 +1,80 @@
 {
-  "products": [],
+  "products": [
+    {
+      "title": "Chanel cc cap 014",
+      "subtitle": "cc cap 014",
+      "brand": "chanel",
+      "brandDisplay": "Chanel",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/cf599011d854.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/cf599011d854.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/4e53353a2ce7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/f18e369e4830.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/a7601101dbe5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/f741b8dc932b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/0e0eeefd249a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/341fd1861f4c.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/caps/Chanel_cc_cap_014/cf599011d854.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "Comfortable fit",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite Chanel cap featuring exceptional craftsmanship and comfortable fit.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Caps",
+        "Comfortable"
+      ],
+      "category": "caps",
+      "id": 731
+    }
+  ],
   "filters": {
     "brands": [
-      {"value": "all", "label": "All Brands", "count": 0}
+      {
+        "value": "all",
+        "label": "All Brands",
+        "count": 0
+      }
     ],
     "prices": [
-      {"value": "all", "label": "All Prices", "count": 0},
-      {"value": "high", "label": "High-end", "count": 0}
+      {
+        "value": "all",
+        "label": "All Prices",
+        "count": 0
+      },
+      {
+        "value": "high",
+        "label": "High-end",
+        "count": 0
+      }
     ],
     "colors": [
-      {"value": "all", "label": "All Colors", "count": 0}
+      {
+        "value": "all",
+        "label": "All Colors",
+        "count": 0
+      }
     ]
   },
   "settings": {
@@ -17,5 +82,6 @@
     "language": "en-US",
     "siteTitle": "Luxury Caps Collection",
     "siteDescription": "Premium designer caps and hats"
-  }
-} 
+  },
+  "lastUpdated": "2025-07-13T05:14:24.432647"
+}
