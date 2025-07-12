@@ -1,0 +1,21 @@
+{
+  "products": [],
+  "filters": {
+    "brands": [
+      {"value": "all", "label": "All Brands", "count": 0}
+    ],
+    "prices": [
+      {"value": "all", "label": "All Prices", "count": 0},
+      {"value": "high", "label": "High-end", "count": 0}
+    ],
+    "colors": [
+      {"value": "all", "label": "All Colors", "count": 0}
+    ]
+  },
+  "settings": {
+    "currency": "USD",
+    "language": "en-US",
+    "siteTitle": "Luxury Eyewear Collection",
+    "siteDescription": "Premium designer eyewear and sunglasses"
+  }
+} 

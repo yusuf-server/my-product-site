@@ -201,7 +201,7 @@
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-4 md:py-8">
         <!-- Tab Navigation -->
-        <div class="flex flex-col md:flex-row gap-4 md:gap-6 mb-6 md:mb-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-6 md:mb-8">
             <button id="bagsTab" class="tab-button active flex-1 bg-white rounded-2xl p-4 md:p-8 lg:p-12 text-center">
                 <div class="animate-float">
                     <i class="fas fa-shopping-bag text-3xl md:text-4xl lg:text-6xl mb-2 md:mb-4 text-gray-700"></i>
@@ -214,6 +214,20 @@
                     <i class="fas fa-ring text-3xl md:text-4xl lg:text-6xl mb-2 md:mb-4 text-gray-700"></i>
                     <h2 class="text-lg md:text-2xl lg:text-3xl font-semibold mb-1 md:mb-2">JEWELRY</h2>
                     <p class="text-xs md:text-sm lg:text-base text-gray-600">Exquisite Jewelry</p>
+                </div>
+            </button>
+            <button id="capsTab" class="tab-button flex-1 bg-white rounded-2xl p-4 md:p-8 lg:p-12 text-center">
+                <div class="animate-float" style="animation-delay: 1s;">
+                    <i class="fas fa-hat-cowboy text-3xl md:text-4xl lg:text-6xl mb-2 md:mb-4 text-gray-700"></i>
+                    <h2 class="text-lg md:text-2xl lg:text-3xl font-semibold mb-1 md:mb-2">WOMEN CAP</h2>
+                    <p class="text-xs md:text-sm lg:text-base text-gray-600">Elegant Cap Collection</p>
+                </div>
+            </button>
+            <button id="eyewearTab" class="tab-button flex-1 bg-white rounded-2xl p-4 md:p-8 lg:p-12 text-center">
+                <div class="animate-float" style="animation-delay: 1.5s;">
+                    <i class="fas fa-glasses text-3xl md:text-4xl lg:text-6xl mb-2 md:mb-4 text-gray-700"></i>
+                    <h2 class="text-lg md:text-2xl lg:text-3xl font-semibold mb-1 md:mb-2">EYEWEAR</h2>
+                    <p class="text-xs md:text-sm lg:text-base text-gray-600">Luxury Eyewear</p>
                 </div>
             </button>
         </div>
@@ -260,13 +274,55 @@
             </div>
         </div>
 
+        <!-- Caps Filter Section -->
+        <div id="capsFiltersSection" class="mb-6 md:mb-8 hidden">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter by Cap Brand</h3>
+                <div id="capsBrandTags" class="flex flex-wrap gap-3">
+                    <!-- Cap brand tags will be generated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Caps Products Section -->
+        <div id="capsProductsSection" class="hidden">
+            <div id="capsProductGrid" class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
+                <!-- Cap products will be loaded dynamically via JavaScript -->
+                <div class="col-span-full text-center py-8">
+                    <div class="inline-block w-8 h-8 border-4 border-gray-300 border-t-gray-900 rounded-full animate-spin"></div>
+                    <p class="mt-2 text-gray-500">Loading caps...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eyewear Filter Section -->
+        <div id="eyewearFiltersSection" class="mb-6 md:mb-8 hidden">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter by Eyewear Brand</h3>
+                <div id="eyewearBrandTags" class="flex flex-wrap gap-3">
+                    <!-- Eyewear brand tags will be generated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Eyewear Products Section -->
+        <div id="eyewearProductsSection" class="hidden">
+            <div id="eyewearProductGrid" class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
+                <!-- Eyewear products will be loaded dynamically via JavaScript -->
+                <div class="col-span-full text-center py-8">
+                    <div class="inline-block w-8 h-8 border-4 border-gray-300 border-t-gray-900 rounded-full animate-spin"></div>
+                    <p class="mt-2 text-gray-500">Loading eyewear...</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Coming Soon Section (fallback) -->
         <div id="comingSoonSection" class="hidden">
             <div class="bg-white rounded-2xl p-6 md:p-12 text-center shadow-sm">
                 <div class="animate-float">
                     <i class="fas fa-ring text-4xl md:text-6xl text-gray-400 mb-4 md:mb-6"></i>
                     <h2 class="text-xl md:text-3xl font-semibold text-gray-700 mb-2 md:mb-4">COMING SOON</h2>
-                    <p class="text-gray-500 text-sm md:text-lg">More Jewelry Collections Coming Soon</p>
+                    <p class="text-gray-500 text-sm md:text-lg">More Collections Coming Soon</p>
                 </div>
             </div>
         </div>
@@ -276,10 +332,14 @@
         // 全局变量
         let bagsData = null;
         let jewelryData = null;
+        let capsData = null;
+        let eyewearData = null;
         let settingsData = null;
         let currentBrandFilter = 'all';
         let currentJewelryBrandFilter = 'all';
-        let currentTab = 'bags'; // 'bags' or 'jewelry'
+        let currentCapsBrandFilter = 'all';
+        let currentEyewearBrandFilter = 'all';
+        let currentTab = 'bags'; // 'bags', 'jewelry', 'caps', or 'eyewear'
         
         // 生成本地占位符图片
         function generatePlaceholderImage(text, bgColor = '#f3f4f6', textColor = '#9ca3af') {
@@ -305,22 +365,32 @@
         // DOM元素
         const bagsTab = document.getElementById('bagsTab');
         const jewelryTab = document.getElementById('jewelryTab');
+        const capsTab = document.getElementById('capsTab');
+        const eyewearTab = document.getElementById('eyewearTab');
         const filtersSection = document.getElementById('filtersSection');
         const productsSection = document.getElementById('productsSection');
         const jewelryFiltersSection = document.getElementById('jewelryFiltersSection');
         const jewelryProductsSection = document.getElementById('jewelryProductsSection');
+        const capsFiltersSection = document.getElementById('capsFiltersSection');
+        const capsProductsSection = document.getElementById('capsProductsSection');
+        const eyewearFiltersSection = document.getElementById('eyewearFiltersSection');
+        const eyewearProductsSection = document.getElementById('eyewearProductsSection');
         const comingSoonSection = document.getElementById('comingSoonSection');
         const productGrid = document.getElementById('productGrid');
         const jewelryProductGrid = document.getElementById('jewelryProductGrid');
+        const capsProductGrid = document.getElementById('capsProductGrid');
+        const eyewearProductGrid = document.getElementById('eyewearProductGrid');
 
         // 页面加载时初始化
         document.addEventListener('DOMContentLoaded', async function() {
             await loadInitialData();
             initializeBrandTags();
             initializeJewelryBrandTags();
+            initializeCapsBrandTags();
+            initializeEyewearBrandTags();
             renderProducts();
             
-            // 在后台预加载饰品数据，不阻塞页面
+            // 在后台预加载其他数据，不阻塞页面
             setTimeout(async () => {
                 try {
                     await loadJewelryData();
@@ -329,6 +399,24 @@
                     console.log('Background jewelry preload failed:', error);
                 }
             }, 1000); // 1秒后开始预加载
+            
+            setTimeout(async () => {
+                try {
+                    await loadCapsData();
+                    console.log('Caps data preloaded in background');
+                } catch (error) {
+                    console.log('Background caps preload failed:', error);
+                }
+            }, 2000); // 2秒后开始预加载
+            
+            setTimeout(async () => {
+                try {
+                    await loadEyewearData();
+                    console.log('Eyewear data preloaded in background');
+                } catch (error) {
+                    console.log('Background eyewear preload failed:', error);
+                }
+            }, 3000); // 3秒后开始预加载
         });
 
         // 加载初始数据（包包和设置）
@@ -385,6 +473,60 @@
                 
             } catch (error) {
                 console.error('Failed to load jewelry data:', error);
+                throw error;
+            }
+        }
+
+        // 加载帽子数据（按需加载）
+        async function loadCapsData() {
+            if (capsData) {
+                return; // 已经加载过了
+            }
+            
+            try {
+                console.log('Loading caps data...');
+                const startTime = performance.now();
+                
+                const response = await fetch('caps.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to load caps data: ${response.status}`);
+                }
+                
+                capsData = await response.json();
+                const endTime = performance.now();
+                
+                console.log(`Caps data loaded successfully: ${capsData.products.length} products in ${(endTime - startTime).toFixed(2)}ms`);
+                
+            } catch (error) {
+                console.error('Failed to load caps data:', error);
+                throw error;
+            }
+        }
+
+        // 加载眼镜数据（按需加载）
+        async function loadEyewearData() {
+            if (eyewearData) {
+                return; // 已经加载过了
+            }
+            
+            try {
+                console.log('Loading eyewear data...');
+                const startTime = performance.now();
+                
+                const response = await fetch('eyewear.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to load eyewear data: ${response.status}`);
+                }
+                
+                eyewearData = await response.json();
+                const endTime = performance.now();
+                
+                console.log(`Eyewear data loaded successfully: ${eyewearData.products.length} products in ${(endTime - startTime).toFixed(2)}ms`);
+                
+            } catch (error) {
+                console.error('Failed to load eyewear data:', error);
                 throw error;
             }
         }
@@ -460,6 +602,92 @@
             console.log('Jewelry brand tags initialized successfully');
         }
 
+        // 初始化帽子品牌标签
+        function initializeCapsBrandTags() {
+            const capsBrandTagsContainer = document.getElementById('capsBrandTags');
+            if (!capsBrandTagsContainer) return;
+
+            // 使用默认的帽子品牌列表（在没有加载帽子数据时）
+            const defaultCapsBrands = [
+                { value: 'all', label: 'All Cap Brands' },
+                { value: 'chanel-cap', label: 'Chanel Cap' },
+                { value: 'lv-cap', label: 'LV Cap' },
+                { value: 'dior-cap', label: 'Dior Cap' },
+                { value: 'gucci-cap', label: 'Gucci Cap' },
+                { value: 'fendi-cap', label: 'Fendi Cap' }
+            ];
+
+            // 如果已加载帽子数据，使用帽子数据中的品牌列表，否则使用默认列表
+            const capsBrands = capsData ? capsData.filters.brands : defaultCapsBrands;
+
+            // 生成帽子品牌标签
+            const capsBrandTags = capsBrands.map(brand => {
+                const isActive = currentCapsBrandFilter === brand.value;
+                return `
+                    <button 
+                        class="caps-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                            isActive 
+                                ? 'bg-orange-600 text-white shadow-lg' 
+                                : 'bg-orange-50 text-orange-700 hover:bg-orange-100 hover:shadow-md'
+                        }" 
+                        data-brand="${brand.value}"
+                        onclick="filterCapsByBrand('${brand.value}')"
+                    >
+                        ${brand.label}
+                    </button>
+                `;
+            }).join('');
+
+            capsBrandTagsContainer.innerHTML = capsBrandTags;
+            console.log('Caps brand tags initialized successfully');
+        }
+
+        // 初始化眼镜品牌标签
+        function initializeEyewearBrandTags() {
+            const eyewearBrandTagsContainer = document.getElementById('eyewearBrandTags');
+            if (!eyewearBrandTagsContainer) return;
+
+            // 使用默认的眼镜品牌列表（在没有加载眼镜数据时）
+            const defaultEyewearBrands = [
+                { value: 'all', label: 'All Eyewear Brands' },
+                { value: 'chanel-eyewear', label: 'CHANEL Eyewear' },
+                { value: 'miu-miu-eyewear', label: 'MIU MIU Eyewear' },
+                { value: 'versace-eyewear', label: 'VERSACE Eyewear' },
+                { value: 'gucci-eyewear', label: 'GUCCI Eyewear' },
+                { value: 'louis-vuitton-eyewear', label: 'LOUIS VUITTON Eyewear' },
+                { value: 'prada-eyewear', label: 'PRADA Eyewear' },
+                { value: 'dior-eyewear', label: 'DIOR Eyewear' },
+                { value: 'saint-laurent-eyewear', label: 'SAINT LAURENT Eyewear' },
+                { value: 'fendi-eyewear', label: 'FENDI Eyewear' },
+                { value: 'burberry-eyewear', label: 'BURBERRY Eyewear' },
+                { value: 'hermes-eyewear', label: 'HERMES Eyewear' }
+            ];
+
+            // 如果已加载眼镜数据，使用眼镜数据中的品牌列表，否则使用默认列表
+            const eyewearBrands = eyewearData ? eyewearData.filters.brands : defaultEyewearBrands;
+
+            // 生成眼镜品牌标签
+            const eyewearBrandTags = eyewearBrands.map(brand => {
+                const isActive = currentEyewearBrandFilter === brand.value;
+                return `
+                    <button 
+                        class="eyewear-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                            isActive 
+                                ? 'bg-blue-600 text-white shadow-lg' 
+                                : 'bg-blue-50 text-blue-700 hover:bg-blue-100 hover:shadow-md'
+                        }" 
+                        data-brand="${brand.value}"
+                        onclick="filterEyewearByBrand('${brand.value}')"
+                    >
+                        ${brand.label}
+                    </button>
+                `;
+            }).join('');
+
+            eyewearBrandTagsContainer.innerHTML = eyewearBrandTags;
+            console.log('Eyewear brand tags initialized successfully');
+        }
+
         // 品牌筛选函数
         function filterByBrand(brandValue) {
             currentBrandFilter = brandValue;
@@ -498,6 +726,44 @@
             renderJewelryProducts();
         }
 
+        // 帽子品牌筛选函数
+        function filterCapsByBrand(brandValue) {
+            currentCapsBrandFilter = brandValue;
+            
+            // 更新帽子品牌标签样式
+            const allCapsTags = document.querySelectorAll('.caps-brand-tag');
+            allCapsTags.forEach(tag => {
+                const isActive = tag.dataset.brand === brandValue;
+                tag.className = `caps-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                    isActive 
+                        ? 'bg-orange-600 text-white shadow-lg' 
+                        : 'bg-orange-50 text-orange-700 hover:bg-orange-100 hover:shadow-md'
+                }`;
+            });
+
+            // 重新渲染帽子产品
+            renderCapsProducts();
+        }
+
+        // 眼镜品牌筛选函数
+        function filterEyewearByBrand(brandValue) {
+            currentEyewearBrandFilter = brandValue;
+            
+            // 更新眼镜品牌标签样式
+            const allEyewearTags = document.querySelectorAll('.eyewear-brand-tag');
+            allEyewearTags.forEach(tag => {
+                const isActive = tag.dataset.brand === brandValue;
+                tag.className = `eyewear-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                    isActive 
+                        ? 'bg-blue-600 text-white shadow-lg' 
+                        : 'bg-blue-50 text-blue-700 hover:bg-blue-100 hover:shadow-md'
+                }`;
+            });
+
+            // 重新渲染眼镜产品
+            renderEyewearProducts();
+        }
+
         // 渲染产品
         function renderProducts() {
             if (!bagsData || !bagsData.products) {
@@ -519,7 +785,7 @@
             }
 
             productGrid.innerHTML = filteredProducts.map(product => `
-                <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id})">
+                <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'bags')">
                     <div class="aspect-square bg-gray-100 relative overflow-hidden">
                         <img src="${product.images.thumbnail}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
                         ${product.featured ? '<div class="absolute top-2 left-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-xs font-semibold">Bestseller</div>' : ''}
@@ -605,7 +871,7 @@
                     : product.images.thumbnail;
                 
                 return `
-                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id})">
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'jewelry')">
                         <div class="aspect-square bg-gray-100 relative overflow-hidden">
                             <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
                             ${product.featured ? '<div class="absolute top-2 left-2 bg-purple-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
@@ -640,19 +906,199 @@
             });
         }
 
+        // 渲染帽子产品
+        async function renderCapsProducts() {
+            if (!capsData) {
+                // 显示加载状态
+                capsProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-600 mx-auto mb-4"></div>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">Loading Caps...</h3>
+                        <p class="text-gray-500">Please wait while we load the caps collection</p>
+                    </div>
+                `;
+                
+                try {
+                    const loadStartTime = performance.now();
+                    await loadCapsData();
+                    const loadEndTime = performance.now();
+                    console.log(`Caps data loaded in ${(loadEndTime - loadStartTime).toFixed(2)}ms`);
+                    
+                    // 重新初始化帽子品牌标签
+                    initializeCapsBrandTags();
+                } catch (error) {
+                    capsProductGrid.innerHTML = `
+                        <div class="col-span-full text-center py-12">
+                            <i class="fas fa-exclamation-triangle text-4xl text-red-400 mb-4"></i>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-2">Failed to Load Caps</h3>
+                            <p class="text-gray-500">Please try again later</p>
+                        </div>
+                    `;
+                    return;
+                }
+            }
+
+            const filteredCapsProducts = filterCapsProducts(capsData.products);
+            
+            if (filteredCapsProducts.length === 0) {
+                capsProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <i class="fas fa-hat-cowboy text-4xl text-gray-400 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">No Caps Found</h3>
+                        <p class="text-gray-500">Please try selecting a different brand or check back later</p>
+                    </div>
+                `;
+                return;
+            }
+
+            capsProductGrid.innerHTML = filteredCapsProducts.map(product => {
+                // 使用本地占位符替代远程placeholder
+                const imageUrl = product.images.thumbnail.includes('placeholder') 
+                    ? generatePlaceholderImage(product.brandDisplay, '#f8f9fa', '#6b7280')
+                    : product.images.thumbnail;
+                
+                return `
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'caps')">
+                        <div class="aspect-square bg-gray-100 relative overflow-hidden">
+                            <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
+                            ${product.featured ? '<div class="absolute top-2 left-2 bg-orange-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
+                            ${product.status === 'limited' ? '<div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">Limited</div>' : ''}
+                        </div>
+                        <div class="p-2 md:p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1 text-sm md:text-base">${product.title}</h3>
+                            <p class="text-gray-500 text-xs md:text-sm mb-2">${product.subtitle}</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
+                                <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
+                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                    <i class="fab fa-whatsapp mr-1"></i>Contact
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // 立即显示帽子产品，无延迟
+            document.querySelectorAll('.animate-fade-in').forEach((card) => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            });
+        }
+
+        // 筛选帽子产品
+        function filterCapsProducts(products) {
+            return products.filter(product => {
+                return currentCapsBrandFilter === 'all' || product.brand === currentCapsBrandFilter;
+            });
+        }
+
+        // 渲染眼镜产品
+        async function renderEyewearProducts() {
+            if (!eyewearData) {
+                // 显示加载状态
+                eyewearProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">Loading Eyewear...</h3>
+                        <p class="text-gray-500">Please wait while we load the eyewear collection</p>
+                    </div>
+                `;
+                
+                try {
+                    const loadStartTime = performance.now();
+                    await loadEyewearData();
+                    const loadEndTime = performance.now();
+                    console.log(`Eyewear data loaded in ${(loadEndTime - loadStartTime).toFixed(2)}ms`);
+                    
+                    // 重新初始化眼镜品牌标签
+                    initializeEyewearBrandTags();
+                } catch (error) {
+                    eyewearProductGrid.innerHTML = `
+                        <div class="col-span-full text-center py-12">
+                            <i class="fas fa-exclamation-triangle text-4xl text-red-400 mb-4"></i>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-2">Failed to Load Eyewear</h3>
+                            <p class="text-gray-500">Please try again later</p>
+                        </div>
+                    `;
+                    return;
+                }
+            }
+
+            const filteredEyewearProducts = filterEyewearProducts(eyewearData.products);
+            
+            if (filteredEyewearProducts.length === 0) {
+                eyewearProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <i class="fas fa-glasses text-4xl text-gray-400 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">No Eyewear Found</h3>
+                        <p class="text-gray-500">Please try selecting a different brand or check back later</p>
+                    </div>
+                `;
+                return;
+            }
+
+            eyewearProductGrid.innerHTML = filteredEyewearProducts.map(product => {
+                // 使用本地占位符替代远程placeholder
+                const imageUrl = product.images.thumbnail.includes('placeholder') 
+                    ? generatePlaceholderImage(product.brandDisplay, '#f8f9fa', '#6b7280')
+                    : product.images.thumbnail;
+                
+                return `
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'eyewear')">
+                        <div class="aspect-square bg-gray-100 relative overflow-hidden">
+                            <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
+                            ${product.featured ? '<div class="absolute top-2 left-2 bg-blue-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
+                            ${product.status === 'limited' ? '<div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">Limited</div>' : ''}
+                        </div>
+                        <div class="p-2 md:p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1 text-sm md:text-base">${product.title}</h3>
+                            <p class="text-gray-500 text-xs md:text-sm mb-2">${product.subtitle}</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
+                                <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
+                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                    <i class="fab fa-whatsapp mr-1"></i>Contact
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // 立即显示眼镜产品，无延迟
+            document.querySelectorAll('.animate-fade-in').forEach((card) => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            });
+        }
+
+        // 筛选眼镜产品
+        function filterEyewearProducts(products) {
+            return products.filter(product => {
+                return currentEyewearBrandFilter === 'all' || product.brand === currentEyewearBrandFilter;
+            });
+        }
+
         // Tab切换功能
         bagsTab.addEventListener('click', () => {
             currentTab = 'bags';
             bagsTab.classList.add('active');
             jewelryTab.classList.remove('active');
+            capsTab.classList.remove('active');
+            eyewearTab.classList.remove('active');
             
             // 显示包包相关内容
             filtersSection.classList.remove('hidden');
             productsSection.classList.remove('hidden');
             
-            // 隐藏饰品相关内容
+            // 隐藏其他相关内容
             jewelryFiltersSection.classList.add('hidden');
             jewelryProductsSection.classList.add('hidden');
+            capsFiltersSection.classList.add('hidden');
+            capsProductsSection.classList.add('hidden');
+            eyewearFiltersSection.classList.add('hidden');
+            eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
         });
 
@@ -660,6 +1106,8 @@
             currentTab = 'jewelry';
             jewelryTab.classList.add('active');
             bagsTab.classList.remove('active');
+            capsTab.classList.remove('active');
+            eyewearTab.classList.remove('active');
             
             // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
@@ -668,15 +1116,77 @@
             // 显示饰品相关内容
             jewelryFiltersSection.classList.remove('hidden');
             jewelryProductsSection.classList.remove('hidden');
+            
+            // 隐藏其他相关内容
+            capsFiltersSection.classList.add('hidden');
+            capsProductsSection.classList.add('hidden');
+            eyewearFiltersSection.classList.add('hidden');
+            eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
             
             // 渲染饰品产品（异步加载）
             renderJewelryProducts();
         });
 
+        capsTab.addEventListener('click', () => {
+            currentTab = 'caps';
+            capsTab.classList.add('active');
+            bagsTab.classList.remove('active');
+            jewelryTab.classList.remove('active');
+            eyewearTab.classList.remove('active');
+            
+            // 隐藏包包相关内容
+            filtersSection.classList.add('hidden');
+            productsSection.classList.add('hidden');
+            
+            // 隐藏饰品相关内容
+            jewelryFiltersSection.classList.add('hidden');
+            jewelryProductsSection.classList.add('hidden');
+            
+            // 显示帽子相关内容
+            capsFiltersSection.classList.remove('hidden');
+            capsProductsSection.classList.remove('hidden');
+            
+            // 隐藏眼镜相关内容
+            eyewearFiltersSection.classList.add('hidden');
+            eyewearProductsSection.classList.add('hidden');
+            comingSoonSection.classList.add('hidden');
+            
+            // 渲染帽子产品（异步加载）
+            renderCapsProducts();
+        });
+
+        eyewearTab.addEventListener('click', () => {
+            currentTab = 'eyewear';
+            eyewearTab.classList.add('active');
+            bagsTab.classList.remove('active');
+            jewelryTab.classList.remove('active');
+            capsTab.classList.remove('active');
+            
+            // 隐藏包包相关内容
+            filtersSection.classList.add('hidden');
+            productsSection.classList.add('hidden');
+            
+            // 隐藏饰品相关内容
+            jewelryFiltersSection.classList.add('hidden');
+            jewelryProductsSection.classList.add('hidden');
+            
+            // 隐藏帽子相关内容
+            capsFiltersSection.classList.add('hidden');
+            capsProductsSection.classList.add('hidden');
+            
+            // 显示眼镜相关内容
+            eyewearFiltersSection.classList.remove('hidden');
+            eyewearProductsSection.classList.remove('hidden');
+            comingSoonSection.classList.add('hidden');
+            
+            // 渲染眼镜产品（异步加载）
+            renderEyewearProducts();
+        });
+
         // 跳转到产品详情页
-        function goToProduct(id) {
-            window.location.href = `product-detail.html?id=${id}`;
+        function goToProduct(id, category = 'bags') {
+            window.location.href = `product-detail.html?id=${id}&category=${category}`;
         }
 
         // WhatsApp联系功能

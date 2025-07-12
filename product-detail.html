@@ -501,6 +501,8 @@
         // Global variables
         let bagsData = null;
         let jewelryData = null;
+        let capsData = null;
+        let eyewearData = null;
         let settingsData = null;
         let currentProduct = null;
 
@@ -510,23 +512,29 @@
                 console.log('Loading product data...');
                 
                 // 并行加载所有数据文件
-                const [bagsResponse, jewelryResponse, settingsResponse] = await Promise.all([
+                const [bagsResponse, jewelryResponse, capsResponse, eyewearResponse, settingsResponse] = await Promise.all([
                     fetch('bags.json'),
                     fetch('jewelry.json'),
+                    fetch('caps.json'),
+                    fetch('eyewear.json'),
                     fetch('settings.json')
                 ]);
                 
-                if (!bagsResponse.ok || !jewelryResponse.ok || !settingsResponse.ok) {
+                if (!bagsResponse.ok || !jewelryResponse.ok || !capsResponse.ok || !eyewearResponse.ok || !settingsResponse.ok) {
                     throw new Error('Failed to load one or more data files');
                 }
                 
                 bagsData = await bagsResponse.json();
                 jewelryData = await jewelryResponse.json();
+                capsData = await capsResponse.json();
+                eyewearData = await eyewearResponse.json();
                 settingsData = await settingsResponse.json();
                 
                 console.log('Product data loaded successfully');
                 console.log('- Bags:', bagsData.products.length);
                 console.log('- Jewelry:', jewelryData.products.length);
+                console.log('- Caps:', capsData.products.length);
+                console.log('- Eyewear:', eyewearData.products.length);
                 console.log('- Settings loaded');
                 
                 return true;
@@ -541,8 +549,10 @@
         async function getProductInfo() {
             const urlParams = new URLSearchParams(window.location.search);
             const productId = parseInt(urlParams.get('id'));
+            const category = urlParams.get('category') || 'bags'; // 默认类别为bags
             
             console.log('Product ID from URL:', productId);
+            console.log('Category from URL:', category);
             
             if (!productId) {
                 showError('Invalid product ID. Please select a product from the product list.');
@@ -550,23 +560,34 @@
             }
 
             // Ensure data is loaded
-            if (!bagsData || !jewelryData || !settingsData) {
+            if (!bagsData || !jewelryData || !capsData || !eyewearData || !settingsData) {
                 const loaded = await loadProductData();
                 if (!loaded) return;
             }
 
-            // Optimize product search based on ID range
-            // Bags: ID 1-250, Jewelry: ID 251+
+            // Search in specific category based on URL parameter
             const searchStartTime = performance.now();
             
-            if (productId <= 250) {
-                // Search bags first for IDs 1-250
-                currentProduct = bagsData.products.find(product => product.id === productId) ||
-                                jewelryData.products.find(product => product.id === productId);
-            } else {
-                // Search jewelry first for IDs 251+
-                currentProduct = jewelryData.products.find(product => product.id === productId) ||
-                                bagsData.products.find(product => product.id === productId);
+            switch (category) {
+                case 'bags':
+                    currentProduct = bagsData.products.find(product => product.id === productId);
+                    break;
+                case 'jewelry':
+                    currentProduct = jewelryData.products.find(product => product.id === productId);
+                    break;
+                case 'caps':
+                    currentProduct = capsData.products.find(product => product.id === productId);
+                    break;
+                case 'eyewear':
+                    currentProduct = eyewearData.products.find(product => product.id === productId);
+                    break;
+                default:
+                    // Fallback: search in all categories if category is not specified
+                    currentProduct = bagsData.products.find(product => product.id === productId) ||
+                                    jewelryData.products.find(product => product.id === productId) ||
+                                    capsData.products.find(product => product.id === productId) ||
+                                    eyewearData.products.find(product => product.id === productId);
+                    break;
             }
             
             const searchEndTime = performance.now();
@@ -866,6 +887,12 @@
                             </div>
                         `;
                     }
+                } else if (currentProduct.category === 'caps') {
+                    // 帽子类别：只显示品牌信息
+                    // 其他规格信息暂时隐藏
+                } else if (currentProduct.category === 'eyewear') {
+                    // 眼镜类别：只显示品牌信息
+                    // 其他规格信息暂时隐藏
                 } else {
                     // 其他类别：显示所有可用规格
                     if (currentProduct.specifications?.Dimensions || currentProduct.sizeDisplay) {
@@ -956,7 +983,7 @@
                 return;
             }
             
-            const whatsappNumber = productsData?.settings?.whatsappNumber || "1234567890";
+            const whatsappNumber = settingsData?.whatsappNumber || "1234567890";
             const message = `Hello! I'm very interested in this product: ${currentProduct.title}. Could you please provide more details and pricing information?`;
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
