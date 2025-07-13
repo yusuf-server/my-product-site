@@ -390,6 +390,9 @@
             initializeEyewearBrandTags();
             renderProducts();
             
+            // 恢复之前的浏览状态
+            restorePreviousState();
+            
             // 在后台预加载其他数据，不阻塞页面
             setTimeout(async () => {
                 try {
@@ -1186,7 +1189,141 @@
 
         // 跳转到产品详情页
         function goToProduct(id, category = 'bags') {
+            // 保存当前标签状态到sessionStorage
+            sessionStorage.setItem('lastActiveTab', currentTab);
+            sessionStorage.setItem('lastBrandFilter', currentBrandFilter);
+            sessionStorage.setItem('lastJewelryBrandFilter', currentJewelryBrandFilter);
+            sessionStorage.setItem('lastCapsBrandFilter', currentCapsBrandFilter);
+            sessionStorage.setItem('lastEyewearBrandFilter', currentEyewearBrandFilter);
+            
+            // 保存当前滚动位置
+            sessionStorage.setItem('lastScrollPosition', window.scrollY);
+            
             window.location.href = `product-detail.html?id=${id}&category=${category}`;
+        }
+
+        // 恢复之前的浏览状态
+        function restorePreviousState() {
+            const lastActiveTab = sessionStorage.getItem('lastActiveTab');
+            const lastBrandFilter = sessionStorage.getItem('lastBrandFilter');
+            const lastJewelryBrandFilter = sessionStorage.getItem('lastJewelryBrandFilter');
+            const lastCapsBrandFilter = sessionStorage.getItem('lastCapsBrandFilter');
+            const lastEyewearBrandFilter = sessionStorage.getItem('lastEyewearBrandFilter');
+            const lastScrollPosition = sessionStorage.getItem('lastScrollPosition');
+            
+            if (lastActiveTab) {
+                // 恢复标签状态
+                currentTab = lastActiveTab;
+                currentBrandFilter = lastBrandFilter || 'all';
+                currentJewelryBrandFilter = lastJewelryBrandFilter || 'all';
+                currentCapsBrandFilter = lastCapsBrandFilter || 'all';
+                currentEyewearBrandFilter = lastEyewearBrandFilter || 'all';
+                
+                // 更新UI状态
+                updateTabUI();
+                updateFilterUI();
+                
+                // 根据标签渲染相应产品
+                switch(lastActiveTab) {
+                    case 'jewelry':
+                        renderJewelryProducts();
+                        break;
+                    case 'caps':
+                        renderCapsProducts();
+                        break;
+                    case 'eyewear':
+                        renderEyewearProducts();
+                        break;
+                    default:
+                        renderProducts();
+                        break;
+                }
+                
+                // 恢复滚动位置（延迟执行，确保内容已渲染）
+                if (lastScrollPosition) {
+                    setTimeout(() => {
+                        window.scrollTo(0, parseInt(lastScrollPosition));
+                        // 清除保存的滚动位置，避免影响后续操作
+                        sessionStorage.removeItem('lastScrollPosition');
+                    }, 200); // 增加延迟时间，确保内容完全渲染
+                }
+                
+                console.log('Previous state restored:', lastActiveTab);
+            }
+        }
+
+        // 更新标签UI状态
+        function updateTabUI() {
+            // 移除所有标签的active状态
+            bagsTab.classList.remove('active');
+            jewelryTab.classList.remove('active');
+            capsTab.classList.remove('active');
+            eyewearTab.classList.remove('active');
+            
+            // 隐藏所有内容区域
+            filtersSection.classList.add('hidden');
+            productsSection.classList.add('hidden');
+            jewelryFiltersSection.classList.add('hidden');
+            jewelryProductsSection.classList.add('hidden');
+            capsFiltersSection.classList.add('hidden');
+            capsProductsSection.classList.add('hidden');
+            eyewearFiltersSection.classList.add('hidden');
+            eyewearProductsSection.classList.add('hidden');
+            comingSoonSection.classList.add('hidden');
+            
+            // 根据当前标签显示相应内容
+            switch(currentTab) {
+                case 'jewelry':
+                    jewelryTab.classList.add('active');
+                    jewelryFiltersSection.classList.remove('hidden');
+                    jewelryProductsSection.classList.remove('hidden');
+                    break;
+                case 'caps':
+                    capsTab.classList.add('active');
+                    capsFiltersSection.classList.remove('hidden');
+                    capsProductsSection.classList.remove('hidden');
+                    break;
+                case 'eyewear':
+                    eyewearTab.classList.add('active');
+                    eyewearFiltersSection.classList.remove('hidden');
+                    eyewearProductsSection.classList.remove('hidden');
+                    break;
+                default:
+                    bagsTab.classList.add('active');
+                    filtersSection.classList.remove('hidden');
+                    productsSection.classList.remove('hidden');
+                    break;
+            }
+        }
+
+        // 更新筛选器UI状态
+        function updateFilterUI() {
+            // 更新包包品牌筛选器
+            if (bagsData && bagsData.filters && bagsData.filters.brands) {
+                const brandTagsContainer = document.getElementById('brandTags');
+                if (brandTagsContainer) {
+                    const brandTags = bagsData.filters.brands.map(brand => {
+                        const isActive = currentBrandFilter === brand.value;
+                        return `
+                            <button 
+                                class="brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                                    isActive 
+                                        ? 'bg-gray-900 text-white shadow-lg' 
+                                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:shadow-md'
+                                }" 
+                                data-brand="${brand.value}"
+                                onclick="filterByBrand('${brand.value}')"
+                            >
+                                ${brand.label}
+                            </button>
+                        `;
+                    }).join('');
+                    brandTagsContainer.innerHTML = brandTags;
+                }
+            }
+            
+            // 更新其他类别的品牌筛选器（如果有数据的话）
+            // 这里可以根据需要添加其他类别的筛选器更新逻辑
         }
 
         // WhatsApp联系功能
@@ -1229,11 +1366,7 @@
         `;
         document.head.appendChild(style);
 
-        // 移动端菜单切换
-        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
-            const mobileMenu = document.getElementById('mobileMenu');
-            mobileMenu.classList.toggle('hidden');
-        });
+
 
         // Logo轮播增强功能
         document.addEventListener('DOMContentLoaded', function() {
@@ -1271,8 +1404,49 @@
             carouselContainer.addEventListener('mouseleave', function() {
                 carouselTrack.style.animationPlayState = 'running';
             });
+            
+            // 移动端菜单切换
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    const mobileMenu = document.getElementById('mobileMenu');
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
+            // 回到顶部按钮功能
+            const backToTopBtn = document.getElementById('backToTopBtn');
+            if (backToTopBtn) {
+                // 监听滚动事件，控制按钮显示/隐藏
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 300) {
+                        backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                        backToTopBtn.classList.add('opacity-100');
+                    } else {
+                        backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+                        backToTopBtn.classList.remove('opacity-100');
+                    }
+                });
+                
+                // 点击回到顶部
+                backToTopBtn.addEventListener('click', function() {
+                    // 平滑滚动到顶部
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
         });
     </script>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="fixed bottom-4 right-4 md:bottom-6 md:right-6 bg-gray-900 text-white p-2 md:p-3 rounded-full shadow-lg hover:bg-gray-800 transition-all duration-300 opacity-0 pointer-events-none z-50 group">
+        <i class="fas fa-arrow-up text-base md:text-lg"></i>
+        <span class="absolute right-full mr-2 md:mr-3 bg-gray-900 text-white px-2 py-1 rounded text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 hidden md:block">
+            Back to Top
+        </span>
+    </button>
 
     <!-- Contact Section -->
     <footer class="bg-gray-900 text-white mt-16" id="contact">
