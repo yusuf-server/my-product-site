@@ -4764,32 +4764,32 @@
         "count": 0
       },
       {
-        "value": "gucci-cap",
+        "value": "gucci",
         "label": "Gucci Cap",
         "count": 0
       },
       {
-        "value": "fendi-cap",
+        "value": "fendi",
         "label": "Fendi Cap",
         "count": 0
       },
       {
-        "value": "prada-cap",
+        "value": "prada",
         "label": "Prada Cap",
         "count": 0
       },
       {
-        "value": "hermes-cap",
+        "value": "hermes",
         "label": "Hermes Cap",
         "count": 0
       },
       {
-        "value": "saint-laurent-cap",
+        "value": "saint-laurent",
         "label": "Saint Laurent Cap",
         "count": 0
       },
       {
-        "value": "balenciaga-cap",
+        "value": "balenciaga",
         "label": "Balenciaga Cap",
         "count": 0
       }
@@ -4845,5 +4845,5 @@
     "siteTitle": "Luxury Caps Collection",
     "siteDescription": "Premium designer caps and hats"
   },
-  "lastUpdated": "2025-07-13T14:57:54.898232"
+  "lastUpdated": "2025-07-13T15:02:23.235086"
 }
