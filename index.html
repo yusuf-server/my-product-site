@@ -797,7 +797,7 @@
                         <div class="flex justify-between items-center">
                             <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
                             <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
-                                    onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                    onclick="event.stopPropagation(); contactWhatsApp('${product.title}', '${product.id}', 'bags')">
                                 <i class="fab fa-whatsapp mr-1"></i>Contact
                             </button>
                         </div>
@@ -883,7 +883,7 @@
                             <div class="flex justify-between items-center">
                                 <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
                                 <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
-                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}', '${product.id}', 'jewelry')">
                                     <i class="fab fa-whatsapp mr-1"></i>Contact
                                 </button>
                             </div>
@@ -970,7 +970,7 @@
                             <div class="flex justify-between items-center">
                                 <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
                                 <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
-                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}', '${product.id}', 'caps')">
                                     <i class="fab fa-whatsapp mr-1"></i>Contact
                                 </button>
                             </div>
@@ -1057,7 +1057,7 @@
                             <div class="flex justify-between items-center">
                                 <span class="text-base md:text-lg font-bold text-gray-900">？？？</span>
                                 <button class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 md:px-3 md:py-1.5 rounded-lg text-xs md:text-sm transition-colors" 
-                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}')">
+                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}', '${product.id}', 'eyewear')">
                                     <i class="fab fa-whatsapp mr-1"></i>Contact
                                 </button>
                             </div>
@@ -1190,12 +1190,16 @@
         }
 
         // WhatsApp联系功能
-        function contactWhatsApp(productTitle = '') {
+        function contactWhatsApp(productTitle = '', productId = '', category = '') {
             const whatsappNumber = settingsData?.whatsappNumber || "1234567890";
-            const message = productTitle ? 
-                `Hello! I'm very interested in this product: ${productTitle}. Could you please provide more details and pricing information?` :
-                `Hello! I would like to learn more about your products.`;
-            
+            let message = '';
+            if (productTitle && productId && category) {
+                // 构建产品详情页链接
+                const productUrl = `${window.location.origin}${window.location.pathname.replace('index.html', '')}product-detail.html?id=${productId}&category=${category}`;
+                message = `Hello! I'm very interested in this product: ${productTitle}\n\nProduct Details:\n• Product: ${productTitle}\n• Category: ${category.charAt(0).toUpperCase() + category.slice(1)}\n• Product Link: ${productUrl}\n\nCould you please provide more details and pricing information?`;
+            } else {
+                message = `Hello! I would like to learn more about your products.`;
+            }
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
         }
