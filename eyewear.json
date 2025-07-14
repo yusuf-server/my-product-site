@@ -21261,63 +21261,51 @@
     "brands": [
       {
         "value": "all",
-        "label": "All Brands",
-        "count": 0
+        "label": "All Eyewear Brands"
       },
       {
         "value": "chanel",
-        "label": "CHANEL Eyewear",
-        "count": 0
+        "label": "CHANEL Eyewear"
       },
       {
         "value": "miu-miu",
-        "label": "MIU MIU Eyewear",
-        "count": 0
+        "label": "MIU MIU Eyewear"
       },
       {
         "value": "versace",
-        "label": "VERSACE Eyewear",
-        "count": 0
+        "label": "VERSACE Eyewear"
       },
       {
         "value": "gucci",
-        "label": "GUCCI Eyewear",
-        "count": 0
+        "label": "GUCCI Eyewear"
       },
       {
         "value": "louis-vuitton",
-        "label": "LOUIS VUITTON Eyewear",
-        "count": 0
+        "label": "LOUIS VUITTON Eyewear"
       },
       {
         "value": "prada",
-        "label": "PRADA Eyewear",
-        "count": 0
+        "label": "PRADA Eyewear"
       },
       {
         "value": "dior",
-        "label": "DIOR Eyewear",
-        "count": 0
-      },
-      {
-        "value": "hermes",
-        "label": "HERMES Eyewear",
-        "count": 0
-      },
-      {
-        "value": "bottega-veneta",
-        "label": "BOTTEGA VENETA Eyewear",
-        "count": 0
+        "label": "DIOR Eyewear"
       },
       {
         "value": "saint-laurent",
-        "label": "SAINT LAURENT Eyewear",
-        "count": 0
+        "label": "SAINT LAURENT Eyewear"
       },
       {
-        "value": "balenciaga",
-        "label": "BALENCIAGA Eyewear",
-        "count": 0
+        "value": "fendi",
+        "label": "FENDI Eyewear"
+      },
+      {
+        "value": "burberry",
+        "label": "BURBERRY Eyewear"
+      },
+      {
+        "value": "hermes",
+        "label": "HERMES Eyewear"
       }
     ],
     "prices": [
@@ -21368,6 +21356,24 @@
         "label": "Silver",
         "count": 0
       }
+    ],
+    "sizes": [
+      {
+        "value": "all",
+        "label": "All Sizes"
+      },
+      {
+        "value": "small",
+        "label": "Small"
+      },
+      {
+        "value": "medium",
+        "label": "Medium"
+      },
+      {
+        "value": "large",
+        "label": "Large"
+      }
     ]
   },
   "settings": {
@@ -21376,5 +21382,5 @@
     "siteTitle": "Luxury Eyewear Collection",
     "siteDescription": "Premium designer eyewear and sunglasses"
   },
-  "lastUpdated": "2025-07-14T20:03:12.073238"
+  "lastUpdated": "2025-07-14T20:07:59.671162"
 }
