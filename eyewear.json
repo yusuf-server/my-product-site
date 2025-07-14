@@ -16150,6 +16150,2139 @@
       ],
       "category": "eyewear",
       "id": 1130
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_",
+      "subtitle": "DI_R Eyewear SIZE_",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/338590cbef36.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/338590cbef36.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/0ed389eba29c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/c8e738d19755.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/a7d55ca4a71e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/2a055c1ae794.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/fdc4399a4651.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/f81bf76554e2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/6ab8e453e045.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/e81bc9af4f7b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/c9ffbcfdcae3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/ec4fa29d358e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/4b6d38b8179f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/9f724465c453.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/1f1dd5153cc9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/01c55c383ee0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/dce8f1acd0c6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/21681a5fa1d0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/d38e1e48ff2e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/1825773586a1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/8575af887b29.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/13b0f869a667.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/8e1c3d1401b0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/3bb63397ead3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/5817e0e5d2f7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/e1588c5cce08.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/eea9b4ab8ca7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/6964276604b6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/c5d8a5c262ed.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/34e5dde8145d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/f0d61a52f39f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/7c97773bfb46.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/d0da7cf8cfaa.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/5b1ed29df450.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/eb17bf94ddcb.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/41ac6377d7b1.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE_/338590cbef36.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1131
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 140-0-145",
+      "subtitle": "DI_R Eyewear SIZE_ 140-0-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/c25ac4cebe25.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/c25ac4cebe25.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/508553a17c32.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/5f38278b81c9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/49749aee91a2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/69869a6ce743.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/32153979d7e7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/04b479ecbcbf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/3e9b52512626.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/4380f4f671ae.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/896ec43355a0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/4290b1008b4a.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__140-0-145/c25ac4cebe25.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1132
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 48-22-140",
+      "subtitle": "DI_R Eyewear SIZE_ 48-22-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/74aa7598634f.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/74aa7598634f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/fea7c27ecde8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/18f939b29c52.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/ac088cfc4b60.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/e5f54de5048c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/61211f33ffd1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/4241d9f4fd85.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/d3636d9edeb2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/83241efe0b01.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/a471e4e350f0.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__48-22-140/74aa7598634f.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1133
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 50-22-145",
+      "subtitle": "DI_R Eyewear SIZE_ 50-22-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/521b94ee6850.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/521b94ee6850.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/20fab27255df.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/e40ea72b49ab.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/64a9d3b38d08.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/172fd9dfa1e5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/0a065aaa8103.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/015b7c6ee9b0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/7796a959d4d4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/c9d17ffffdca.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/8d96c7c8e90f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/54973ebde9e0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/3a7cc817b34f.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-22-145/521b94ee6850.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1134
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 50-23-145",
+      "subtitle": "DI_R Eyewear SIZE_ 50-23-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/0d2fa4e1d41b.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/0d2fa4e1d41b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/355f2b08ca12.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/e328eb9ba1d3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/e6aadec2df64.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/5d9ca96ce0c4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/bf7d1ed30616.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/b36f07510cfc.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/35f9972fb524.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/c965e9129ae5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/f488a380a29a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/ee688ceecc7b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/b04af80923b6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/1cc7e7d06741.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/500efecbc386.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/22e5134f1b2f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/ae00862a38ee.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/b2f9c8105e6d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/3256a5494bca.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/609cfb4f40e5.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__50-23-145/0d2fa4e1d41b.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1135
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 51-18-135",
+      "subtitle": "DI_R Eyewear SIZE_ 51-18-135",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/149182dbf250.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/149182dbf250.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/e28b14d32a5d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/bd84f8f9c860.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/49cf65f839d6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/03f87550cb01.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/267693df8f1f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/42dcb2ec8e49.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/509c54c16069.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/3046105f2bd4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/16ae93f11fda.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/fb3bf175fafb.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-18-135/149182dbf250.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1136
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 51-20-145",
+      "subtitle": "DI_R Eyewear SIZE_ 51-20-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/55b4d44fe8c2.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/55b4d44fe8c2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/9069211540b9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/65fd04ccc7b1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/712b479d726c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/e41911608edf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/8826becec114.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/f40c906825da.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/4e0c0c78aae1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/a6f27e6c9e38.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/6234342b2b2e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/0ae323c4e0b6.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__51-20-145/55b4d44fe8c2.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1137
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 52-18-145",
+      "subtitle": "DI_R Eyewear SIZE_ 52-18-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/f81a0d269a35.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/f81a0d269a35.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/60a1828f8fb9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/6afbf8604889.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/6328bec36008.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/241566401330.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/eb5d7499e197.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/d023db4985f2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/ce9baf577746.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/76eb4255463d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/6d71ef18f4d1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/f14ce7bfa360.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-18-145/f81a0d269a35.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1138
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 52-20-145",
+      "subtitle": "DI_R Eyewear SIZE_ 52-20-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/5eb31b7b2549.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/5eb31b7b2549.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/a8153380df4d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/2d365cb55b9b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/baa9cd1f25b8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/5e75aa836ff5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/40b86e749f02.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/bcbee9aa133c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/034487c36d3f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/6828d875b1b3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/135e41e56bfe.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/6e9ad66a1cc3.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__52-20-145/5eb31b7b2549.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1139
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 53-19-145",
+      "subtitle": "DI_R Eyewear SIZE_ 53-19-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/cb16e4ccf9ca.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/cb16e4ccf9ca.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/eaebc6d13fd9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/042864c73014.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/03a716832e10.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/3e2184742afd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/fc08258d4f58.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/dfb75ab73789.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/a053477efd5d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/b1caa2c1f38d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/80aa6cb2e593.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/d0d9a8e7ad87.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-19-145/cb16e4ccf9ca.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1140
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 53-20-145",
+      "subtitle": "DI_R Eyewear SIZE_ 53-20-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/e5780dae3ddb.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/e5780dae3ddb.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/bd2e9945519b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/82c60e2348fd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/c1ebde886221.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/ed813911f20a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/e290e1aa5e86.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/9d2f163bb04e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/779e10f30d55.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/5210f43739f0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/667a02ef9130.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/638d586435bf.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-20-145/e5780dae3ddb.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1141
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 53-21-145",
+      "subtitle": "DI_R Eyewear SIZE_ 53-21-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/ecce3ea109ac.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/ecce3ea109ac.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/49936be1cefc.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/dd6cc9fd2d4c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/c2626d3f178d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/0a129acf9f20.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/c2dcad5e176c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/9f809d038052.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/256459b98682.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/02d93fe55c9e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/5bfd61b2d3b4.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-21-145/ecce3ea109ac.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1142
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 53-22-145",
+      "subtitle": "DI_R Eyewear SIZE_ 53-22-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/f35bfc971554.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/f35bfc971554.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/1973864333a8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/207b2d264121.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/4fb934cf0853.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/8fe352e3351f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/df19bb46f1a1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/c0c01bff1883.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/b0dc71513b6c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/3f3872766c50.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/92356cf68671.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/c92ee049bf36.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-22-145/f35bfc971554.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1143
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 53-23-146",
+      "subtitle": "DI_R Eyewear SIZE_ 53-23-146",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/c053fefb926a.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/c053fefb926a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/6544d1d3e02e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/2043d23230be.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/be623af5b9b6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/5b208b9fd5b9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/e8ee45344ec1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/d22bf09440b6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/83af8a646a9c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/30839bedc3b4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/51e150528475.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/915e3cddab65.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__53-23-146/c053fefb926a.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1144
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 54-14-140",
+      "subtitle": "DI_R Eyewear SIZE_ 54-14-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/d23dedbbc149.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/d23dedbbc149.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/1e24aa0dc23b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/af381ebaa064.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/b1602cd55306.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/d3e67b765d36.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/48b83e93f2e5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/b102d4540765.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/1930e54fe3da.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/5cffe51b1550.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/f7d9b64aa8a3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/5f17d4eb6d67.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/90cca619f57b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/b4e137c354fc.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-14-140/d23dedbbc149.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1145
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 54-17-145",
+      "subtitle": "DI_R Eyewear SIZE_ 54-17-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/25900eea182e.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/25900eea182e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/307110d3f3ad.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/9d538b2c7402.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/a2cc1d6518e6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/ce0a2628caae.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/af1668f8cb10.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/3f52e0cb889f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/9d9a0adeaea1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/7914265d812a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/bf03325229bb.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-17-145/25900eea182e.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1146
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 54-18-140",
+      "subtitle": "DI_R Eyewear SIZE_ 54-18-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/74a1805746d8.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/74a1805746d8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/13cd74ff927f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/859bc2bd776c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/7c88bdd316c1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/4fc6294e84d5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/e4652ef00be3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/3fb04507d4d0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/757331e590ec.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/e79fe15d6f48.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/e1339043d8c0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/ca7c2d93cf2f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/dffccfad1799.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/b70b3040e170.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140/74a1805746d8.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1147
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 54-18-140.",
+      "subtitle": "DI_R Eyewear SIZE_ 54-18-140.",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/edd04f125cad.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/edd04f125cad.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/7fe3315d3e8c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/b813233bb6ed.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/2fe52494f4df.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/2ef36f7164b2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/6de2b59686bd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/78f59d90062d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/da8f3de9eb81.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/b3bad01c2bac.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/a03696a88b29.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/84faf4dd01c2.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-140_/edd04f125cad.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1148
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 54-18-145",
+      "subtitle": "DI_R Eyewear SIZE_ 54-18-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/ef587785e4c4.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/ef587785e4c4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/8433f53ef462.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/666a3f4af038.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/d0270f21baba.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/460605e449f1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/0327010c6a53.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/d0ec22ff25ff.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/c59ce952c85d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/4bb36615e57b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/da2263ba9c67.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/b15444f3b3c8.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-18-145/ef587785e4c4.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1149
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 54-19-145",
+      "subtitle": "DI_R Eyewear SIZE_ 54-19-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/96a2673cd411.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/96a2673cd411.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/c748f1a5e979.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/91c347c10053.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/04fec7eeb38f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/f45dbfa18605.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/9e20f4f9cd2f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/a785219782fc.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/95a6e14607f1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/4dae15a8969c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/8e4386cf30c4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/faa78100e288.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-19-145/96a2673cd411.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1150
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 54-23-145",
+      "subtitle": "DI_R Eyewear SIZE_ 54-23-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/36ce51716fd0.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/36ce51716fd0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/665d6609a9e4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/6365cf624136.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/b86104874efe.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/492bfad5f49e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/b058b9a63d9c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/340a1e8fc1a8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/d0dacb5527d3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/3a38709201b3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/6a4af17dbf03.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/fc63bf896b2a.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__54-23-145/36ce51716fd0.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1151
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 55-18-140",
+      "subtitle": "DI_R Eyewear SIZE_ 55-18-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/5a7ea8c8e6b3.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/5a7ea8c8e6b3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/ac90ca2149b8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/a1c79ae3ea80.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/96d749f57f31.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/38431fa8799e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/8bd9d70e00f5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/354c425ada62.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/d262e6b93a6a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/7e07cbd279ef.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/00c301542702.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/ee13243bd7e2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/08dcebb4b56e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/da384025c813.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/a5e4d45db45e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/e69c5eb1c079.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/5f5d4f4fa536.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/a555c22d5111.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/2ed4ab944a85.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/38025c4dcc26.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/39da6a5e8c6c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/a5374065317d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/f3b247638589.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-18-140/5a7ea8c8e6b3.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1152
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 55-20-135",
+      "subtitle": "DI_R Eyewear SIZE_ 55-20-135",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/4666f6638d29.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/4666f6638d29.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/511161fc80b0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/d7bfba9b28c8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/7b4964415842.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/fac461e8892e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/f009a3098a4d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/5a4ef6bcb5cf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/f1c781687817.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/aef7a7eb8d02.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/51424537865d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/7bf0b3140830.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-135/4666f6638d29.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1153
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 55-20-140",
+      "subtitle": "DI_R Eyewear SIZE_ 55-20-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/64112cfc9a5f.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/64112cfc9a5f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/510a7445df8e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/884b3cc5a9f2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/55da2b8c9b9c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/7a47636b4516.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/deecacfd59eb.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/29f408efc0db.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/3812f9238c28.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/e3cf09c80e41.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/99970142ca9b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/581e9acf02da.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__55-20-140/64112cfc9a5f.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1154
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 56-17-14",
+      "subtitle": "DI_R Eyewear SIZE_ 56-17-14",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/ebb4140731cf.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/ebb4140731cf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/d982fe22ee98.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/5f15b720b00a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/62115235cf4b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/cff55de6f2bd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/80ea7930ad7a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/b53086288853.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/e136f9005cfa.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/8f1917f9a3bd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/ac17d24df618.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/7b9408ecdf63.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-14/ebb4140731cf.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1155
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 56-17-140",
+      "subtitle": "DI_R Eyewear SIZE_ 56-17-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/d91730d8c1e8.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/d91730d8c1e8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/dd152567fe9f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/fb5e7a405549.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/f8f910e93855.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/c0ca786f327f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/18b90954d56d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/e89c74b7bee7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/61a4d5bc7099.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/7492f4f5a844.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/2e2131003aaf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/b793fe198c37.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-140/d91730d8c1e8.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1156
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 56-17-145",
+      "subtitle": "DI_R Eyewear SIZE_ 56-17-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/c8605e6815d8.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/c8605e6815d8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/af573381deb4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/3941398e3d2d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/12ab6d95d69d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/108813009998.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/53db41278377.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/6f86d887aaaf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/57d439a7262b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/b6946fe6c44a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/5f2248713f14.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/8649a6e6e672.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/41992d5b566a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/9e7b150c2df0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/fd4f061d48e2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/a65bc0dac130.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/8b0e74480564.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/ce46fadbdfcb.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/0e339b8a7afc.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/46a88c86f831.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/7aecfdf4d764.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/0d23432da8e4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/bbb3543dce70.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-17-145/c8605e6815d8.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1157
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 56-19-145",
+      "subtitle": "DI_R Eyewear SIZE_ 56-19-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/c75d169095c4.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/c75d169095c4.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/fb05bba30e6b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/62642221b9b3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/5f8218e02a22.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/0dbdc0f34a2d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/debf68f28a49.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/453458ac8908.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/eba200303718.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/56309589b336.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/a6360d071d78.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__56-19-145/c75d169095c4.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1158
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 57-14-135",
+      "subtitle": "DI_R Eyewear SIZE_ 57-14-135",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/4ccabbc3f64e.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/4ccabbc3f64e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/3c32fb59e14f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/f6ffd1326559.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/d216b48c7082.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/a34dac7f3681.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/3d213c149ccf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/50fc1e58da8e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/f7586efda25f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/1a75676575b7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/2488be7da3f0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/9eb9665c6fd1.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-135/4ccabbc3f64e.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1159
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 57-14-140",
+      "subtitle": "DI_R Eyewear SIZE_ 57-14-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/e31a1a1d4d3f.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/e31a1a1d4d3f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/c6fdaf9787e3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/af51476fdfe9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/737e16af6bdd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/8fc06d14c510.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/c9f27da6c094.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/ba09ab92f431.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/596342292aaa.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/b5de4261063d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/f46a69be5bb9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/004518ce4134.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__57-14-140/e31a1a1d4d3f.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1160
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 58-13-140",
+      "subtitle": "DI_R Eyewear SIZE_ 58-13-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/2f13334b17b1.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/2f13334b17b1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/e4c69562b6b6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/ffdd695aab39.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/986a38cd4c8d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/60911c344ecf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/d734f64d34f9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/3bb2dc2bd90e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/0d01156700a3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/35fc4aacfd28.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/d44688cdcc0a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/3c297afaa3bf.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-13-140/2f13334b17b1.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1161
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 58-19-150",
+      "subtitle": "DI_R Eyewear SIZE_ 58-19-150",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/3ec1708a98f2.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/3ec1708a98f2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/882e36680125.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/1bb2d72aadc5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/00fbdd52c980.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/bd7b03a85dc8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/543e6e5a1c06.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/c4184bf98294.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/62436ee247cf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/760bfb680efd.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/d2cd7e26c34f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/b3a85c060efd.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__58-19-150/3ec1708a98f2.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1162
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 59-14-135",
+      "subtitle": "DI_R Eyewear SIZE_ 59-14-135",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/68f876bcf550.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/68f876bcf550.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/976c273050a5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/27ceb0003f17.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/94fc66cf5ab5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/d92a255bb321.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/394eb8501d8d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/77425f544ba8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/599108c2bc63.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/9950fe68dffb.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/240c622d368a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/957ce0898177.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-14-135/68f876bcf550.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1163
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 59-17-145",
+      "subtitle": "DI_R Eyewear SIZE_ 59-17-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/dc5d3e56150a.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/dc5d3e56150a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/7521394d05c8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/1a243e750ab7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/34da3dbf8cff.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/f74fa076977b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/0f5aea3efb00.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/931987573282.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/0c7b977cf698.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/3e105d14a241.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/008929f08cc6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/f1589bffc91d.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__59-17-145/dc5d3e56150a.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1164
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 60-15-145",
+      "subtitle": "DI_R Eyewear SIZE_ 60-15-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/cb3bc7568f11.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/cb3bc7568f11.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/730916e46384.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/99d84151b3c2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/74ab23fe645b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/f2fb0a87c2a8.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/0e21d741202b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/874c0b095212.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/ae2275cd2250.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/b6845455c7a2.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/04b97e49e9f9.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/0f950921c3ae.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/bdffe3af09f0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/2f5319705284.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/986141519a74.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/69af9836a5d6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/dae41a60e104.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/25325acabe97.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/5ce39d76961e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/7cb8c9b61edc.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/e57c2989f307.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/732f59fa5d1c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/cf95f640da5d.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-15-145/cb3bc7568f11.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1165
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 60-18-145",
+      "subtitle": "DI_R Eyewear SIZE_ 60-18-145",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/2d7e825eb361.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/2d7e825eb361.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/a9cce615b36c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/a65927b1b8ad.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/e3e822d783bf.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/55681b4f86d1.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/39afd66899d5.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/695157029523.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/4ee454347645.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/afcd2bf1c55f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/0fd3e4dbaf44.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/2c38d6b3bb32.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__60-18-145/2d7e825eb361.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1166
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 62-14-140",
+      "subtitle": "DI_R Eyewear SIZE_ 62-14-140",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/92d98e7e380a.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/92d98e7e380a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/caf4ae0cc1be.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/5186dab8af9a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/209db3d5a1e6.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/9db89217d830.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/6554b29383da.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/76e779a1ba0e.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/61864610461a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/20a0fa113ae0.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/ebf0cdd9ce6a.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/025e0ec2d8a3.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__62-14-140/92d98e7e380a.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1167
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 63-17-142",
+      "subtitle": "DI_R Eyewear SIZE_ 63-17-142",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/9f8ff1f2baab.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/9f8ff1f2baab.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/133a1334da30.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/d3a68ee1d45c.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/b6fdacaa8e4b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/285905e3686b.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/be26a3a0b030.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/5f6a5a344182.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/4d35f8a454bc.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/43128dbe9d4f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/1232cf1bf29f.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/c65e834126ab.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__63-17-142/9f8ff1f2baab.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1168
+    },
+    {
+      "title": "DIOR DI_R Eyewear SIZE_ 64-14-135",
+      "subtitle": "DI_R Eyewear SIZE_ 64-14-135",
+      "brand": "dior",
+      "brandDisplay": "DIOR",
+      "size": "medium",
+      "sizeDisplay": "Standard Size",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Premium Materials",
+      "featured": false,
+      "rating": 5,
+      "reviews": 8,
+      "status": "available",
+      "images": {
+        "main": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/4949be3bb131.jpg",
+        "gallery": [
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/4949be3bb131.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/77d7e6d4a9a7.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/e0b9e972cdcb.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/d7cb20b35118.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/6db43c4f6845.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/0d656128a07d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/7d7ecb1a4247.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/0efa8f53ba00.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/159b8905fe4d.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/11805a1157a3.jpg",
+          "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/02939074e051.jpg"
+        ],
+        "thumbnail": "https://github.com/yusuf-server/picx-images-hosting/raw/master/eyewear/DIOR_DI_R_Eyewear_SIZE__64-14-135/4949be3bb131.jpg"
+      },
+      "features": [
+        "Premium craftsmanship",
+        "UV protection",
+        "High-quality materials",
+        "Timeless design"
+      ],
+      "description": "Exquisite DIOR eyewear featuring exceptional craftsmanship and UV protection.",
+      "specifications": {
+        "Material": "Premium Materials",
+        "UV Protection": "100%",
+        "Size": "Standard Size"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Eyewear",
+        "UV Protection"
+      ],
+      "category": "eyewear",
+      "id": 1169
     }
   ],
   "filters": {
@@ -16271,5 +18404,5 @@
     "siteTitle": "Luxury Eyewear Collection",
     "siteDescription": "Premium designer eyewear and sunglasses"
   },
-  "lastUpdated": "2025-07-14T16:48:00.793373"
+  "lastUpdated": "2025-07-14T17:38:11.701732"
 }
