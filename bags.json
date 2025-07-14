@@ -22774,6 +22774,22 @@
       {
         "value": "dior",
         "label": "DIOR"
+      },
+      {
+        "value": "ysl",
+        "label": "YSL"
+      },
+      {
+        "value": "celine",
+        "label": "CELINE"
+      },
+      {
+        "value": "goyard",
+        "label": "GOYARD"
+      },
+      {
+        "value": "burberry-bv-chloe",
+        "label": "Burberry+BV+Chloe bag"
       }
     ],
     "sizes": [
@@ -22821,5 +22837,5 @@
       }
     ]
   },
-  "lastUpdated": "2025-07-14T22:38:41.007144"
+  "lastUpdated": "2025-07-14T23:01:17.467697"
 }
