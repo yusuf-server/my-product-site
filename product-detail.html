@@ -129,11 +129,38 @@
             cursor: grabbing;
             user-select: none;
         }
+        
+        /* 通知栏动画 */
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        .notification-marquee {
+            animation: marquee 20s linear infinite;
+            white-space: nowrap;
+        }
+        
+        .notification-marquee:hover {
+            animation-play-state: paused;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
+    <!-- Notification Bar -->
+    <div class="bg-black text-white py-2 px-4 overflow-hidden sticky top-0 z-50">
+        <div class="container mx-auto">
+            <div class="notification-marquee text-sm md:text-base font-medium">
+                <span class="mr-8">🎉 Limited time offer</span>
+                <span class="mr-8">📞 send us pics to get price</span>
+                <span class="mr-8">🚚 Free shipping worldwide</span>
+                <span class="mr-8">💎 Highest quality</span>
+            </div>
+        </div>
+    </div>
+    
     <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
+    <header class="bg-white shadow-sm sticky top-8 z-40">
         <nav class="container mx-auto px-4 py-4">
             <div class="flex justify-between items-center">
                 <div class="brand-title text-2xl md:text-3xl font-bold text-gray-900">
