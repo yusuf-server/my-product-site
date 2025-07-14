@@ -661,6 +661,12 @@
                 
                 console.log(`Jewelry data loaded successfully: ${jewelryData.products.length} products in ${(endTime - startTime).toFixed(2)}ms`);
                 
+                // 重新初始化饰品品牌标签
+                initializeJewelryBrandTags();
+                
+                // 调用数据加载完成回调
+                onDataLoaded('jewelry');
+                
             } catch (error) {
                 console.error('Failed to load jewelry data:', error);
                 throw error;
@@ -691,6 +697,9 @@
                 // 重新初始化帽子品牌标签
                 initializeCapsBrandTags();
                 
+                // 调用数据加载完成回调
+                onDataLoaded('caps');
+                
             } catch (error) {
                 console.error('Failed to load caps data:', error);
                 throw error;
@@ -720,6 +729,9 @@
                 
                 // 重新初始化眼镜品牌标签
                 initializeEyewearBrandTags();
+                
+                // 调用数据加载完成回调
+                onDataLoaded('eyewear');
                 
             } catch (error) {
                 console.error('Failed to load eyewear data:', error);
@@ -1527,21 +1539,21 @@
                         // 确保在数据加载后更新筛选器UI
                         setTimeout(() => {
                             updateFilterUI();
-                        }, 100);
+                        }, 500); // 增加延迟时间，确保数据完全加载
                         break;
                     case 'caps':
                         renderCapsProducts();
                         // 确保在数据加载后更新筛选器UI
                         setTimeout(() => {
                             updateFilterUI();
-                        }, 100);
+                        }, 500); // 增加延迟时间，确保数据完全加载
                         break;
                     case 'eyewear':
                         renderEyewearProducts();
                         // 确保在数据加载后更新筛选器UI
                         setTimeout(() => {
                             updateFilterUI();
-                        }, 100);
+                        }, 500); // 增加延迟时间，确保数据完全加载
                         break;
                     default:
                         renderProducts();
@@ -1558,6 +1570,30 @@
                 }
                 
                 console.log('Previous state restored:', lastActiveTab);
+            }
+        }
+
+        // 增强的数据加载完成回调函数
+        function onDataLoaded(category) {
+            console.log(`${category} data loaded, updating UI...`);
+            updateFilterUI();
+            
+            // 如果当前正在恢复状态，确保UI正确更新
+            const lastActiveTab = sessionStorage.getItem('lastActiveTab');
+            if (lastActiveTab === category) {
+                console.log(`Updating UI for restored ${category} tab`);
+                // 重新渲染产品以确保筛选状态正确
+                switch(category) {
+                    case 'jewelry':
+                        renderJewelryProducts();
+                        break;
+                    case 'caps':
+                        renderCapsProducts();
+                        break;
+                    case 'eyewear':
+                        renderEyewearProducts();
+                        break;
+                }
             }
         }
 
