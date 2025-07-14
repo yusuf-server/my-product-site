@@ -577,8 +577,8 @@
             initializeLayoutSortControls(); // 初始化布局和排序控制
             renderProducts();
             
-            // 恢复之前的浏览状态
-            restorePreviousState();
+            // 恢复之前的浏览状态（使用增强版本）
+            await restorePreviousStateEnhanced();
             
             // 在后台预加载其他数据，不阻塞页面
             setTimeout(async () => {
@@ -1570,6 +1570,76 @@
                 }
                 
                 console.log('Previous state restored:', lastActiveTab);
+            }
+        }
+
+        // 增强的恢复状态函数，确保数据加载完成后再恢复
+        async function restorePreviousStateEnhanced() {
+            const lastActiveTab = sessionStorage.getItem('lastActiveTab');
+            const lastBrandFilter = sessionStorage.getItem('lastBrandFilter');
+            const lastJewelryBrandFilter = sessionStorage.getItem('lastJewelryBrandFilter');
+            const lastCapsBrandFilter = sessionStorage.getItem('lastCapsBrandFilter');
+            const lastEyewearBrandFilter = sessionStorage.getItem('lastEyewearBrandFilter');
+            const lastScrollPosition = sessionStorage.getItem('lastScrollPosition');
+            
+            if (lastActiveTab) {
+                console.log('Restoring previous state for:', lastActiveTab);
+                
+                // 恢复标签状态
+                currentTab = lastActiveTab;
+                currentBrandFilter = lastBrandFilter || 'all';
+                currentJewelryBrandFilter = lastJewelryBrandFilter || 'all';
+                currentCapsBrandFilter = lastCapsBrandFilter || 'all';
+                currentEyewearBrandFilter = lastEyewearBrandFilter || 'all';
+                
+                // 更新UI状态
+                updateTabUI();
+                
+                // 根据标签确保数据加载完成后再恢复状态
+                switch(lastActiveTab) {
+                    case 'jewelry':
+                        // 确保饰品数据已加载
+                        if (!jewelryData) {
+                            console.log('Loading jewelry data for state restoration...');
+                            await loadJewelryData();
+                        }
+                        renderJewelryProducts();
+                        updateFilterUI();
+                        break;
+                    case 'caps':
+                        // 确保帽子数据已加载
+                        if (!capsData) {
+                            console.log('Loading caps data for state restoration...');
+                            await loadCapsData();
+                        }
+                        renderCapsProducts();
+                        updateFilterUI();
+                        break;
+                    case 'eyewear':
+                        // 确保眼镜数据已加载
+                        if (!eyewearData) {
+                            console.log('Loading eyewear data for state restoration...');
+                            await loadEyewearData();
+                        }
+                        renderEyewearProducts();
+                        updateFilterUI();
+                        break;
+                    default:
+                        renderProducts();
+                        updateFilterUI();
+                        break;
+                }
+                
+                // 恢复滚动位置（延迟执行，确保内容已渲染）
+                if (lastScrollPosition) {
+                    setTimeout(() => {
+                        window.scrollTo(0, parseInt(lastScrollPosition));
+                        // 清除保存的滚动位置，避免影响后续操作
+                        sessionStorage.removeItem('lastScrollPosition');
+                    }, 300); // 增加延迟时间，确保内容完全渲染
+                }
+                
+                console.log('Enhanced previous state restored:', lastActiveTab);
             }
         }
 
