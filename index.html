@@ -268,7 +268,47 @@
             </div>
         </div>
 
-                <!-- Products Section -->
+        <!-- Layout and Sort Controls -->
+        <div id="layoutSortControls" class="mb-6 md:mb-8">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <div class="flex justify-between items-center">
+                    <!-- Layout Toggle (Desktop Only) -->
+                    <div class="hidden md:flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Layout:</span>
+                        <button id="layoutGridBtn" class="layout-btn active p-2 rounded-lg transition-all duration-200 bg-blue-100 text-blue-600 hover:bg-blue-200" title="Grid Layout">
+                            <i class="fas fa-th-large text-lg"></i>
+                        </button>
+                        <button id="layoutListBtn" class="layout-btn p-2 rounded-lg transition-all duration-200 bg-gray-100 text-gray-600 hover:bg-gray-200" title="List Layout">
+                            <i class="fas fa-th text-lg"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Sort Dropdown (Desktop and Mobile) -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Sort:</span>
+                        <div class="relative">
+                            <button id="sortDropdownBtn" class="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-200 text-sm font-medium text-gray-700">
+                                <i class="fas fa-sort-amount-down mr-2"></i>
+                                <span id="sortDisplayText">Default</span>
+                                <i class="fas fa-chevron-down text-xs"></i>
+                            </button>
+                            <div id="sortDropdown" class="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 z-50 hidden">
+                                <div class="py-1">
+                                    <button class="sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="default">
+                                        <i class="fas fa-sort mr-2"></i>Default
+                                    </button>
+                                    <button class="sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="latest">
+                                        <i class="fas fa-clock mr-2"></i>Latest
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products Section -->
         <div id="productsSection">
             <div id="productGrid" class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
                 <!-- Products will be loaded dynamically via JavaScript -->
@@ -285,6 +325,46 @@
                 <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter by Jewelry Brand</h3>
                 <div id="jewelryBrandTags" class="flex flex-wrap gap-3">
                     <!-- Jewelry brand tags will be generated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Jewelry Layout and Sort Controls -->
+        <div id="jewelryLayoutSortControls" class="mb-6 md:mb-8 hidden">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <div class="flex justify-between items-center">
+                    <!-- Layout Toggle (Desktop Only) -->
+                    <div class="hidden md:flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Layout:</span>
+                        <button id="jewelryLayoutGridBtn" class="jewelry-layout-btn active p-2 rounded-lg transition-all duration-200 bg-purple-100 text-purple-600 hover:bg-purple-200" title="Grid Layout">
+                            <i class="fas fa-th-large text-lg"></i>
+                        </button>
+                        <button id="jewelryLayoutListBtn" class="jewelry-layout-btn p-2 rounded-lg transition-all duration-200 bg-gray-100 text-gray-600 hover:bg-gray-200" title="List Layout">
+                            <i class="fas fa-th text-lg"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Sort Dropdown (Desktop and Mobile) -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Sort:</span>
+                        <div class="relative">
+                            <button id="jewelrySortDropdownBtn" class="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-200 text-sm font-medium text-gray-700">
+                                <i class="fas fa-sort-amount-down mr-2"></i>
+                                <span id="jewelrySortDisplayText">Default</span>
+                                <i class="fas fa-chevron-down text-xs"></i>
+                            </button>
+                            <div id="jewelrySortDropdown" class="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 z-50 hidden">
+                                <div class="py-1">
+                                    <button class="jewelry-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="default">
+                                        <i class="fas fa-sort mr-2"></i>Default
+                                    </button>
+                                    <button class="jewelry-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="latest">
+                                        <i class="fas fa-clock mr-2"></i>Latest
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -310,6 +390,46 @@
             </div>
         </div>
 
+        <!-- Caps Layout and Sort Controls -->
+        <div id="capsLayoutSortControls" class="mb-6 md:mb-8 hidden">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <div class="flex justify-between items-center">
+                    <!-- Layout Toggle (Desktop Only) -->
+                    <div class="hidden md:flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Layout:</span>
+                        <button id="capsLayoutGridBtn" class="caps-layout-btn active p-2 rounded-lg transition-all duration-200 bg-orange-100 text-orange-600 hover:bg-orange-200" title="Grid Layout">
+                            <i class="fas fa-th-large text-lg"></i>
+                        </button>
+                        <button id="capsLayoutListBtn" class="caps-layout-btn p-2 rounded-lg transition-all duration-200 bg-gray-100 text-gray-600 hover:bg-gray-200" title="List Layout">
+                            <i class="fas fa-th text-lg"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Sort Dropdown (Desktop and Mobile) -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Sort:</span>
+                        <div class="relative">
+                            <button id="capsSortDropdownBtn" class="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-200 text-sm font-medium text-gray-700">
+                                <i class="fas fa-sort-amount-down mr-2"></i>
+                                <span id="capsSortDisplayText">Default</span>
+                                <i class="fas fa-chevron-down text-xs"></i>
+                            </button>
+                            <div id="capsSortDropdown" class="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 z-50 hidden">
+                                <div class="py-1">
+                                    <button class="caps-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="default">
+                                        <i class="fas fa-sort mr-2"></i>Default
+                                    </button>
+                                    <button class="caps-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="latest">
+                                        <i class="fas fa-clock mr-2"></i>Latest
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Caps Products Section -->
         <div id="capsProductsSection" class="hidden">
             <div id="capsProductGrid" class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
@@ -327,6 +447,46 @@
                 <h3 class="text-lg font-semibold text-gray-900 mb-4">Filter by Eyewear Brand</h3>
                 <div id="eyewearBrandTags" class="flex flex-wrap gap-3">
                     <!-- Eyewear brand tags will be generated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Eyewear Layout and Sort Controls -->
+        <div id="eyewearLayoutSortControls" class="mb-6 md:mb-8 hidden">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <div class="flex justify-between items-center">
+                    <!-- Layout Toggle (Desktop Only) -->
+                    <div class="hidden md:flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Layout:</span>
+                        <button id="eyewearLayoutGridBtn" class="eyewear-layout-btn active p-2 rounded-lg transition-all duration-200 bg-blue-100 text-blue-600 hover:bg-blue-200" title="Grid Layout">
+                            <i class="fas fa-th-large text-lg"></i>
+                        </button>
+                        <button id="eyewearLayoutListBtn" class="eyewear-layout-btn p-2 rounded-lg transition-all duration-200 bg-gray-100 text-gray-600 hover:bg-gray-200" title="List Layout">
+                            <i class="fas fa-th text-lg"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Sort Dropdown (Desktop and Mobile) -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Sort:</span>
+                        <div class="relative">
+                            <button id="eyewearSortDropdownBtn" class="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-200 text-sm font-medium text-gray-700">
+                                <i class="fas fa-sort-amount-down mr-2"></i>
+                                <span id="eyewearSortDisplayText">Default</span>
+                                <i class="fas fa-chevron-down text-xs"></i>
+                            </button>
+                            <div id="eyewearSortDropdown" class="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 z-50 hidden">
+                                <div class="py-1">
+                                    <button class="eyewear-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="default">
+                                        <i class="fas fa-sort mr-2"></i>Default
+                                    </button>
+                                    <button class="eyewear-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="latest">
+                                        <i class="fas fa-clock mr-2"></i>Latest
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -414,6 +574,7 @@
             initializeJewelryBrandTags();
             initializeCapsBrandTags();
             initializeEyewearBrandTags();
+            initializeLayoutSortControls(); // 初始化布局和排序控制
             renderProducts();
             
             // 恢复之前的浏览状态
@@ -846,7 +1007,12 @@
                 return;
             }
 
-            const filteredProducts = filterProducts(bagsData.products);
+            let filteredProducts = filterProducts(bagsData.products);
+            
+            // 应用排序
+            if (currentSort === 'latest') {
+                filteredProducts = sortProductsByLatest(filteredProducts);
+            }
             
             if (filteredProducts.length === 0) {
                 productGrid.innerHTML = `
@@ -859,8 +1025,12 @@
                 return;
             }
 
+            // 根据布局设置网格类
+            const gridClass = currentLayout === 'list' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4';
+            productGrid.className = `grid ${gridClass} gap-3 md:gap-6`;
+
             productGrid.innerHTML = filteredProducts.map(product => `
-                <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'bags')">
+                <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in ${currentLayout === 'list' ? 'md:col-span-1' : ''}" onclick="goToProduct(${product.id}, 'bags')">
                     <div class="aspect-square bg-gray-100 relative overflow-hidden">
                         <img src="${product.images.thumbnail}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
                         ${product.featured ? '<div class="absolute top-2 left-2 bg-yellow-400 text-black px-2 py-1 rounded-full text-xs font-semibold">Bestseller</div>' : ''}
@@ -880,17 +1050,29 @@
                 </div>
             `).join('');
 
-            // 立即显示饰品产品，无延迟
+            // 立即显示产品，无延迟
             document.querySelectorAll('.animate-fade-in').forEach((card) => {
                 card.style.opacity = '1';
                 card.style.transform = 'translateY(0)';
-            });;
+            });
         }
 
         // 筛选产品
         function filterProducts(products) {
             return products.filter(product => {
                 return currentBrandFilter === 'all' || product.brand === currentBrandFilter;
+            });
+        }
+
+        // 按最新顺序排序产品
+        function sortProductsByLatest(products) {
+            return [...products].sort((a, b) => {
+                // 如果有uploadDate字段，按日期排序
+                if (a.uploadDate && b.uploadDate) {
+                    return new Date(b.uploadDate) - new Date(a.uploadDate);
+                }
+                // 否则按ID倒序（假设ID越大越新）
+                return b.id - a.id;
             });
         }
 
@@ -926,7 +1108,12 @@
                 }
             }
 
-            const filteredJewelryProducts = filterJewelryProducts(jewelryData.products);
+            let filteredJewelryProducts = filterJewelryProducts(jewelryData.products);
+            
+            // 应用排序
+            if (currentJewelrySort === 'latest') {
+                filteredJewelryProducts = sortProductsByLatest(filteredJewelryProducts);
+            }
             
             if (filteredJewelryProducts.length === 0) {
                 jewelryProductGrid.innerHTML = `
@@ -939,6 +1126,10 @@
                 return;
             }
 
+            // 根据布局设置网格类
+            const gridClass = currentJewelryLayout === 'list' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4';
+            jewelryProductGrid.className = `grid ${gridClass} gap-3 md:gap-6`;
+
             jewelryProductGrid.innerHTML = filteredJewelryProducts.map(product => {
                 // 使用本地占位符替代远程placeholder
                 const imageUrl = product.images.thumbnail.includes('placeholder') 
@@ -946,7 +1137,7 @@
                     : product.images.thumbnail;
                 
                 return `
-                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'jewelry')">
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in ${currentJewelryLayout === 'list' ? 'md:col-span-1' : ''}" onclick="goToProduct(${product.id}, 'jewelry')">
                         <div class="aspect-square bg-gray-100 relative overflow-hidden">
                             <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
                             ${product.featured ? '<div class="absolute top-2 left-2 bg-purple-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
@@ -1013,7 +1204,12 @@
                 }
             }
 
-            const filteredCapsProducts = filterCapsProducts(capsData.products);
+            let filteredCapsProducts = filterCapsProducts(capsData.products);
+            
+            // 应用排序
+            if (currentCapsSort === 'latest') {
+                filteredCapsProducts = sortProductsByLatest(filteredCapsProducts);
+            }
             
             if (filteredCapsProducts.length === 0) {
                 capsProductGrid.innerHTML = `
@@ -1026,6 +1222,10 @@
                 return;
             }
 
+            // 根据布局设置网格类
+            const gridClass = currentCapsLayout === 'list' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4';
+            capsProductGrid.className = `grid ${gridClass} gap-3 md:gap-6`;
+
             capsProductGrid.innerHTML = filteredCapsProducts.map(product => {
                 // 使用本地占位符替代远程placeholder
                 const imageUrl = product.images.thumbnail.includes('placeholder') 
@@ -1033,7 +1233,7 @@
                     : product.images.thumbnail;
                 
                 return `
-                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'caps')">
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in ${currentCapsLayout === 'list' ? 'md:col-span-1' : ''}" onclick="goToProduct(${product.id}, 'caps')">
                         <div class="aspect-square bg-gray-100 relative overflow-hidden">
                             <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
                             ${product.featured ? '<div class="absolute top-2 left-2 bg-orange-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
@@ -1100,7 +1300,12 @@
                 }
             }
 
-            const filteredEyewearProducts = filterEyewearProducts(eyewearData.products);
+            let filteredEyewearProducts = filterEyewearProducts(eyewearData.products);
+            
+            // 应用排序
+            if (currentEyewearSort === 'latest') {
+                filteredEyewearProducts = sortProductsByLatest(filteredEyewearProducts);
+            }
             
             if (filteredEyewearProducts.length === 0) {
                 eyewearProductGrid.innerHTML = `
@@ -1113,6 +1318,10 @@
                 return;
             }
 
+            // 根据布局设置网格类
+            const gridClass = currentEyewearLayout === 'list' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4';
+            eyewearProductGrid.className = `grid ${gridClass} gap-3 md:gap-6`;
+
             eyewearProductGrid.innerHTML = filteredEyewearProducts.map(product => {
                 // 使用本地占位符替代远程placeholder
                 const imageUrl = product.images.thumbnail.includes('placeholder') 
@@ -1120,7 +1329,7 @@
                     : product.images.thumbnail;
                 
                 return `
-                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'eyewear')">
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in ${currentEyewearLayout === 'list' ? 'md:col-span-1' : ''}" onclick="goToProduct(${product.id}, 'eyewear')">
                         <div class="aspect-square bg-gray-100 relative overflow-hidden">
                             <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
                             ${product.featured ? '<div class="absolute top-2 left-2 bg-blue-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
@@ -1165,14 +1374,18 @@
             
             // 显示包包相关内容
             filtersSection.classList.remove('hidden');
+            document.getElementById('layoutSortControls').classList.remove('hidden');
             productsSection.classList.remove('hidden');
             
             // 隐藏其他相关内容
             jewelryFiltersSection.classList.add('hidden');
+            document.getElementById('jewelryLayoutSortControls').classList.add('hidden');
             jewelryProductsSection.classList.add('hidden');
             capsFiltersSection.classList.add('hidden');
+            document.getElementById('capsLayoutSortControls').classList.add('hidden');
             capsProductsSection.classList.add('hidden');
             eyewearFiltersSection.classList.add('hidden');
+            document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
         });
@@ -1186,16 +1399,20 @@
             
             // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
+            document.getElementById('layoutSortControls').classList.add('hidden');
             productsSection.classList.add('hidden');
             
             // 显示饰品相关内容
             jewelryFiltersSection.classList.remove('hidden');
+            document.getElementById('jewelryLayoutSortControls').classList.remove('hidden');
             jewelryProductsSection.classList.remove('hidden');
             
             // 隐藏其他相关内容
             capsFiltersSection.classList.add('hidden');
+            document.getElementById('capsLayoutSortControls').classList.add('hidden');
             capsProductsSection.classList.add('hidden');
             eyewearFiltersSection.classList.add('hidden');
+            document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
             
@@ -1212,18 +1429,22 @@
             
             // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
+            document.getElementById('layoutSortControls').classList.add('hidden');
             productsSection.classList.add('hidden');
             
             // 隐藏饰品相关内容
             jewelryFiltersSection.classList.add('hidden');
+            document.getElementById('jewelryLayoutSortControls').classList.add('hidden');
             jewelryProductsSection.classList.add('hidden');
             
             // 显示帽子相关内容
             capsFiltersSection.classList.remove('hidden');
+            document.getElementById('capsLayoutSortControls').classList.remove('hidden');
             capsProductsSection.classList.remove('hidden');
             
             // 隐藏眼镜相关内容
             eyewearFiltersSection.classList.add('hidden');
+            document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
             
@@ -1240,18 +1461,22 @@
             
             // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
+            document.getElementById('layoutSortControls').classList.add('hidden');
             productsSection.classList.add('hidden');
             
             // 隐藏饰品相关内容
             jewelryFiltersSection.classList.add('hidden');
+            document.getElementById('jewelryLayoutSortControls').classList.add('hidden');
             jewelryProductsSection.classList.add('hidden');
             
             // 隐藏帽子相关内容
             capsFiltersSection.classList.add('hidden');
+            document.getElementById('capsLayoutSortControls').classList.add('hidden');
             capsProductsSection.classList.add('hidden');
             
             // 显示眼镜相关内容
             eyewearFiltersSection.classList.remove('hidden');
+            document.getElementById('eyewearLayoutSortControls').classList.remove('hidden');
             eyewearProductsSection.classList.remove('hidden');
             comingSoonSection.classList.add('hidden');
             
@@ -1335,12 +1560,16 @@
             // 隐藏所有内容区域
             filtersSection.classList.add('hidden');
             productsSection.classList.add('hidden');
+            document.getElementById('layoutSortControls').classList.add('hidden');
             jewelryFiltersSection.classList.add('hidden');
             jewelryProductsSection.classList.add('hidden');
+            document.getElementById('jewelryLayoutSortControls').classList.add('hidden');
             capsFiltersSection.classList.add('hidden');
             capsProductsSection.classList.add('hidden');
+            document.getElementById('capsLayoutSortControls').classList.add('hidden');
             eyewearFiltersSection.classList.add('hidden');
             eyewearProductsSection.classList.add('hidden');
+            document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             comingSoonSection.classList.add('hidden');
             
             // 根据当前标签显示相应内容
@@ -1349,21 +1578,25 @@
                     jewelryTab.classList.add('active');
                     jewelryFiltersSection.classList.remove('hidden');
                     jewelryProductsSection.classList.remove('hidden');
+                    document.getElementById('jewelryLayoutSortControls').classList.remove('hidden');
                     break;
                 case 'caps':
                     capsTab.classList.add('active');
                     capsFiltersSection.classList.remove('hidden');
                     capsProductsSection.classList.remove('hidden');
+                    document.getElementById('capsLayoutSortControls').classList.remove('hidden');
                     break;
                 case 'eyewear':
                     eyewearTab.classList.add('active');
                     eyewearFiltersSection.classList.remove('hidden');
                     eyewearProductsSection.classList.remove('hidden');
+                    document.getElementById('eyewearLayoutSortControls').classList.remove('hidden');
                     break;
                 default:
                     bagsTab.classList.add('active');
                     filtersSection.classList.remove('hidden');
                     productsSection.classList.remove('hidden');
+                    document.getElementById('layoutSortControls').classList.remove('hidden');
                     break;
             }
         }
@@ -1425,6 +1658,231 @@
                     </button>
                 </div>
             `;
+        }
+
+        // 布局和排序状态变量
+        let currentLayout = 'grid'; // 'grid' or 'list'
+        let currentSort = 'default'; // 'default' or 'latest'
+        let currentJewelryLayout = 'grid';
+        let currentJewelrySort = 'default';
+        let currentCapsLayout = 'grid';
+        let currentCapsSort = 'default';
+        let currentEyewearLayout = 'grid';
+        let currentEyewearSort = 'default';
+
+        // 初始化布局和排序控制
+        function initializeLayoutSortControls() {
+            // 包包布局切换
+            const layoutGridBtn = document.getElementById('layoutGridBtn');
+            const layoutListBtn = document.getElementById('layoutListBtn');
+            const sortDropdownBtn = document.getElementById('sortDropdownBtn');
+            const sortDropdown = document.getElementById('sortDropdown');
+            const sortDisplayText = document.getElementById('sortDisplayText');
+
+            // 饰品布局切换
+            const jewelryLayoutGridBtn = document.getElementById('jewelryLayoutGridBtn');
+            const jewelryLayoutListBtn = document.getElementById('jewelryLayoutListBtn');
+            const jewelrySortDropdownBtn = document.getElementById('jewelrySortDropdownBtn');
+            const jewelrySortDropdown = document.getElementById('jewelrySortDropdown');
+            const jewelrySortDisplayText = document.getElementById('jewelrySortDisplayText');
+
+            // 帽子布局切换
+            const capsLayoutGridBtn = document.getElementById('capsLayoutGridBtn');
+            const capsLayoutListBtn = document.getElementById('capsLayoutListBtn');
+            const capsSortDropdownBtn = document.getElementById('capsSortDropdownBtn');
+            const capsSortDropdown = document.getElementById('capsSortDropdown');
+            const capsSortDisplayText = document.getElementById('capsSortDisplayText');
+
+            // 眼镜布局切换
+            const eyewearLayoutGridBtn = document.getElementById('eyewearLayoutGridBtn');
+            const eyewearLayoutListBtn = document.getElementById('eyewearLayoutListBtn');
+            const eyewearSortDropdownBtn = document.getElementById('eyewearSortDropdownBtn');
+            const eyewearSortDropdown = document.getElementById('eyewearSortDropdown');
+            const eyewearSortDisplayText = document.getElementById('eyewearSortDisplayText');
+
+            // 包包布局切换事件
+            if (layoutGridBtn && layoutListBtn) {
+                layoutGridBtn.addEventListener('click', () => switchLayout('grid'));
+                layoutListBtn.addEventListener('click', () => switchLayout('list'));
+            }
+
+            // 包包排序下拉菜单事件
+            if (sortDropdownBtn && sortDropdown) {
+                sortDropdownBtn.addEventListener('click', () => {
+                    sortDropdown.classList.toggle('hidden');
+                });
+
+                // 点击外部关闭下拉菜单
+                document.addEventListener('click', (e) => {
+                    if (!sortDropdownBtn.contains(e.target) && !sortDropdown.contains(e.target)) {
+                        sortDropdown.classList.add('hidden');
+                    }
+                });
+
+                // 排序选项点击事件
+                document.querySelectorAll('.sort-option').forEach(option => {
+                    option.addEventListener('click', (e) => {
+                        const sortType = e.currentTarget.dataset.sort;
+                        currentSort = sortType;
+                        sortDisplayText.textContent = sortType === 'default' ? 'Default' : 'Latest';
+                        sortDropdown.classList.add('hidden');
+                        renderProducts(); // 重新渲染产品
+                    });
+                });
+            }
+
+            // 饰品布局切换事件
+            if (jewelryLayoutGridBtn && jewelryLayoutListBtn) {
+                jewelryLayoutGridBtn.addEventListener('click', () => switchJewelryLayout('grid'));
+                jewelryLayoutListBtn.addEventListener('click', () => switchJewelryLayout('list'));
+            }
+
+            // 饰品排序下拉菜单事件
+            if (jewelrySortDropdownBtn && jewelrySortDropdown) {
+                jewelrySortDropdownBtn.addEventListener('click', () => {
+                    jewelrySortDropdown.classList.toggle('hidden');
+                });
+
+                document.querySelectorAll('.jewelry-sort-option').forEach(option => {
+                    option.addEventListener('click', (e) => {
+                        const sortType = e.currentTarget.dataset.sort;
+                        currentJewelrySort = sortType;
+                        jewelrySortDisplayText.textContent = sortType === 'default' ? 'Default' : 'Latest';
+                        jewelrySortDropdown.classList.add('hidden');
+                        renderJewelryProducts(); // 重新渲染产品
+                    });
+                });
+            }
+
+            // 帽子布局切换事件
+            if (capsLayoutGridBtn && capsLayoutListBtn) {
+                capsLayoutGridBtn.addEventListener('click', () => switchCapsLayout('grid'));
+                capsLayoutListBtn.addEventListener('click', () => switchCapsLayout('list'));
+            }
+
+            // 帽子排序下拉菜单事件
+            if (capsSortDropdownBtn && capsSortDropdown) {
+                capsSortDropdownBtn.addEventListener('click', () => {
+                    capsSortDropdown.classList.toggle('hidden');
+                });
+
+                document.querySelectorAll('.caps-sort-option').forEach(option => {
+                    option.addEventListener('click', (e) => {
+                        const sortType = e.currentTarget.dataset.sort;
+                        currentCapsSort = sortType;
+                        capsSortDisplayText.textContent = sortType === 'default' ? 'Default' : 'Latest';
+                        capsSortDropdown.classList.add('hidden');
+                        renderCapsProducts(); // 重新渲染产品
+                    });
+                });
+            }
+
+            // 眼镜布局切换事件
+            if (eyewearLayoutGridBtn && eyewearLayoutListBtn) {
+                eyewearLayoutGridBtn.addEventListener('click', () => switchEyewearLayout('grid'));
+                eyewearLayoutListBtn.addEventListener('click', () => switchEyewearLayout('list'));
+            }
+
+            // 眼镜排序下拉菜单事件
+            if (eyewearSortDropdownBtn && eyewearSortDropdown) {
+                eyewearSortDropdownBtn.addEventListener('click', () => {
+                    eyewearSortDropdown.classList.toggle('hidden');
+                });
+
+                document.querySelectorAll('.eyewear-sort-option').forEach(option => {
+                    option.addEventListener('click', (e) => {
+                        const sortType = e.currentTarget.dataset.sort;
+                        currentEyewearSort = sortType;
+                        eyewearSortDisplayText.textContent = sortType === 'default' ? 'Default' : 'Latest';
+                        eyewearSortDropdown.classList.add('hidden');
+                        renderEyewearProducts(); // 重新渲染产品
+                    });
+                });
+            }
+        }
+
+        // 包包布局切换函数
+        function switchLayout(layout) {
+            currentLayout = layout;
+            const layoutGridBtn = document.getElementById('layoutGridBtn');
+            const layoutListBtn = document.getElementById('layoutListBtn');
+            
+            if (layout === 'grid') {
+                layoutGridBtn.classList.add('active', 'bg-blue-100', 'text-blue-600');
+                layoutGridBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                layoutListBtn.classList.remove('active', 'bg-blue-100', 'text-blue-600');
+                layoutListBtn.classList.add('bg-gray-100', 'text-gray-600');
+            } else {
+                layoutListBtn.classList.add('active', 'bg-blue-100', 'text-blue-600');
+                layoutListBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                layoutGridBtn.classList.remove('active', 'bg-blue-100', 'text-blue-600');
+                layoutGridBtn.classList.add('bg-gray-100', 'text-gray-600');
+            }
+            
+            renderProducts(); // 重新渲染产品
+        }
+
+        // 饰品布局切换函数
+        function switchJewelryLayout(layout) {
+            currentJewelryLayout = layout;
+            const jewelryLayoutGridBtn = document.getElementById('jewelryLayoutGridBtn');
+            const jewelryLayoutListBtn = document.getElementById('jewelryLayoutListBtn');
+            
+            if (layout === 'grid') {
+                jewelryLayoutGridBtn.classList.add('active', 'bg-purple-100', 'text-purple-600');
+                jewelryLayoutGridBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                jewelryLayoutListBtn.classList.remove('active', 'bg-purple-100', 'text-purple-600');
+                jewelryLayoutListBtn.classList.add('bg-gray-100', 'text-gray-600');
+            } else {
+                jewelryLayoutListBtn.classList.add('active', 'bg-purple-100', 'text-purple-600');
+                jewelryLayoutListBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                jewelryLayoutGridBtn.classList.remove('active', 'bg-purple-100', 'text-purple-600');
+                jewelryLayoutGridBtn.classList.add('bg-gray-100', 'text-gray-600');
+            }
+            
+            renderJewelryProducts(); // 重新渲染产品
+        }
+
+        // 帽子布局切换函数
+        function switchCapsLayout(layout) {
+            currentCapsLayout = layout;
+            const capsLayoutGridBtn = document.getElementById('capsLayoutGridBtn');
+            const capsLayoutListBtn = document.getElementById('capsLayoutListBtn');
+            
+            if (layout === 'grid') {
+                capsLayoutGridBtn.classList.add('active', 'bg-orange-100', 'text-orange-600');
+                capsLayoutGridBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                capsLayoutListBtn.classList.remove('active', 'bg-orange-100', 'text-orange-600');
+                capsLayoutListBtn.classList.add('bg-gray-100', 'text-gray-600');
+            } else {
+                capsLayoutListBtn.classList.add('active', 'bg-orange-100', 'text-orange-600');
+                capsLayoutListBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                capsLayoutGridBtn.classList.remove('active', 'bg-orange-100', 'text-orange-600');
+                capsLayoutGridBtn.classList.add('bg-gray-100', 'text-gray-600');
+            }
+            
+            renderCapsProducts(); // 重新渲染产品
+        }
+
+        // 眼镜布局切换函数
+        function switchEyewearLayout(layout) {
+            currentEyewearLayout = layout;
+            const eyewearLayoutGridBtn = document.getElementById('eyewearLayoutGridBtn');
+            const eyewearLayoutListBtn = document.getElementById('eyewearLayoutListBtn');
+            
+            if (layout === 'grid') {
+                eyewearLayoutGridBtn.classList.add('active', 'bg-blue-100', 'text-blue-600');
+                eyewearLayoutGridBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                eyewearLayoutListBtn.classList.remove('active', 'bg-blue-100', 'text-blue-600');
+                eyewearLayoutListBtn.classList.add('bg-gray-100', 'text-gray-600');
+            } else {
+                eyewearLayoutListBtn.classList.add('active', 'bg-blue-100', 'text-blue-600');
+                eyewearLayoutListBtn.classList.remove('bg-gray-100', 'text-gray-600');
+                eyewearLayoutGridBtn.classList.remove('active', 'bg-blue-100', 'text-blue-600');
+                eyewearLayoutGridBtn.classList.add('bg-gray-100', 'text-gray-600');
+            }
+            
+            renderEyewearProducts(); // 重新渲染产品
         }
 
         // 添加CSS动画样式
