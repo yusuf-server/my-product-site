@@ -1524,12 +1524,24 @@
                 switch(lastActiveTab) {
                     case 'jewelry':
                         renderJewelryProducts();
+                        // 确保在数据加载后更新筛选器UI
+                        setTimeout(() => {
+                            updateFilterUI();
+                        }, 100);
                         break;
                     case 'caps':
                         renderCapsProducts();
+                        // 确保在数据加载后更新筛选器UI
+                        setTimeout(() => {
+                            updateFilterUI();
+                        }, 100);
                         break;
                     case 'eyewear':
                         renderEyewearProducts();
+                        // 确保在数据加载后更新筛选器UI
+                        setTimeout(() => {
+                            updateFilterUI();
+                        }, 100);
                         break;
                     default:
                         renderProducts();
@@ -1627,8 +1639,107 @@
                 }
             }
             
-            // 更新其他类别的品牌筛选器（如果有数据的话）
-            // 这里可以根据需要添加其他类别的筛选器更新逻辑
+            // 更新饰品品牌筛选器
+            if (jewelryData && jewelryData.products) {
+                const jewelryBrandTagsContainer = document.getElementById('jewelryBrandTags');
+                if (jewelryBrandTagsContainer) {
+                    // 从产品数据中提取唯一的品牌
+                    const uniqueBrands = [...new Set(jewelryData.products.map(product => product.brand))];
+                    const jewelryBrands = [
+                        { value: 'all', label: 'All Jewelry Brands' },
+                        ...uniqueBrands.map(brand => ({
+                            value: brand,
+                            label: brand.charAt(0).toUpperCase() + brand.slice(1) + ' Jewelry'
+                        }))
+                    ];
+                    
+                    const jewelryBrandTags = jewelryBrands.map(brand => {
+                        const isActive = currentJewelryBrandFilter === brand.value;
+                        return `
+                            <button 
+                                class="jewelry-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                                    isActive 
+                                        ? 'bg-purple-600 text-white shadow-lg' 
+                                        : 'bg-purple-50 text-purple-700 hover:bg-purple-100 hover:shadow-md'
+                                }" 
+                                data-brand="${brand.value}"
+                                onclick="filterJewelryByBrand('${brand.value}')"
+                            >
+                                ${brand.label}
+                            </button>
+                        `;
+                    }).join('');
+                    jewelryBrandTagsContainer.innerHTML = jewelryBrandTags;
+                }
+            }
+            
+            // 更新帽子品牌筛选器
+            if (capsData && capsData.products) {
+                const capsBrandTagsContainer = document.getElementById('capsBrandTags');
+                if (capsBrandTagsContainer) {
+                    // 从产品数据中提取唯一的品牌
+                    const uniqueBrands = [...new Set(capsData.products.map(product => product.brand))];
+                    const capsBrands = [
+                        { value: 'all', label: 'All Caps Brands' },
+                        ...uniqueBrands.map(brand => ({
+                            value: brand,
+                            label: brand.charAt(0).toUpperCase() + brand.slice(1) + ' Cap'
+                        }))
+                    ];
+                    
+                    const capsBrandTags = capsBrands.map(brand => {
+                        const isActive = currentCapsBrandFilter === brand.value;
+                        return `
+                            <button 
+                                class="caps-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                                    isActive 
+                                        ? 'bg-orange-600 text-white shadow-lg' 
+                                        : 'bg-orange-50 text-orange-700 hover:bg-orange-100 hover:shadow-md'
+                                }" 
+                                data-brand="${brand.value}"
+                                onclick="filterCapsByBrand('${brand.value}')"
+                            >
+                                ${brand.label}
+                            </button>
+                        `;
+                    }).join('');
+                    capsBrandTagsContainer.innerHTML = capsBrandTags;
+                }
+            }
+            
+            // 更新眼镜品牌筛选器
+            if (eyewearData && eyewearData.products) {
+                const eyewearBrandTagsContainer = document.getElementById('eyewearBrandTags');
+                if (eyewearBrandTagsContainer) {
+                    // 从产品数据中提取唯一的品牌
+                    const uniqueBrands = [...new Set(eyewearData.products.map(product => product.brand))];
+                    const eyewearBrands = [
+                        { value: 'all', label: 'All Eyewear Brands' },
+                        ...uniqueBrands.map(brand => ({
+                            value: brand,
+                            label: brand.charAt(0).toUpperCase() + brand.slice(1) + ' Eyewear'
+                        }))
+                    ];
+                    
+                    const eyewearBrandTags = eyewearBrands.map(brand => {
+                        const isActive = currentEyewearBrandFilter === brand.value;
+                        return `
+                            <button 
+                                class="eyewear-brand-tag px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                                    isActive 
+                                        ? 'bg-blue-600 text-white shadow-lg' 
+                                        : 'bg-blue-50 text-blue-700 hover:bg-blue-100 hover:shadow-md'
+                                }" 
+                                data-brand="${brand.value}"
+                                onclick="filterEyewearByBrand('${brand.value}')"
+                            >
+                                ${brand.label}
+                            </button>
+                        `;
+                    }).join('');
+                    eyewearBrandTagsContainer.innerHTML = eyewearBrandTags;
+                }
+            }
         }
 
         // WhatsApp联系功能
