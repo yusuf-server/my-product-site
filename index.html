@@ -501,6 +501,9 @@
                 
                 console.log(`Caps data loaded successfully: ${capsData.products.length} products in ${(endTime - startTime).toFixed(2)}ms`);
                 
+                // 重新初始化帽子品牌标签
+                initializeCapsBrandTags();
+                
             } catch (error) {
                 console.error('Failed to load caps data:', error);
                 throw error;
@@ -527,6 +530,9 @@
                 const endTime = performance.now();
                 
                 console.log(`Eyewear data loaded successfully: ${eyewearData.products.length} products in ${(endTime - startTime).toFixed(2)}ms`);
+                
+                // 重新初始化眼镜品牌标签
+                initializeEyewearBrandTags();
                 
             } catch (error) {
                 console.error('Failed to load eyewear data:', error);
@@ -610,18 +616,41 @@
             const capsBrandTagsContainer = document.getElementById('capsBrandTags');
             if (!capsBrandTagsContainer) return;
 
-            // 使用默认的帽子品牌列表（在没有加载帽子数据时）
-            const defaultCapsBrands = [
-                { value: 'all', label: 'All Cap Brands' },
-                { value: 'chanel-cap', label: 'Chanel Cap' },
-                { value: 'lv-cap', label: 'LV Cap' },
-                { value: 'dior-cap', label: 'Dior Cap' },
-                { value: 'gucci-cap', label: 'Gucci Cap' },
-                { value: 'fendi-cap', label: 'Fendi Cap' }
-            ];
+            // 品牌显示名称映射
+            const brandDisplayMap = {
+                'chanel': 'Chanel',
+                'louis-vuitton': 'Louis Vuitton',
+                'gucci': 'Gucci',
+                'dior': 'DIOR',
+                'fendi': 'Fendi',
+                'hermes': 'Hermès',
+                'prada': 'Prada',
+                'versace': 'VERSACE',
+                'miu-miu': 'MIU MIU',
+                'saint-laurent': 'SAINT LAURENT',
+                'burberry': 'BURBERRY',
+                'celine': 'Celine',
+                'goyard': 'GOYARD'
+            };
 
             // 如果已加载帽子数据，使用帽子数据中的品牌列表，否则使用默认列表
-            const capsBrands = capsData ? capsData.filters.brands : defaultCapsBrands;
+            let capsBrands = [{ value: 'all', label: 'All Caps Brands' }];
+            
+            if (capsData && capsData.products && capsData.products.length > 0) {
+                // 从产品数据中提取唯一的品牌
+                const uniqueBrands = [...new Set(capsData.products.map(product => product.brand))];
+                console.log('Found caps brands:', uniqueBrands);
+                
+                capsBrands = [
+                    { value: 'all', label: 'All Caps Brands' },
+                    ...uniqueBrands.map(brand => ({
+                        value: brand,
+                        label: (brandDisplayMap[brand] || brand.charAt(0).toUpperCase() + brand.slice(1)) + ' Cap'
+                    }))
+                ];
+            } else {
+                console.log('No caps data available, using default brands');
+            }
 
             // 生成帽子品牌标签
             const capsBrandTags = capsBrands.map(brand => {
@@ -642,7 +671,7 @@
             }).join('');
 
             capsBrandTagsContainer.innerHTML = capsBrandTags;
-            console.log('Caps brand tags initialized successfully');
+            console.log('Caps brand tags initialized successfully with', capsBrands.length, 'brands');
         }
 
         // 初始化眼镜品牌标签
@@ -650,24 +679,41 @@
             const eyewearBrandTagsContainer = document.getElementById('eyewearBrandTags');
             if (!eyewearBrandTagsContainer) return;
 
-            // 使用默认的眼镜品牌列表（在没有加载眼镜数据时）
-            const defaultEyewearBrands = [
-                { value: 'all', label: 'All Eyewear Brands' },
-                { value: 'chanel-eyewear', label: 'CHANEL Eyewear' },
-                { value: 'miu-miu-eyewear', label: 'MIU MIU Eyewear' },
-                { value: 'versace-eyewear', label: 'VERSACE Eyewear' },
-                { value: 'gucci-eyewear', label: 'GUCCI Eyewear' },
-                { value: 'louis-vuitton-eyewear', label: 'LOUIS VUITTON Eyewear' },
-                { value: 'prada-eyewear', label: 'PRADA Eyewear' },
-                { value: 'dior-eyewear', label: 'DIOR Eyewear' },
-                { value: 'saint-laurent-eyewear', label: 'SAINT LAURENT Eyewear' },
-                { value: 'fendi-eyewear', label: 'FENDI Eyewear' },
-                { value: 'burberry-eyewear', label: 'BURBERRY Eyewear' },
-                { value: 'hermes-eyewear', label: 'HERMES Eyewear' }
-            ];
+            // 品牌显示名称映射
+            const brandDisplayMap = {
+                'chanel': 'CHANEL',
+                'louis-vuitton': 'LOUIS VUITTON',
+                'gucci': 'GUCCI',
+                'dior': 'DIOR',
+                'fendi': 'FENDI',
+                'hermes': 'HERMES',
+                'prada': 'PRADA',
+                'versace': 'VERSACE',
+                'miu-miu': 'MIU MIU',
+                'saint-laurent': 'SAINT LAURENT',
+                'burberry': 'BURBERRY',
+                'celine': 'CELINE',
+                'goyard': 'GOYARD'
+            };
 
             // 如果已加载眼镜数据，使用眼镜数据中的品牌列表，否则使用默认列表
-            const eyewearBrands = eyewearData ? eyewearData.filters.brands : defaultEyewearBrands;
+            let eyewearBrands = [{ value: 'all', label: 'All Eyewear Brands' }];
+            
+            if (eyewearData && eyewearData.products && eyewearData.products.length > 0) {
+                // 从产品数据中提取唯一的品牌
+                const uniqueBrands = [...new Set(eyewearData.products.map(product => product.brand))];
+                console.log('Found eyewear brands:', uniqueBrands);
+                
+                eyewearBrands = [
+                    { value: 'all', label: 'All Eyewear Brands' },
+                    ...uniqueBrands.map(brand => ({
+                        value: brand,
+                        label: (brandDisplayMap[brand] || brand.charAt(0).toUpperCase() + brand.slice(1)) + ' Eyewear'
+                    }))
+                ];
+            } else {
+                console.log('No eyewear data available, using default brands');
+            }
 
             // 生成眼镜品牌标签
             const eyewearBrandTags = eyewearBrands.map(brand => {
@@ -688,7 +734,7 @@
             }).join('');
 
             eyewearBrandTagsContainer.innerHTML = eyewearBrandTags;
-            console.log('Eyewear brand tags initialized successfully');
+            console.log('Eyewear brand tags initialized successfully with', eyewearBrands.length, 'brands');
         }
 
         // 品牌筛选函数
@@ -927,7 +973,7 @@
                     const loadEndTime = performance.now();
                     console.log(`Caps data loaded in ${(loadEndTime - loadStartTime).toFixed(2)}ms`);
                     
-                    // 重新初始化帽子品牌标签
+                    // 确保在数据加载完成后重新初始化品牌标签
                     initializeCapsBrandTags();
                 } catch (error) {
                     capsProductGrid.innerHTML = `
@@ -1014,7 +1060,7 @@
                     const loadEndTime = performance.now();
                     console.log(`Eyewear data loaded in ${(loadEndTime - loadStartTime).toFixed(2)}ms`);
                     
-                    // 重新初始化眼镜品牌标签
+                    // 确保在数据加载完成后重新初始化品牌标签
                     initializeEyewearBrandTags();
                 } catch (error) {
                     eyewearProductGrid.innerHTML = `
