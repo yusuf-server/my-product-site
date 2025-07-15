@@ -1037,7 +1037,7 @@
                 console.error('No current product for WhatsApp contact');
                 return;
             }
-            const whatsappNumber = settingsData?.whatsappNumber || "1234567890";
+            const whatsappNumber = settingsData?.whatsappNumber || "0174812989";
             // 构建产品详情页链接
             const productUrl = `${window.location.origin}${window.location.pathname}?id=${currentProduct.id}&category=${currentProduct.category}`;
             let message = `Hello! I'm very interested in this product: ${currentProduct.title}\n\nProduct Details:\n• Product: ${currentProduct.title}\n• Category: ${currentProduct.category}\n• Product Link: ${productUrl}`;
