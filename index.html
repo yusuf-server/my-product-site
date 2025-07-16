@@ -256,6 +256,13 @@
                     <p class="text-xs md:text-sm lg:text-base text-gray-600">Luxury Eyewear</p>
                 </div>
             </button>
+            <button id="beltTab" class="tab-button flex-1 bg-white rounded-2xl p-4 md:p-8 lg:p-12 text-center">
+                <div class="animate-float" style="animation-delay: 2s;">
+                    <i class="fas fa-grip-lines-vertical text-3xl md:text-4xl lg:text-6xl mb-2 md:mb-4 text-gray-700"></i>
+                    <h2 class="text-lg md:text-2xl lg:text-3xl font-semibold mb-1 md:mb-2">BELT</h2>
+                    <p class="text-xs md:text-sm lg:text-base text-gray-600">Luxury Belt Collection</p>
+                </div>
+            </button>
         </div>
 
         <!-- Brand Filter Section -->
@@ -468,6 +475,43 @@
                 </div>
             </div>
         </div>
+
+        <!-- Belt Sort Controls -->
+        <div id="beltLayoutSortControls" class="mb-6 md:mb-8 hidden">
+            <div class="bg-white rounded-2xl p-4 md:p-6 shadow-sm">
+                <div class="flex justify-end items-center">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm font-medium text-gray-700 mr-3">Sort:</span>
+                        <div class="relative">
+                            <button id="beltSortDropdownBtn" class="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-200 text-sm font-medium text-gray-700">
+                                <i class="fas fa-sort-amount-down mr-2"></i>
+                                <span id="beltSortDisplayText">Default</span>
+                                <i class="fas fa-chevron-down text-xs"></i>
+                            </button>
+                            <div id="beltSortDropdown" class="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-gray-200 z-50 hidden">
+                                <div class="py-1">
+                                    <button class="belt-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="default">
+                                        <i class="fas fa-sort mr-2"></i>Default
+                                    </button>
+                                    <button class="belt-sort-option w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors" data-sort="latest">
+                                        <i class="fas fa-clock mr-2"></i>Latest
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Belt Products Section -->
+        <div id="beltProductsSection" class="hidden">
+            <div id="beltProductGrid" class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
+                <div class="col-span-full text-center py-8">
+                    <div class="inline-block w-8 h-8 border-4 border-gray-300 border-t-gray-900 rounded-full animate-spin"></div>
+                    <p class="mt-2 text-gray-500">Loading belts...</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script>
@@ -482,6 +526,12 @@
         let currentCapsBrandFilter = 'all';
         let currentEyewearBrandFilter = 'all';
         let currentTab = 'bags'; // 'bags', 'jewelry', 'caps', or 'eyewear'
+        let beltData = null;
+        let currentSort = 'default'; // 'default' or 'latest'
+        let currentJewelrySort = 'default';
+        let currentCapsSort = 'default';
+        let currentEyewearSort = 'default';
+        let currentBeltSort = 'default';
         
         // 生成本地占位符图片
         function generatePlaceholderImage(text, bgColor = '#f3f4f6', textColor = '#9ca3af') {
@@ -509,6 +559,7 @@
         const jewelryTab = document.getElementById('jewelryTab');
         const capsTab = document.getElementById('capsTab');
         const eyewearTab = document.getElementById('eyewearTab');
+        const beltTab = document.getElementById('beltTab');
         const filtersSection = document.getElementById('filtersSection');
         const productsSection = document.getElementById('productsSection');
         const jewelryFiltersSection = document.getElementById('jewelryFiltersSection');
@@ -522,6 +573,7 @@
         const jewelryProductGrid = document.getElementById('jewelryProductGrid');
         const capsProductGrid = document.getElementById('capsProductGrid');
         const eyewearProductGrid = document.getElementById('eyewearProductGrid');
+        const beltProductGrid = document.getElementById('beltProductGrid');
 
         // 页面加载时初始化
         document.addEventListener('DOMContentLoaded', async function() {
@@ -1319,6 +1371,7 @@
             jewelryTab.classList.remove('active');
             capsTab.classList.remove('active');
             eyewearTab.classList.remove('active');
+            beltTab.classList.remove('active');
             
             // 显示包包相关内容
             filtersSection.classList.remove('hidden');
@@ -1336,6 +1389,8 @@
             document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
+            document.getElementById('beltLayoutSortControls').classList.add('hidden');
+            document.getElementById('beltProductsSection').classList.add('hidden');
         });
 
         jewelryTab.addEventListener('click', () => {
@@ -1344,6 +1399,7 @@
             bagsTab.classList.remove('active');
             capsTab.classList.remove('active');
             eyewearTab.classList.remove('active');
+            beltTab.classList.remove('active');
             
             // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
@@ -1363,6 +1419,8 @@
             document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
+            document.getElementById('beltLayoutSortControls').classList.add('hidden');
+            document.getElementById('beltProductsSection').classList.add('hidden');
             
             // 渲染饰品产品（异步加载）
             renderJewelryProducts();
@@ -1374,6 +1432,7 @@
             bagsTab.classList.remove('active');
             jewelryTab.classList.remove('active');
             eyewearTab.classList.remove('active');
+            beltTab.classList.remove('active');
             
             // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
@@ -1395,6 +1454,8 @@
             document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             eyewearProductsSection.classList.add('hidden');
             comingSoonSection.classList.add('hidden');
+            document.getElementById('beltLayoutSortControls').classList.add('hidden');
+            document.getElementById('beltProductsSection').classList.add('hidden');
             
             // 渲染帽子产品（异步加载）
             renderCapsProducts();
@@ -1406,6 +1467,7 @@
             bagsTab.classList.remove('active');
             jewelryTab.classList.remove('active');
             capsTab.classList.remove('active');
+            beltTab.classList.remove('active');
             
             // 隐藏包包相关内容
             filtersSection.classList.add('hidden');
@@ -1427,9 +1489,38 @@
             document.getElementById('eyewearLayoutSortControls').classList.remove('hidden');
             eyewearProductsSection.classList.remove('hidden');
             comingSoonSection.classList.add('hidden');
+            document.getElementById('beltLayoutSortControls').classList.add('hidden');
+            document.getElementById('beltProductsSection').classList.add('hidden');
             
             // 渲染眼镜产品（异步加载）
             renderEyewearProducts();
+        });
+
+        beltTab.addEventListener('click', () => {
+            currentTab = 'belt';
+            beltTab.classList.add('active');
+            bagsTab.classList.remove('active');
+            jewelryTab.classList.remove('active');
+            capsTab.classList.remove('active');
+            eyewearTab.classList.remove('active');
+            // 隐藏其它内容
+            filtersSection.classList.add('hidden');
+            document.getElementById('layoutSortControls').classList.add('hidden');
+            productsSection.classList.add('hidden');
+            jewelryFiltersSection.classList.add('hidden');
+            document.getElementById('jewelryLayoutSortControls').classList.add('hidden');
+            jewelryProductsSection.classList.add('hidden');
+            capsFiltersSection.classList.add('hidden');
+            document.getElementById('capsLayoutSortControls').classList.add('hidden');
+            capsProductsSection.classList.add('hidden');
+            eyewearFiltersSection.classList.add('hidden');
+            document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
+            eyewearProductsSection.classList.add('hidden');
+            comingSoonSection.classList.add('hidden');
+            // 显示belt内容
+            document.getElementById('beltLayoutSortControls').classList.remove('hidden');
+            document.getElementById('beltProductsSection').classList.remove('hidden');
+            renderBeltProducts();
         });
 
         // 跳转到产品详情页
@@ -1440,11 +1531,13 @@
             sessionStorage.setItem('lastJewelryBrandFilter', currentJewelryBrandFilter);
             sessionStorage.setItem('lastCapsBrandFilter', currentCapsBrandFilter);
             sessionStorage.setItem('lastEyewearBrandFilter', currentEyewearBrandFilter);
+            sessionStorage.setItem('lastBeltBrandFilter', currentBeltBrandFilter);
             // 保存排序状态
             sessionStorage.setItem('lastSort', currentSort);
             sessionStorage.setItem('lastJewelrySort', currentJewelrySort);
             sessionStorage.setItem('lastCapsSort', currentCapsSort);
             sessionStorage.setItem('lastEyewearSort', currentEyewearSort);
+            sessionStorage.setItem('lastBeltSort', currentBeltSort);
             // 保存当前滚动位置
             sessionStorage.setItem('lastScrollPosition', window.scrollY);
             window.location.href = `product-detail.html?id=${id}&category=${category}`;
@@ -1457,6 +1550,7 @@
             const lastJewelryBrandFilter = sessionStorage.getItem('lastJewelryBrandFilter');
             const lastCapsBrandFilter = sessionStorage.getItem('lastCapsBrandFilter');
             const lastEyewearBrandFilter = sessionStorage.getItem('lastEyewearBrandFilter');
+            const lastBeltBrandFilter = sessionStorage.getItem('lastBeltBrandFilter');
             const lastScrollPosition = sessionStorage.getItem('lastScrollPosition');
             
             if (lastActiveTab) {
@@ -1466,6 +1560,7 @@
                 currentJewelryBrandFilter = lastJewelryBrandFilter || 'all';
                 currentCapsBrandFilter = lastCapsBrandFilter || 'all';
                 currentEyewearBrandFilter = lastEyewearBrandFilter || 'all';
+                currentBeltBrandFilter = lastBeltBrandFilter || 'all';
                 
                 // 更新UI状态
                 updateTabUI();
@@ -1494,6 +1589,10 @@
                             updateFilterUI();
                         }, 500); // 增加延迟时间，确保数据完全加载
                         break;
+                    case 'belt':
+                        renderBeltProducts();
+                        updateFilterUI();
+                        break;
                     default:
                         renderProducts();
                         break;
@@ -1519,10 +1618,12 @@
             const lastJewelryBrandFilter = sessionStorage.getItem('lastJewelryBrandFilter');
             const lastCapsBrandFilter = sessionStorage.getItem('lastCapsBrandFilter');
             const lastEyewearBrandFilter = sessionStorage.getItem('lastEyewearBrandFilter');
+            const lastBeltBrandFilter = sessionStorage.getItem('lastBeltBrandFilter');
             const lastSort = sessionStorage.getItem('lastSort');
             const lastJewelrySort = sessionStorage.getItem('lastJewelrySort');
             const lastCapsSort = sessionStorage.getItem('lastCapsSort');
             const lastEyewearSort = sessionStorage.getItem('lastEyewearSort');
+            const lastBeltSort = sessionStorage.getItem('lastBeltSort');
             const lastScrollPosition = sessionStorage.getItem('lastScrollPosition');
             if (lastActiveTab) {
                 console.log('Restoring previous state for:', lastActiveTab);
@@ -1532,11 +1633,13 @@
                 currentJewelryBrandFilter = lastJewelryBrandFilter || 'all';
                 currentCapsBrandFilter = lastCapsBrandFilter || 'all';
                 currentEyewearBrandFilter = lastEyewearBrandFilter || 'all';
+                currentBeltBrandFilter = lastBeltBrandFilter || 'all';
                 // 恢复排序状态
                 currentSort = lastSort || 'default';
                 currentJewelrySort = lastJewelrySort || 'default';
                 currentCapsSort = lastCapsSort || 'default';
                 currentEyewearSort = lastEyewearSort || 'default';
+                currentBeltSort = lastBeltSort || 'default';
                 // 同步更新排序按钮文本
                 const sortDisplayText = document.getElementById('sortDisplayText');
                 if (sortDisplayText) sortDisplayText.textContent = currentSort === 'default' ? 'Default' : 'Latest';
@@ -1546,6 +1649,8 @@
                 if (capsSortDisplayText) capsSortDisplayText.textContent = currentCapsSort === 'default' ? 'Default' : 'Latest';
                 const eyewearSortDisplayText = document.getElementById('eyewearSortDisplayText');
                 if (eyewearSortDisplayText) eyewearSortDisplayText.textContent = currentEyewearSort === 'default' ? 'Default' : 'Latest';
+                const beltSortDisplayText = document.getElementById('beltSortDisplayText');
+                if (beltSortDisplayText) beltSortDisplayText.textContent = currentBeltSort === 'default' ? 'Default' : 'Latest';
                 // 更新UI状态
                 updateTabUI();
                 // 根据标签确保数据加载完成后再恢复状态
@@ -1572,6 +1677,13 @@
                             await loadEyewearData();
                         }
                         renderEyewearProducts();
+                        updateFilterUI();
+                        break;
+                    case 'belt':
+                        if (!beltData) {
+                            await loadBeltData();
+                        }
+                        renderBeltProducts();
                         updateFilterUI();
                         break;
                     default:
@@ -1610,6 +1722,9 @@
                     case 'eyewear':
                         renderEyewearProducts();
                         break;
+                    case 'belt':
+                        renderBeltProducts();
+                        break;
                 }
             }
         }
@@ -1621,6 +1736,7 @@
             jewelryTab.classList.remove('active');
             capsTab.classList.remove('active');
             eyewearTab.classList.remove('active');
+            beltTab.classList.remove('active');
             
             // 隐藏所有内容区域
             filtersSection.classList.add('hidden');
@@ -1636,6 +1752,8 @@
             eyewearProductsSection.classList.add('hidden');
             document.getElementById('eyewearLayoutSortControls').classList.add('hidden');
             comingSoonSection.classList.add('hidden');
+            document.getElementById('beltLayoutSortControls').classList.add('hidden');
+            document.getElementById('beltProductsSection').classList.add('hidden');
             
             // 根据当前标签显示相应内容
             switch(currentTab) {
@@ -1656,6 +1774,11 @@
                     eyewearFiltersSection.classList.remove('hidden');
                     eyewearProductsSection.classList.remove('hidden');
                     document.getElementById('eyewearLayoutSortControls').classList.remove('hidden');
+                    break;
+                case 'belt':
+                    beltTab.classList.add('active');
+                    document.getElementById('beltLayoutSortControls').classList.remove('hidden');
+                    document.getElementById('beltProductsSection').classList.remove('hidden');
                     break;
                 default:
                     bagsTab.classList.add('active');
@@ -1824,12 +1947,6 @@
             `;
         }
 
-        // 排序状态变量
-        let currentSort = 'default'; // 'default' or 'latest'
-        let currentJewelrySort = 'default';
-        let currentCapsSort = 'default';
-        let currentEyewearSort = 'default';
-
         // 初始化排序控制
         function initializeLayoutSortControls() {
             // 包包排序下拉菜单事件
@@ -1931,6 +2048,26 @@
                     });
                 });
             }
+
+            // 包包排序下拉菜单事件
+            const beltSortDropdownBtn = document.getElementById('beltSortDropdownBtn');
+            const beltSortDropdown = document.getElementById('beltSortDropdown');
+            const beltSortDisplayText = document.getElementById('beltSortDisplayText');
+            if (beltSortDropdownBtn && beltSortDropdown) {
+                beltSortDropdownBtn.addEventListener('click', () => {
+                    beltSortDropdown.classList.toggle('hidden');
+                });
+                document.querySelectorAll('.belt-sort-option').forEach(option => {
+                    option.addEventListener('click', (e) => {
+                        const sortType = e.currentTarget.dataset.sort;
+                        currentBeltSort = sortType;
+                        beltSortDisplayText.textContent = sortType === 'default' ? 'Default' : 'Latest';
+                        beltSortDropdown.classList.add('hidden');
+                        sessionStorage.setItem('lastBeltSort', currentBeltSort);
+                        renderBeltProducts();
+                    });
+                });
+            }
         }
 
 
@@ -2018,6 +2155,98 @@
                 });
             }
         });
+
+        // 加载belt数据（按需加载）
+        async function loadBeltData() {
+            if (beltData) {
+                return;
+            }
+            try {
+                console.log('Loading belt data...');
+                const startTime = performance.now();
+                const response = await fetch('belt.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to load belt data: ${response.status}`);
+                }
+                beltData = await response.json();
+                const endTime = performance.now();
+                console.log(`Belt data loaded successfully: ${beltData.products.length} products in ${(endTime - startTime).toFixed(2)}ms`);
+                onDataLoaded('belt');
+            } catch (error) {
+                console.error('Failed to load belt data:', error);
+                throw error;
+            }
+        }
+
+        // 渲染belt产品
+        async function renderBeltProducts() {
+            if (!beltData) {
+                beltProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"></div>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">Loading Belts...</h3>
+                        <p class="text-gray-500">Please wait while we load the belt collection</p>
+                    </div>
+                `;
+                try {
+                    const loadStartTime = performance.now();
+                    await loadBeltData();
+                    const loadEndTime = performance.now();
+                    console.log(`Belt data loaded in ${(loadEndTime - loadStartTime).toFixed(2)}ms`);
+                } catch (error) {
+                    beltProductGrid.innerHTML = `
+                        <div class="col-span-full text-center py-12">
+                            <i class="fas fa-exclamation-triangle text-4xl text-red-400 mb-4"></i>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-2">Failed to Load Belts</h3>
+                            <p class="text-gray-500">Please try again later</p>
+                        </div>
+                    `;
+                    return;
+                }
+            }
+            let filteredBeltProducts = beltData.products;
+            if (currentBeltSort === 'latest') {
+                filteredBeltProducts = sortProductsByLatest(filteredBeltProducts);
+            }
+            if (!filteredBeltProducts || filteredBeltProducts.length === 0) {
+                beltProductGrid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <i class="fas fa-grip-lines-vertical text-4xl text-gray-400 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-2">No Belts Found</h3>
+                        <p class="text-gray-500">Please check back later</p>
+                    </div>
+                `;
+                return;
+            }
+            beltProductGrid.innerHTML = filteredBeltProducts.map(product => {
+                const imageUrl = product.images.thumbnail.includes('placeholder') 
+                    ? generatePlaceholderImage(product.brandDisplay || 'Belt', '#f8f9fa', '#6b7280')
+                    : product.images.thumbnail;
+                return `
+                    <div class="product-card bg-white rounded-xl md:rounded-2xl overflow-hidden shadow-sm cursor-pointer animate-fade-in" onclick="goToProduct(${product.id}, 'belt')">
+                        <div class="aspect-square bg-gray-100 relative overflow-hidden">
+                            <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
+                            ${product.featured ? '<div class="absolute top-2 left-2 bg-gray-400 text-white px-2 py-1 rounded-full text-xs font-semibold">Featured</div>' : ''}
+                            ${product.status === 'limited' ? '<div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">Limited</div>' : ''}
+                        </div>
+                        <div class="p-2 md:p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1 text-sm md:text-base">${product.title}</h3>
+                            <p class="text-gray-500 text-xs md:text-sm mb-2">${product.subtitle}</p>
+                            <div class="flex justify-center items-center mt-2">
+                                <button class="w-full max-w-xs bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-sm md:text-base font-medium transition-colors shadow-md" 
+                                        onclick="event.stopPropagation(); contactWhatsApp('${product.title}', '${product.id}', 'belt')">
+                                    <i class="fab fa-whatsapp mr-2"></i>Contact
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            document.querySelectorAll('.animate-fade-in').forEach((card) => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            });
+        }
     </script>
 
     <!-- Back to Top Button -->

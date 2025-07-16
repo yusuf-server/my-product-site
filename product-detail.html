@@ -544,6 +544,7 @@
         let jewelryData = null;
         let capsData = null;
         let eyewearData = null;
+        let beltData = null;
         let settingsData = null;
         let currentProduct = null;
 
@@ -551,33 +552,31 @@
         async function loadProductData() {
             try {
                 console.log('Loading product data...');
-                
                 // 并行加载所有数据文件
-                const [bagsResponse, jewelryResponse, capsResponse, eyewearResponse, settingsResponse] = await Promise.all([
+                const [bagsResponse, jewelryResponse, capsResponse, eyewearResponse, beltResponse, settingsResponse] = await Promise.all([
                     fetch('bags.json'),
                     fetch('jewelry.json'),
                     fetch('caps.json'),
                     fetch('eyewear.json'),
+                    fetch('belt.json'),
                     fetch('settings.json')
                 ]);
-                
-                if (!bagsResponse.ok || !jewelryResponse.ok || !capsResponse.ok || !eyewearResponse.ok || !settingsResponse.ok) {
+                if (!bagsResponse.ok || !jewelryResponse.ok || !capsResponse.ok || !eyewearResponse.ok || !beltResponse.ok || !settingsResponse.ok) {
                     throw new Error('Failed to load one or more data files');
                 }
-                
                 bagsData = await bagsResponse.json();
                 jewelryData = await jewelryResponse.json();
                 capsData = await capsResponse.json();
                 eyewearData = await eyewearResponse.json();
+                beltData = await beltResponse.json();
                 settingsData = await settingsResponse.json();
-                
                 console.log('Product data loaded successfully');
                 console.log('- Bags:', bagsData.products.length);
                 console.log('- Jewelry:', jewelryData.products.length);
                 console.log('- Caps:', capsData.products.length);
                 console.log('- Eyewear:', eyewearData.products.length);
+                console.log('- Belt:', beltData.products.length);
                 console.log('- Settings loaded');
-                
                 return true;
             } catch (error) {
                 console.error('Failed to load product data:', error);
@@ -591,57 +590,46 @@
             const urlParams = new URLSearchParams(window.location.search);
             const productId = parseInt(urlParams.get('id'));
             const category = urlParams.get('category') || 'bags'; // 默认类别为bags
-            
             console.log('Product ID from URL:', productId);
             console.log('Category from URL:', category);
-            
             if (!productId) {
                 showError('Invalid product ID. Please select a product from the product list.');
                 return;
             }
-
             // Ensure data is loaded
-            if (!bagsData || !jewelryData || !capsData || !eyewearData || !settingsData) {
+            if (!bagsData || !jewelryData || !capsData || !eyewearData || !beltData || !settingsData) {
                 const loaded = await loadProductData();
                 if (!loaded) return;
             }
-
             // Search in specific category based on URL parameter
             const searchStartTime = performance.now();
-            
             switch (category) {
                 case 'bags':
-                    currentProduct = bagsData.products.find(product => product.id === productId);
+                    currentProduct = bagsData.products.find(p => p.id === productId);
                     break;
                 case 'jewelry':
-                    currentProduct = jewelryData.products.find(product => product.id === productId);
+                    currentProduct = jewelryData.products.find(p => p.id === productId);
                     break;
                 case 'caps':
-                    currentProduct = capsData.products.find(product => product.id === productId);
+                    currentProduct = capsData.products.find(p => p.id === productId);
                     break;
                 case 'eyewear':
-                    currentProduct = eyewearData.products.find(product => product.id === productId);
+                    currentProduct = eyewearData.products.find(p => p.id === productId);
+                    break;
+                case 'belt':
+                    currentProduct = beltData.products.find(p => p.id === productId);
                     break;
                 default:
-                    // Fallback: search in all categories if category is not specified
-                    currentProduct = bagsData.products.find(product => product.id === productId) ||
-                                    jewelryData.products.find(product => product.id === productId) ||
-                                    capsData.products.find(product => product.id === productId) ||
-                                    eyewearData.products.find(product => product.id === productId);
+                    currentProduct = bagsData.products.find(p => p.id === productId);
                     break;
             }
-            
             const searchEndTime = performance.now();
-            console.log(`Product search completed in ${(searchEndTime - searchStartTime).toFixed(2)}ms`);
-            
-            console.log('Found product:', currentProduct);
-            
+            console.log(`Product search took ${(searchEndTime - searchStartTime).toFixed(2)}ms`);
             if (!currentProduct) {
-                showError('Product not found. Please return to the product list and select again.');
+                showError('Product not found. Please select a product from the product list.');
                 return;
             }
-
-            // Update page content
+            // 渲染产品详情
             updateProductInfo();
             updateColorOptions();
             updateProductGallery();
@@ -933,6 +921,9 @@
                     // 其他规格信息暂时隐藏
                 } else if (currentProduct.category === 'eyewear') {
                     // 眼镜类别：只显示品牌信息
+                    // 其他规格信息暂时隐藏
+                } else if (currentProduct.category === 'belt') {
+                    // 腰带类别：只显示品牌信息
                     // 其他规格信息暂时隐藏
                 } else {
                     // 其他类别：显示所有可用规格

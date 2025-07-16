@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Classic Leather Belt",
+      "subtitle": "Classic Leather Belt",
+      "brand": "generic",
+      "brandDisplay": "Classic",
+      "size": "medium",
+      "sizeDisplay": "110cm",
+      "price": "high",
+      "color": "black",
+      "colorDisplay": "Black",
+      "material": "Genuine Leather",
+      "featured": true,
+      "rating": 5,
+      "reviews": 10,
+      "status": "available",
+      "images": {
+        "main": "https://via.placeholder.com/400x400?text=Belt",
+        "gallery": [
+          "https://via.placeholder.com/400x400?text=Belt+1",
+          "https://via.placeholder.com/400x400?text=Belt+2"
+        ],
+        "thumbnail": "https://via.placeholder.com/400x400?text=Belt"
+      },
+      "features": [
+        "Premium genuine leather",
+        "Handcrafted excellence",
+        "Adjustable length",
+        "Timeless classic style"
+      ],
+      "description": "Expertly crafted classic leather belt showcasing exceptional craftsmanship and timeless elegance.",
+      "specifications": {
+        "Dimensions": "110cm"
+      },
+      "tags": [
+        "Premium",
+        "Luxury",
+        "Quality"
+      ],
+      "category": "belt"
+    }
+  ]
+} 
