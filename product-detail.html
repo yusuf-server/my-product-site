@@ -176,6 +176,18 @@
                         <a href="#" class="text-gray-600 hover:text-gray-900">About</a>
                         <a href="#" class="text-gray-600 hover:text-gray-900">Contact</a>
                     </div>
+                    <!-- 语言切换按钮（详情页右上角） -->
+                    <div class="flex items-center ml-4">
+                        <button id="open-gt-modal" class="lang-switch-btn">
+                          <span class="lang-icon" aria-hidden="true">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                              <circle cx="11" cy="11" r="10" stroke="#2D9CDB" stroke-width="2"/>
+                              <path d="M2 11h18M11 2a16 16 0 010 18M11 2a16 16 0 000 18" stroke="#2D9CDB" stroke-width="1.2"/>
+                            </svg>
+                          </span>
+                          <span class="lang-text">Language</span>
+                        </button>
+                    </div>
                     <div class="md:hidden">
                         <button id="mobileMenuBtn" class="text-gray-600 hover:text-gray-900">
                             <i class="fas fa-bars text-xl"></i>
@@ -387,6 +399,103 @@
         </div>
     </footer>
 
+    <!-- GT语言切换弹窗及样式脚本（全局插入一次即可） -->
+    <div id="gt-modal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.3);z-index:10000;justify-content:center;align-items:center;">
+      <div style="background:#fff;padding:30px 20px;border-radius:8px;min-width:300px;position:relative;">
+        <button id="close-gt-modal" style="position:absolute;top:10px;right:10px;font-size:18px;background:none;border:none;cursor:pointer;">×</button>
+        <!-- 三语提示 -->
+        <div id="gt-tip-multilang" style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;margin-bottom:18px;">
+          <div style="font-size:15px;color:#2D9CDB;font-weight:500;margin-bottom:4px;max-width:320px;">Click on the language to switch. The first translation may take some time, please be patient.</div>
+          <div style="font-size:15px;color:#009688;font-weight:500;margin-bottom:4px;direction:rtl;max-width:320px;">انقر على اللغة للتبديل. قد تستغرق الترجمة الأولى بعض الوقت، يرجى التحلي بالصبر.</div>
+          <div style="font-size:15px;color:#7B61FF;font-weight:500;max-width:320px;">언어를 클릭하면 전환됩니다. 첫 번역은 시간이 걸릴 수 있으니 잠시만 기다려 주세요.</div>
+        </div>
+        <div class="gtranslate_wrapper"></div>
+      </div>
+    </div>
+    <style>
+    .lang-switch-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #fff;
+      color: #2D9CDB;
+      border: none;
+      border-radius: 24px;
+      box-shadow: 0 2px 8px rgba(45,156,219,0.10);
+      padding: 10px 18px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: box-shadow 0.2s, background 0.2s;
+    }
+    .lang-switch-btn:hover {
+      background: #f2faff;
+      box-shadow: 0 4px 16px rgba(45,156,219,0.18);
+    }
+    .lang-icon {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 600px) {
+      .lang-switch-btn {
+        top: 12px;
+        right: 12px;
+        padding: 8px 12px;
+        font-size: 14px;
+        border-radius: 18px;
+      }
+      .lang-text {
+        display: inline;
+      }
+      .lang-icon svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+    </style>
+    <script>
+    window.gtranslateSettings = {
+      "default_language":"en",
+      "detect_browser_language":true,
+      "languages":["en","ar","ko"],
+      "wrapper_selector":".gtranslate_wrapper",
+      "flag_style":"3d"
+    };
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/fn.js" defer></script>
+    <script>
+    document.getElementById('open-gt-modal').onclick = function() {
+      document.getElementById('gt-modal').style.display = 'flex';
+    };
+    document.getElementById('close-gt-modal').onclick = function() {
+      document.getElementById('gt-modal').style.display = 'none';
+      localStorage.setItem('gt-modal-shown', '1');
+    };
+    document.getElementById('gt-modal').onclick = function(e) {
+      if (e.target === this) this.style.display = 'none';
+    };
+    document.querySelector('.gtranslate_wrapper').addEventListener('change', function(e) {
+      if (e.target && e.target.tagName === 'SELECT') {
+        document.getElementById('gt-modal').style.display = 'none';
+        localStorage.setItem('gt-modal-shown', '1');
+      }
+    });
+    // 进入详情页时自动触发一次翻译（如已切换过语言）
+    document.addEventListener('DOMContentLoaded', function() {
+      if(window.gtranslate && window.gtranslate.getCurrentLanguage) {
+        var lang = window.gtranslate.getCurrentLanguage();
+        if(lang && lang !== 'en') {
+          window.gtranslate.translate(lang);
+        }
+      }
+      // 首次加载自动弹出语言切换弹窗
+      if(!localStorage.getItem('gt-modal-shown')) {
+        setTimeout(function(){
+          document.getElementById('gt-modal').style.display = 'flex';
+        }, 400);
+      }
+    });
+    </script>
     <script>
         // Gallery functionality
         let autoSlideInterval = null;
